@@ -12,8 +12,12 @@ var userRoutes = require('./routes/user');
 
 var app = express();
 
+if (process.env.NODE_ENV !== `production`) {
+  require(`dotenv`).config();
+}
+
 //mongoose.connect(process.env.DB_URL);
-mongoose.connect("mongodb://starsquid:Ex101091@ds155028.mlab.com:55028/unitystudygroup");
+mongoose.connect(process.env.DB_URL);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
