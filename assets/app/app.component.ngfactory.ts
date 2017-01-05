@@ -15,6 +15,13 @@ import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/metadata/view';
 import * as import9 from '@angular/core/src/linker/component_factory';
 import * as import10 from './app.component.css.shim';
+import * as import11 from './header.component';
+import * as import12 from '@angular/router/src/directives/router_outlet';
+import * as import13 from './header.component.ngfactory';
+import * as import14 from '@angular/router/src/router';
+import * as import15 from './auth/auth.service';
+import * as import16 from '@angular/router/src/router_outlet_map';
+import * as import17 from '@angular/core/src/linker/component_factory_resolver';
 var renderType_AppComponent_Host:import0.RenderComponentType = (null as any);
 class _View_AppComponent_Host0 extends import1.AppView<any> {
   _el_0:any;
@@ -46,21 +53,56 @@ export const AppComponentNgFactory:import9.ComponentFactory<import3.AppComponent
 const styles_AppComponent:any[] = [import10.styles];
 var renderType_AppComponent:import0.RenderComponentType = (null as any);
 class _View_AppComponent0 extends import1.AppView<import3.AppComponent> {
-  _el_0:any;
-  _text_1:any;
+  _text_0:any;
+  _el_1:any;
+  /*private*/ _appEl_1:import2.AppElement;
+  _HeaderComponent_1_4:import11.HeaderComponent;
+  _text_2:any;
+  _el_3:any;
+  _text_4:any;
+  _el_5:any;
+  /*private*/ _appEl_5:import2.AppElement;
+  _RouterOutlet_5_5:import12.RouterOutlet;
+  _text_6:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_AppComponent0,renderType_AppComponent,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import2.AppElement {
     const parentRenderNode:any = this.renderer.createViewRoot(this.declarationAppElement.nativeElement);
-    this._el_0 = this.renderer.createElement(parentRenderNode,'h1',(null as any));
-    this._text_1 = this.renderer.createText(this._el_0,'Hello World!',(null as any));
+    this._text_0 = this.renderer.createText(parentRenderNode,'  ',(null as any));
+    this._el_1 = this.renderer.createElement(parentRenderNode,'app-header',(null as any));
+    this._appEl_1 = new import2.AppElement(1,(null as any),this,this._el_1);
+    var compView_1:any = import13.viewFactory_HeaderComponent0(this.viewUtils,this.injector(1),this._appEl_1);
+    this._HeaderComponent_1_4 = new import11.HeaderComponent(this.parentInjector.get(import14.Router),this.parentInjector.get(import15.AuthService));
+    this._appEl_1.initComponent(this._HeaderComponent_1_4,[],compView_1);
+    compView_1.create(this._HeaderComponent_1_4,[],(null as any));
+    this._text_2 = this.renderer.createText(parentRenderNode,'\n  ',(null as any));
+    this._el_3 = this.renderer.createElement(parentRenderNode,'div',(null as any));
+    this.renderer.setElementAttribute(this._el_3,'class','container');
+    this._text_4 = this.renderer.createText(this._el_3,'\n    ',(null as any));
+    this._el_5 = this.renderer.createElement(this._el_3,'router-outlet',(null as any));
+    this._appEl_5 = new import2.AppElement(5,3,this,this._el_5);
+    this._RouterOutlet_5_5 = new import12.RouterOutlet(this.parentInjector.get(import16.RouterOutletMap),this._appEl_5.vcRef,this.parentInjector.get(import17.ComponentFactoryResolver),(null as any));
+    this._text_6 = this.renderer.createText(this._el_3,'\n  ',(null as any));
     this.init([],[
-      this._el_0,
-      this._text_1
+      this._text_0,
+      this._el_1,
+      this._text_2,
+      this._el_3,
+      this._text_4,
+      this._el_5,
+      this._text_6
     ]
     ,[],[]);
     return (null as any);
+  }
+  injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
+    if (((token === import11.HeaderComponent) && (1 === requestNodeIndex))) { return this._HeaderComponent_1_4; }
+    if (((token === import12.RouterOutlet) && (5 === requestNodeIndex))) { return this._RouterOutlet_5_5; }
+    return notFoundResult;
+  }
+  destroyInternal():void {
+    this._RouterOutlet_5_5.ngOnDestroy();
   }
 }
 export function viewFactory_AppComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.AppComponent> {

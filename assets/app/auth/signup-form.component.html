@@ -7,17 +7,17 @@
             type="text" 
             class="form-control"
             formControlName="username">
-        <div *ngIf="form.controls.username.pending">Checking for uniqueness...</div>
-        <div *ngIf="form.controls.username.touched && form.controls.username.errors">
+        <div *ngIf="form.get('username').pending">Checking for uniqueness...</div>
+        <div *ngIf="form.get('username').touched && form.get('username').errors">
             <div 
                 class="alert alert-danger"
-                *ngIf="form.controls.username.errors.required">Username is required.</div>
+                *ngIf="form.get('username').errors.required">Username is required.</div>
             <div 
                 class="div alert alert-danger"
-                *ngIf="form.controls.username.errors.shouldBeUnique">This Username is already taken.</div>
+                *ngIf="form.get('username').errors.shouldBeUnique">This Username is already taken.</div>
             <div 
                 class="div alert alert-danger"
-                *ngIf="form.controls.username.errors.cannotContainSpace">Username cannot contain spaces.</div>
+                *ngIf="form.get('username').errors.cannotContainSpace">Username cannot contain spaces.</div>
         </div>
     </div>
 
@@ -28,13 +28,13 @@
             type="text" 
             class="form-control"
             formControlName="email">
-        <div *ngIf="form.controls.email.touched && form.controls.email.errors">
+        <div *ngIf="form.get('email').touched && !form.get('email').valid">
             <div 
                 class="alert alert-danger"
-                *ngIf="form.controls.username.errors.required">Email is required.</div>
+                *ngIf="form.get('email').errors.required">Email is required.</div>
             <div 
                 class="div alert alert-danger"
-                *ngIf="form.controls.username.errors.shouldBeUnique">This Email is already taken.</div>
+                *ngIf="form.get('email').errors.shouldBeUnique">This Email is already taken.</div>
         </div>
     </div>
 
@@ -45,14 +45,14 @@
             type="password" 
             class="form-control"
             formControlName="password">
-        <div *ngIf="form.controls.password.touched && form.controls.password.errors">
+        <div *ngIf="form.get('password').touched && !form.get('password').valid">
             <div 
                 class="alert alert-danger"
-                *ngIf="form.controls.password.errors.required">Password is required.</div>
+                *ngIf="form.get('password').errors.required">Password is required.</div>
             <div 
                 class="alert alert-danger"
-                *ngIf="form.controls.password.errors.complexPassword">
-                Password should be minimum {{form.controls.password.errors.complexPassword.minLength}} characters.</div>
+                *ngIf="form.get('password').errors.complexPassword">
+                Password should be minimum {{form.get('password').errors.complexPassword.minLength}} characters.</div>
         </div>
     </div>
 
@@ -63,14 +63,14 @@
             type="password" 
             class="form-control"
             formControlName="confirmPassword">
-        <div *ngIf="form.controls.confirmPassword.touched && form.controls.confirmPassword.errors">
+        <div *ngIf="form.get('confirmPassword').touched && !form.get('confirmPassword').valid">
             <div 
                 class="alert alert-danger"
-                *ngIf="form.controls.confirmPassword.errors.required">Confirm the password.</div>
+                *ngIf="form.get('confirmPassword').errors.required">Confirm the password.</div>
         </div>
         <div 
             class="alert alert-danger"
-            *ngIf="form.controls.confirmPassword.touched && form.errors && form.errors.passwordsShouldMatch">Passwords don't match.</div>
+            *ngIf="form.get('confirmPassword').touched && form.hasError('passwordsShouldMatch')">Passwords don't match.</div>
 
     <button class="btn btn-primary btn-lg btn-block" [disabled]="!form.valid">Sign Up</button>
     </div>

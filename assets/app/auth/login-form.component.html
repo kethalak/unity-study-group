@@ -7,12 +7,12 @@
             id="username" 
             type="text" 
             class="form-control">
-        <div *ngIf="form.controls.username.touched && form.controls.username.errors">
+        <div *ngIf="form.get('username').touched && !form.get('username').valid">
             <div 
                 class="alert alert-danger" 
-                *ngIf="form.controls.username.errors.invalidLogin">Username or password is invalid</div>
+                *ngIf="form.get('username').errors.invalidLogin">Username or password is invalid</div>
             <div 
-                *ngIf="form.controls.username.errors.required"
+                *ngIf="form.get('username').errors.required"
                 class="alert alert-danger">Username is required.</div>
         </div>
     </div>
@@ -24,7 +24,7 @@
             type="password" 
             class="form-control">
             <div 
-            *ngIf="form.controls.password.touched && form.controls.password.invalid"
+            *ngIf="form.get('password').touched && !form.get('password').valid"
             class="alert alert-danger">Password is required.
             </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
