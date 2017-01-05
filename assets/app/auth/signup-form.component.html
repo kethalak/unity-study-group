@@ -1,0 +1,77 @@
+<form [formGroup]="form" (ngSubmit)='onSubmit()'>
+    <div class="form-group container">
+        <h1 style="text-align: center">Sign Up</h1>
+        <label for="username">Username</label>
+        <input 
+            id="username" 
+            type="text" 
+            class="form-control"
+            formControlName="username">
+        <div *ngIf="form.controls.username.pending">Checking for uniqueness...</div>
+        <div *ngIf="form.controls.username.touched && form.controls.username.errors">
+            <div 
+                class="alert alert-danger"
+                *ngIf="form.controls.username.errors.required">Username is required.</div>
+            <div 
+                class="div alert alert-danger"
+                *ngIf="form.controls.username.errors.shouldBeUnique">This Username is already taken.</div>
+            <div 
+                class="div alert alert-danger"
+                *ngIf="form.controls.username.errors.cannotContainSpace">Username cannot contain spaces.</div>
+        </div>
+    </div>
+
+    <div class="form-group container">
+        <label for="email">Email</label>
+        <input 
+            id="email" 
+            type="text" 
+            class="form-control"
+            formControlName="email">
+        <div *ngIf="form.controls.email.touched && form.controls.email.errors">
+            <div 
+                class="alert alert-danger"
+                *ngIf="form.controls.username.errors.required">Email is required.</div>
+            <div 
+                class="div alert alert-danger"
+                *ngIf="form.controls.username.errors.shouldBeUnique">This Email is already taken.</div>
+        </div>
+    </div>
+
+    <div class="form-group container">
+        <label for="password">New Password</label>
+        <input 
+            id="password" 
+            type="password" 
+            class="form-control"
+            formControlName="password">
+        <div *ngIf="form.controls.password.touched && form.controls.password.errors">
+            <div 
+                class="alert alert-danger"
+                *ngIf="form.controls.password.errors.required">Password is required.</div>
+            <div 
+                class="alert alert-danger"
+                *ngIf="form.controls.password.errors.complexPassword">
+                Password should be minimum {{form.controls.password.errors.complexPassword.minLength}} characters.</div>
+        </div>
+    </div>
+
+    <div class="form-group container">
+        <label for="confirmPassword">Confirm Password</label>
+        <input 
+            id="confirmPassword" 
+            type="password" 
+            class="form-control"
+            formControlName="confirmPassword">
+        <div *ngIf="form.controls.confirmPassword.touched && form.controls.confirmPassword.errors">
+            <div 
+                class="alert alert-danger"
+                *ngIf="form.controls.confirmPassword.errors.required">Confirm the password.</div>
+        </div>
+        <div 
+            class="alert alert-danger"
+            *ngIf="form.controls.confirmPassword.touched && form.errors && form.errors.passwordsShouldMatch">Passwords don't match.</div>
+
+    <button class="btn btn-primary btn-lg btn-block" [disabled]="!form.valid">Sign Up</button>
+    </div>
+</form>

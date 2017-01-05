@@ -1,0 +1,28 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" routerLink="">Unity Study Group</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="users">News</a></li>
+        <li routerLinkActive="active"><a routerLink="posts">Forum</a></li>
+        <li routerLinkActive="active"><a routerLink="posts">Resources</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li routerLinkActive="active" *ngIf="!isLoggedIn()"><a [routerLink]="['login']">Signin</a></li>
+        <li routerLinkActive="active" *ngIf="!isLoggedIn()"><a [routerLink]="['signup']">Signup</a></li>
+        <li routerLinkActive="active" *ngIf="isLoggedIn()"><a [routerLink]="['logout']" (click)="onLogout()">Logout</a></li>      
+      </ul>
+    </div>
+  </div>
+</nav>
