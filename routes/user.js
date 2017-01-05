@@ -28,7 +28,8 @@ router.post('/', function(req, res, next) {
 });
 
 router.post('/signin', function(req, res, next) {
-    User.findOne({user: req.body.user}, function(err, user) {
+    User.findOne({username: req.body.username}, function(err, user) {
+        console.log(req.body.username);
         if (err) {
             return res.status(500).json({
                 title: 'An error occurred',
@@ -36,12 +37,14 @@ router.post('/signin', function(req, res, next) {
             });
         }
         if (!user) {
+            console.log("no user");
             return res.status(401).json({
                 title: 'Login failed',
                 error: {message: 'Invalid login credentials'}
             });
         }
         if (!bcrypt.compareSync(req.body.password, user.password)) {
+            console.log("invalid pass");
             return res.status(401).json({
                 title: 'Login failed',
                 error: {message: 'Invalid login credentials'}
