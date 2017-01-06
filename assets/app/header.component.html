@@ -14,9 +14,21 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li routerLinkActive="active"><a routerLink="users">News</a></li>
-        <li routerLinkActive="active"><a routerLink="posts">Forum</a></li>
-        <li routerLinkActive="active"><a routerLink="posts">Resources</a></li>
+        <li routerLinkActive="active"><a routerLink="news">News</a></li>
+        <li routerLinkActive="active"><a routerLink="forum">Forum</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li routerLinkActive="active"><a routerLink="collisiontable">Collision Table</a></li>
+            <!--<li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>-->
+          </ul>
+        </li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li routerLinkActive="active" *ngIf="!isLoggedIn()"><a [routerLink]="['login']">Signin</a></li>

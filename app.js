@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var User = require('./models/user');
+var RedditPost = require('./models/redditpost');
 
 var appRoutes = require('./routes/app');
 var userRoutes = require('./routes/user');

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms';
+import { Router } from '@angular/router';
 import { PasswordValidators } from './passwordValidators';
 import { UsernameValidators } from './usernameValidators';
 
@@ -17,7 +18,7 @@ import { User } from './user.model';
 export class SignUpFormComponent {
     form : FormGroup;
 
-    constructor(fb: FormBuilder, private authService: AuthService){
+    constructor(fb: FormBuilder, private authService: AuthService, private router: Router){
         this.form = fb.group({
             username: ['', Validators.compose([
                 Validators.required, 
@@ -40,5 +41,6 @@ export class SignUpFormComponent {
                 error => console.error(error)
             );
         this.form.reset();
+        this.router.navigateByUrl('/');
     }
 }
