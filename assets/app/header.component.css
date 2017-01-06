@@ -1,6 +1,6 @@
 .navbar{
     font-family: Raleway;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-color: black;
     border-bottom: 5px black solid;
     border-left: 3px black solid;
@@ -9,5 +9,5 @@
     margin: auto;
 }
 .navbar-brand{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
