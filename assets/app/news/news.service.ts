@@ -21,6 +21,9 @@ getPosts() {
             const posts = response.json().obj;
             let transformedPosts: NewsPost[] = [];
             for (let post of posts) {
+                if(post.thumbnail == "" || post.thumbnail == "self"){
+                    post.thumbnail = 'http://i.imgur.com/OmpIPPc.png';
+                }
                 transformedPosts.push(new NewsPost(
                 post.title,
                 post.url,

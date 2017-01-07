@@ -5,7 +5,9 @@ var jwt = require('jsonwebtoken');
 var RedditPost = require('../models/redditpost');
 
 router.get('/', function (req, res, next) {
-     RedditPost.find({}, function(err, allPosts){
+     RedditPost.find()
+  .sort({ "created": -1 })
+  .exec(function(err, allPosts) {
         if (err) {
             return res.status(500).json({
                 title: 'An error occurred',
