@@ -4,7 +4,8 @@ import { NewsPost } from './news-post.model';
 
 @Component({
     selector: 'news-component',
-    templateUrl: './news.component.html'
+    templateUrl: './news.component.html',
+    styleUrls: [`./news.component.css`]
 })
 
 export class NewsComponent implements OnInit{

@@ -41,8 +41,8 @@ app.use(function(req, res, next) {
 });
 
 app.use('/', appRoutes);
-app.use('/user', userRoutes);
-app.use('/news', newsRoutes);
+app.use('/api/user', userRoutes);
+app.use('/api/news', newsRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

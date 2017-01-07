@@ -16,7 +16,7 @@ constructor(private http: Http){
 }
 
 getPosts() {
-    return this.http.get('/news')
+    return this.http.get('/api/news')
         .map((response: Response) => {
             const posts = response.json().obj;
             let transformedPosts: NewsPost[] = [];
@@ -26,6 +26,7 @@ getPosts() {
                 post.url,
                 post.thumbnail,
                 post.sourceUrl,
+                post.subreddit,
                 post.linkFlair,
                 post.author,
                 post.created)
