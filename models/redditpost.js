@@ -4,8 +4,8 @@ var Schema = mongoose.Schema;
 var RedditPostSchema = new Schema({
     title: String,
     url: String,
-    sourceUrl: String,
     thumbnail: String,
+    sourceUrl: String,
     subreddit: String,
     linkFlair: String,
     author: String,

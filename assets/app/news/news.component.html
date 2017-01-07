@@ -1,1 +1,8 @@
-<h1>News</h1>
+
+<div class="media" *ngFor = "let post of posts">
+        <img class="d-flex mr-3" src="{{post.thumbnail}}" alt="USG">
+    <div class="media-body">
+        <h5 class="mt-0">{{post.subreddit}} post by {{post.author}} {{post.created}} ago.</h5>
+        {{post.title}}
+    </div>
+</div>

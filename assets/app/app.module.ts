@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 
 import { PreventUnsavedChangesGuard } from './shared/prevent-unsaved-changes-guard.service';
 import { AuthService } from './auth/auth.service';
+import { NewsService } from './news/news.service';
 
 import { NewsComponent } from './news/news.component';
 import { ForumComponent } from './forum/forum.component';
@@ -35,7 +36,8 @@ import { routing }         from './app.routing';
   bootstrap:    [ AppComponent ],
 
   providers: [ PreventUnsavedChangesGuard, 
-               AuthService]
+               AuthService,
+               NewsService]
 })
 export class AppModule { 
 
