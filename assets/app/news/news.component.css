@@ -2,3 +2,13 @@ h1{
     text-align: center;
     margin: auto;
 }
+.pagination{
+    float: right;
+}
+
+ul{
+    display: block;
+    margin: 0 auto;
+    width: 200%;
+    font-size: 2em;
+  }

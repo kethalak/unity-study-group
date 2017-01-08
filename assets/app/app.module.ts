@@ -8,6 +8,7 @@ import { PreventUnsavedChangesGuard } from './shared/prevent-unsaved-changes-gua
 import { AuthService } from './auth/auth.service';
 import { NewsService } from './news/news.service';
 
+import { PaginationDirective } from './shared/pagination.directive';
 import { NewsComponent } from './news/news.component';
 import { ForumComponent } from './forum/forum.component';
 import { CollisionTableComponent } from './unitydocs/collision-table.component';
@@ -15,6 +16,7 @@ import { SignUpFormComponent } from './auth/signup-form.component';
 import { LoginFormComponent } from './auth/login-form.component';
 import { HeaderComponent } from './header.component';
 import { HomeComponent } from './home/home.component';
+import { SpinnerComponent } from './shared/spinner.component';
 import { routing }         from './app.routing';
 
 @NgModule({
@@ -31,7 +33,9 @@ import { routing }         from './app.routing';
                   HomeComponent,
                   CollisionTableComponent,
                   NewsComponent,
-                  ForumComponent ],
+                  ForumComponent,
+                  SpinnerComponent,
+                  PaginationDirective ],
 
   bootstrap:    [ AppComponent ],
 

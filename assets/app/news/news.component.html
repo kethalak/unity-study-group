@@ -1,6 +1,7 @@
 <h1>Curated Game Development Posts</h1>
 <hr>
-<div class="media" *ngFor = "let post of posts">
+<spinner [visible]="postsLoading"></spinner>
+<div class="media" *ngFor = "let post of pagedPosts">
   <div class="media-left">
     <a href="{{post.url}}">
       <img class="media-object" src="{{post.thumbnail}}" alt="USG">
@@ -12,3 +13,5 @@
     <p><a href="http://www.reddit.com{{post.sourceUrl}}">View Comments</a></p>
   </div>
 </div>
+<ng-pagination [(totalItems)]="posts.length" [(ngModel)]="currentPage" [maxSize]="maxSize" [boundaryLinks]="true" (pageChanged)="pageChanged($event)"
+previous-text="&lsaquo;" next-text="&rsaquo;" first-text="First" last-text="Last"></ng-pagination>
