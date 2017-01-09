@@ -60,7 +60,7 @@ function viewFactory_LoginFormComponent_Host0(viewUtils, parentInjector, declara
     return new _View_LoginFormComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
 export var LoginFormComponentNgFactory = new import12.ComponentFactory('login-form', viewFactory_LoginFormComponent_Host0, import3.LoginFormComponent);
-var styles_LoginFormComponent = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; margin: 25px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }'];
+var styles_LoginFormComponent = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; \n        margin: 20px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    h1[_ngcontent-%COMP%]{\n        margin: 20px;\n    }'];
 var renderType_LoginFormComponent = null;
 var _View_LoginFormComponent0 = (function (_super) {
     __extends(_View_LoginFormComponent0, _super);
@@ -81,57 +81,51 @@ var _View_LoginFormComponent0 = (function (_super) {
         this.renderer.setElementAttribute(this._el_4, 'style', 'text-align: center');
         this._text_5 = this.renderer.createText(this._el_4, 'Login', null);
         this._text_6 = this.renderer.createText(this._el_2, '\n        ', null);
-        this._el_7 = this.renderer.createElement(this._el_2, 'label', null);
-        this.renderer.setElementAttribute(this._el_7, 'for', 'username');
-        this._text_8 = this.renderer.createText(this._el_7, 'Username', null);
-        this._text_9 = this.renderer.createText(this._el_2, '\n        ', null);
-        this._el_10 = this.renderer.createElement(this._el_2, 'input', null);
-        this.renderer.setElementAttribute(this._el_10, 'class', 'form-control');
-        this.renderer.setElementAttribute(this._el_10, 'formControlName', 'username');
-        this.renderer.setElementAttribute(this._el_10, 'id', 'username');
-        this.renderer.setElementAttribute(this._el_10, 'type', 'text');
-        this._DefaultValueAccessor_10_3 = new import15.DefaultValueAccessor(this.renderer, new import18.ElementRef(this._el_10));
-        this._NG_VALUE_ACCESSOR_10_4 = [this._DefaultValueAccessor_10_3];
-        this._FormControlName_10_5 = new import16.FormControlName(this._ControlContainer_0_4, null, null, this._NG_VALUE_ACCESSOR_10_4);
-        this._NgControl_10_6 = this._FormControlName_10_5;
-        this._NgControlStatus_10_7 = new import14.NgControlStatus(this._NgControl_10_6);
-        this._text_11 = this.renderer.createText(this._el_2, '\n        ', null);
-        this._anchor_12 = this.renderer.createTemplateAnchor(this._el_2, null);
-        this._appEl_12 = new import2.AppElement(12, 2, this, this._anchor_12);
-        this._TemplateRef_12_5 = new import19.TemplateRef_(this._appEl_12, viewFactory_LoginFormComponent1);
-        this._NgIf_12_6 = new import17.NgIf(this._appEl_12.vcRef, this._TemplateRef_12_5);
-        this._text_13 = this.renderer.createText(this._el_2, '\n    ', null);
-        this._text_14 = this.renderer.createText(this._el_0, '\n    ', null);
-        this._el_15 = this.renderer.createElement(this._el_0, 'div', null);
-        this.renderer.setElementAttribute(this._el_15, 'class', 'form-group container');
-        this._text_16 = this.renderer.createText(this._el_15, '\n        ', null);
-        this._el_17 = this.renderer.createElement(this._el_15, 'label', null);
-        this.renderer.setElementAttribute(this._el_17, 'for', 'password');
-        this._text_18 = this.renderer.createText(this._el_17, 'Password', null);
-        this._text_19 = this.renderer.createText(this._el_15, '\n        ', null);
-        this._el_20 = this.renderer.createElement(this._el_15, 'input', null);
-        this.renderer.setElementAttribute(this._el_20, 'class', 'form-control');
-        this.renderer.setElementAttribute(this._el_20, 'formControlName', 'password');
-        this.renderer.setElementAttribute(this._el_20, 'id', 'password');
-        this.renderer.setElementAttribute(this._el_20, 'type', 'password');
-        this._DefaultValueAccessor_20_3 = new import15.DefaultValueAccessor(this.renderer, new import18.ElementRef(this._el_20));
-        this._NG_VALUE_ACCESSOR_20_4 = [this._DefaultValueAccessor_20_3];
-        this._FormControlName_20_5 = new import16.FormControlName(this._ControlContainer_0_4, null, null, this._NG_VALUE_ACCESSOR_20_4);
-        this._NgControl_20_6 = this._FormControlName_20_5;
-        this._NgControlStatus_20_7 = new import14.NgControlStatus(this._NgControl_20_6);
-        this._text_21 = this.renderer.createText(this._el_15, '\n            ', null);
-        this._anchor_22 = this.renderer.createTemplateAnchor(this._el_15, null);
-        this._appEl_22 = new import2.AppElement(22, 15, this, this._anchor_22);
-        this._TemplateRef_22_5 = new import19.TemplateRef_(this._appEl_22, viewFactory_LoginFormComponent4);
-        this._NgIf_22_6 = new import17.NgIf(this._appEl_22.vcRef, this._TemplateRef_22_5);
-        this._text_23 = this.renderer.createText(this._el_15, '\n        ', null);
-        this._el_24 = this.renderer.createElement(this._el_15, 'button', null);
-        this.renderer.setElementAttribute(this._el_24, 'class', 'btn btn-lg btn-primary btn-block');
-        this.renderer.setElementAttribute(this._el_24, 'type', 'submit');
-        this._text_25 = this.renderer.createText(this._el_24, 'Log In', null);
-        this._text_26 = this.renderer.createText(this._el_15, '\n    ', null);
-        this._text_27 = this.renderer.createText(this._el_0, '\n', null);
-        this._text_28 = this.renderer.createText(parentRenderNode, '\n', null);
+        this._el_7 = this.renderer.createElement(this._el_2, 'input', null);
+        this.renderer.setElementAttribute(this._el_7, 'class', 'form-control');
+        this.renderer.setElementAttribute(this._el_7, 'formControlName', 'username');
+        this.renderer.setElementAttribute(this._el_7, 'id', 'username');
+        this.renderer.setElementAttribute(this._el_7, 'placeholder', 'Username');
+        this.renderer.setElementAttribute(this._el_7, 'type', 'text');
+        this._DefaultValueAccessor_7_3 = new import15.DefaultValueAccessor(this.renderer, new import18.ElementRef(this._el_7));
+        this._NG_VALUE_ACCESSOR_7_4 = [this._DefaultValueAccessor_7_3];
+        this._FormControlName_7_5 = new import16.FormControlName(this._ControlContainer_0_4, null, null, this._NG_VALUE_ACCESSOR_7_4);
+        this._NgControl_7_6 = this._FormControlName_7_5;
+        this._NgControlStatus_7_7 = new import14.NgControlStatus(this._NgControl_7_6);
+        this._text_8 = this.renderer.createText(this._el_2, '\n        ', null);
+        this._anchor_9 = this.renderer.createTemplateAnchor(this._el_2, null);
+        this._appEl_9 = new import2.AppElement(9, 2, this, this._anchor_9);
+        this._TemplateRef_9_5 = new import19.TemplateRef_(this._appEl_9, viewFactory_LoginFormComponent1);
+        this._NgIf_9_6 = new import17.NgIf(this._appEl_9.vcRef, this._TemplateRef_9_5);
+        this._text_10 = this.renderer.createText(this._el_2, '\n    ', null);
+        this._text_11 = this.renderer.createText(this._el_0, '\n    ', null);
+        this._el_12 = this.renderer.createElement(this._el_0, 'div', null);
+        this.renderer.setElementAttribute(this._el_12, 'class', 'form-group container');
+        this._text_13 = this.renderer.createText(this._el_12, '\n        ', null);
+        this._el_14 = this.renderer.createElement(this._el_12, 'input', null);
+        this.renderer.setElementAttribute(this._el_14, 'class', 'form-control');
+        this.renderer.setElementAttribute(this._el_14, 'formControlName', 'password');
+        this.renderer.setElementAttribute(this._el_14, 'id', 'password');
+        this.renderer.setElementAttribute(this._el_14, 'placeholder', 'Password');
+        this.renderer.setElementAttribute(this._el_14, 'type', 'password');
+        this._DefaultValueAccessor_14_3 = new import15.DefaultValueAccessor(this.renderer, new import18.ElementRef(this._el_14));
+        this._NG_VALUE_ACCESSOR_14_4 = [this._DefaultValueAccessor_14_3];
+        this._FormControlName_14_5 = new import16.FormControlName(this._ControlContainer_0_4, null, null, this._NG_VALUE_ACCESSOR_14_4);
+        this._NgControl_14_6 = this._FormControlName_14_5;
+        this._NgControlStatus_14_7 = new import14.NgControlStatus(this._NgControl_14_6);
+        this._text_15 = this.renderer.createText(this._el_12, '\n            ', null);
+        this._anchor_16 = this.renderer.createTemplateAnchor(this._el_12, null);
+        this._appEl_16 = new import2.AppElement(16, 12, this, this._anchor_16);
+        this._TemplateRef_16_5 = new import19.TemplateRef_(this._appEl_16, viewFactory_LoginFormComponent4);
+        this._NgIf_16_6 = new import17.NgIf(this._appEl_16.vcRef, this._TemplateRef_16_5);
+        this._text_17 = this.renderer.createText(this._el_12, '\n        ', null);
+        this._el_18 = this.renderer.createElement(this._el_12, 'button', null);
+        this.renderer.setElementAttribute(this._el_18, 'class', 'btn btn-lg btn-primary btn-block');
+        this.renderer.setElementAttribute(this._el_18, 'type', 'submit');
+        this._text_19 = this.renderer.createText(this._el_18, 'Log In', null);
+        this._text_20 = this.renderer.createText(this._el_12, '\n    ', null);
+        this._text_21 = this.renderer.createText(this._el_0, '\n', null);
+        this._text_22 = this.renderer.createText(parentRenderNode, '\n', null);
         var disposable_0 = this.renderer.listen(this._el_0, 'ngSubmit', this.eventHandler(this._handle_ngSubmit_0_0.bind(this)));
         var disposable_1 = this.renderer.listen(this._el_0, 'submit', this.eventHandler(this._handle_submit_0_1.bind(this)));
         var disposable_2 = this.renderer.listen(this._el_0, 'reset', this.eventHandler(this._handle_reset_0_2.bind(this)));
@@ -143,8 +137,8 @@ var _View_LoginFormComponent0 = (function (_super) {
         this._expr_7 = import7.UNINITIALIZED;
         this._expr_8 = import7.UNINITIALIZED;
         this._expr_9 = import7.UNINITIALIZED;
-        var disposable_3 = this.renderer.listen(this._el_10, 'input', this.eventHandler(this._handle_input_10_0.bind(this)));
-        var disposable_4 = this.renderer.listen(this._el_10, 'blur', this.eventHandler(this._handle_blur_10_1.bind(this)));
+        var disposable_3 = this.renderer.listen(this._el_7, 'input', this.eventHandler(this._handle_input_7_0.bind(this)));
+        var disposable_4 = this.renderer.listen(this._el_7, 'blur', this.eventHandler(this._handle_blur_7_1.bind(this)));
         this._expr_12 = import7.UNINITIALIZED;
         this._expr_13 = import7.UNINITIALIZED;
         this._expr_14 = import7.UNINITIALIZED;
@@ -153,8 +147,8 @@ var _View_LoginFormComponent0 = (function (_super) {
         this._expr_17 = import7.UNINITIALIZED;
         this._expr_18 = import7.UNINITIALIZED;
         this._expr_19 = import7.UNINITIALIZED;
-        var disposable_5 = this.renderer.listen(this._el_20, 'input', this.eventHandler(this._handle_input_20_0.bind(this)));
-        var disposable_6 = this.renderer.listen(this._el_20, 'blur', this.eventHandler(this._handle_blur_20_1.bind(this)));
+        var disposable_5 = this.renderer.listen(this._el_14, 'input', this.eventHandler(this._handle_input_14_0.bind(this)));
+        var disposable_6 = this.renderer.listen(this._el_14, 'blur', this.eventHandler(this._handle_blur_14_1.bind(this)));
         this._expr_22 = import7.UNINITIALIZED;
         this._expr_23 = import7.UNINITIALIZED;
         this._expr_24 = import7.UNINITIALIZED;
@@ -173,26 +167,20 @@ var _View_LoginFormComponent0 = (function (_super) {
             this._text_6,
             this._el_7,
             this._text_8,
-            this._text_9,
-            this._el_10,
+            this._anchor_9,
+            this._text_10,
             this._text_11,
-            this._anchor_12,
+            this._el_12,
             this._text_13,
-            this._text_14,
-            this._el_15,
-            this._text_16,
-            this._el_17,
-            this._text_18,
+            this._el_14,
+            this._text_15,
+            this._anchor_16,
+            this._text_17,
+            this._el_18,
             this._text_19,
-            this._el_20,
+            this._text_20,
             this._text_21,
-            this._anchor_22,
-            this._text_23,
-            this._el_24,
-            this._text_25,
-            this._text_26,
-            this._text_27,
-            this._text_28
+            this._text_22
         ], [
             disposable_0,
             disposable_1,
@@ -205,55 +193,55 @@ var _View_LoginFormComponent0 = (function (_super) {
         return null;
     };
     _View_LoginFormComponent0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import15.DefaultValueAccessor) && (10 === requestNodeIndex))) {
-            return this._DefaultValueAccessor_10_3;
+        if (((token === import15.DefaultValueAccessor) && (7 === requestNodeIndex))) {
+            return this._DefaultValueAccessor_7_3;
         }
-        if (((token === import20.NG_VALUE_ACCESSOR) && (10 === requestNodeIndex))) {
-            return this._NG_VALUE_ACCESSOR_10_4;
+        if (((token === import20.NG_VALUE_ACCESSOR) && (7 === requestNodeIndex))) {
+            return this._NG_VALUE_ACCESSOR_7_4;
         }
-        if (((token === import16.FormControlName) && (10 === requestNodeIndex))) {
-            return this._FormControlName_10_5;
+        if (((token === import16.FormControlName) && (7 === requestNodeIndex))) {
+            return this._FormControlName_7_5;
         }
-        if (((token === import21.NgControl) && (10 === requestNodeIndex))) {
-            return this._NgControl_10_6;
+        if (((token === import21.NgControl) && (7 === requestNodeIndex))) {
+            return this._NgControl_7_6;
         }
-        if (((token === import14.NgControlStatus) && (10 === requestNodeIndex))) {
-            return this._NgControlStatus_10_7;
+        if (((token === import14.NgControlStatus) && (7 === requestNodeIndex))) {
+            return this._NgControlStatus_7_7;
         }
-        if (((token === import19.TemplateRef) && (12 === requestNodeIndex))) {
-            return this._TemplateRef_12_5;
+        if (((token === import19.TemplateRef) && (9 === requestNodeIndex))) {
+            return this._TemplateRef_9_5;
         }
-        if (((token === import17.NgIf) && (12 === requestNodeIndex))) {
-            return this._NgIf_12_6;
+        if (((token === import17.NgIf) && (9 === requestNodeIndex))) {
+            return this._NgIf_9_6;
         }
-        if (((token === import15.DefaultValueAccessor) && (20 === requestNodeIndex))) {
-            return this._DefaultValueAccessor_20_3;
+        if (((token === import15.DefaultValueAccessor) && (14 === requestNodeIndex))) {
+            return this._DefaultValueAccessor_14_3;
         }
-        if (((token === import20.NG_VALUE_ACCESSOR) && (20 === requestNodeIndex))) {
-            return this._NG_VALUE_ACCESSOR_20_4;
+        if (((token === import20.NG_VALUE_ACCESSOR) && (14 === requestNodeIndex))) {
+            return this._NG_VALUE_ACCESSOR_14_4;
         }
-        if (((token === import16.FormControlName) && (20 === requestNodeIndex))) {
-            return this._FormControlName_20_5;
+        if (((token === import16.FormControlName) && (14 === requestNodeIndex))) {
+            return this._FormControlName_14_5;
         }
-        if (((token === import21.NgControl) && (20 === requestNodeIndex))) {
-            return this._NgControl_20_6;
+        if (((token === import21.NgControl) && (14 === requestNodeIndex))) {
+            return this._NgControl_14_6;
         }
-        if (((token === import14.NgControlStatus) && (20 === requestNodeIndex))) {
-            return this._NgControlStatus_20_7;
+        if (((token === import14.NgControlStatus) && (14 === requestNodeIndex))) {
+            return this._NgControlStatus_14_7;
         }
-        if (((token === import19.TemplateRef) && (22 === requestNodeIndex))) {
-            return this._TemplateRef_22_5;
+        if (((token === import19.TemplateRef) && (16 === requestNodeIndex))) {
+            return this._TemplateRef_16_5;
         }
-        if (((token === import17.NgIf) && (22 === requestNodeIndex))) {
-            return this._NgIf_22_6;
+        if (((token === import17.NgIf) && (16 === requestNodeIndex))) {
+            return this._NgIf_16_6;
         }
-        if (((token === import13.FormGroupDirective) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 27)))) {
+        if (((token === import13.FormGroupDirective) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 21)))) {
             return this._FormGroupDirective_0_3;
         }
-        if (((token === import22.ControlContainer) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 27)))) {
+        if (((token === import22.ControlContainer) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 21)))) {
             return this._ControlContainer_0_4;
         }
-        if (((token === import14.NgControlStatusGroup) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 27)))) {
+        if (((token === import14.NgControlStatusGroup) && ((0 <= requestNodeIndex) && (requestNodeIndex <= 21)))) {
             return this._NgControlStatusGroup_0_5;
         }
         return notFoundResult;
@@ -276,7 +264,7 @@ var _View_LoginFormComponent0 = (function (_super) {
         changes = null;
         var currVal_12 = 'username';
         if (import4.checkBinding(throwOnChange, this._expr_12, currVal_12)) {
-            this._FormControlName_10_5.name = currVal_12;
+            this._FormControlName_7_5.name = currVal_12;
             if ((changes === null)) {
                 (changes = {});
             }
@@ -284,17 +272,17 @@ var _View_LoginFormComponent0 = (function (_super) {
             this._expr_12 = currVal_12;
         }
         if ((changes !== null)) {
-            this._FormControlName_10_5.ngOnChanges(changes);
+            this._FormControlName_7_5.ngOnChanges(changes);
         }
         var currVal_19 = (this.context.form.get('username').touched && !this.context.form.get('username').valid);
         if (import4.checkBinding(throwOnChange, this._expr_19, currVal_19)) {
-            this._NgIf_12_6.ngIf = currVal_19;
+            this._NgIf_9_6.ngIf = currVal_19;
             this._expr_19 = currVal_19;
         }
         changes = null;
         var currVal_22 = 'password';
         if (import4.checkBinding(throwOnChange, this._expr_22, currVal_22)) {
-            this._FormControlName_20_5.name = currVal_22;
+            this._FormControlName_14_5.name = currVal_22;
             if ((changes === null)) {
                 (changes = {});
             }
@@ -302,11 +290,11 @@ var _View_LoginFormComponent0 = (function (_super) {
             this._expr_22 = currVal_22;
         }
         if ((changes !== null)) {
-            this._FormControlName_20_5.ngOnChanges(changes);
+            this._FormControlName_14_5.ngOnChanges(changes);
         }
         var currVal_29 = (this.context.form.get('password').touched && !this.context.form.get('password').valid);
         if (import4.checkBinding(throwOnChange, this._expr_29, currVal_29)) {
-            this._NgIf_22_6.ngIf = currVal_29;
+            this._NgIf_16_6.ngIf = currVal_29;
             this._expr_29 = currVal_29;
         }
         this.detectContentChildrenChanges(throwOnChange);
@@ -340,71 +328,71 @@ var _View_LoginFormComponent0 = (function (_super) {
             this.renderer.setElementClass(this._el_0, 'ng-invalid', currVal_9);
             this._expr_9 = currVal_9;
         }
-        var currVal_13 = this._NgControlStatus_10_7.ngClassUntouched;
+        var currVal_13 = this._NgControlStatus_7_7.ngClassUntouched;
         if (import4.checkBinding(throwOnChange, this._expr_13, currVal_13)) {
-            this.renderer.setElementClass(this._el_10, 'ng-untouched', currVal_13);
+            this.renderer.setElementClass(this._el_7, 'ng-untouched', currVal_13);
             this._expr_13 = currVal_13;
         }
-        var currVal_14 = this._NgControlStatus_10_7.ngClassTouched;
+        var currVal_14 = this._NgControlStatus_7_7.ngClassTouched;
         if (import4.checkBinding(throwOnChange, this._expr_14, currVal_14)) {
-            this.renderer.setElementClass(this._el_10, 'ng-touched', currVal_14);
+            this.renderer.setElementClass(this._el_7, 'ng-touched', currVal_14);
             this._expr_14 = currVal_14;
         }
-        var currVal_15 = this._NgControlStatus_10_7.ngClassPristine;
+        var currVal_15 = this._NgControlStatus_7_7.ngClassPristine;
         if (import4.checkBinding(throwOnChange, this._expr_15, currVal_15)) {
-            this.renderer.setElementClass(this._el_10, 'ng-pristine', currVal_15);
+            this.renderer.setElementClass(this._el_7, 'ng-pristine', currVal_15);
             this._expr_15 = currVal_15;
         }
-        var currVal_16 = this._NgControlStatus_10_7.ngClassDirty;
+        var currVal_16 = this._NgControlStatus_7_7.ngClassDirty;
         if (import4.checkBinding(throwOnChange, this._expr_16, currVal_16)) {
-            this.renderer.setElementClass(this._el_10, 'ng-dirty', currVal_16);
+            this.renderer.setElementClass(this._el_7, 'ng-dirty', currVal_16);
             this._expr_16 = currVal_16;
         }
-        var currVal_17 = this._NgControlStatus_10_7.ngClassValid;
+        var currVal_17 = this._NgControlStatus_7_7.ngClassValid;
         if (import4.checkBinding(throwOnChange, this._expr_17, currVal_17)) {
-            this.renderer.setElementClass(this._el_10, 'ng-valid', currVal_17);
+            this.renderer.setElementClass(this._el_7, 'ng-valid', currVal_17);
             this._expr_17 = currVal_17;
         }
-        var currVal_18 = this._NgControlStatus_10_7.ngClassInvalid;
+        var currVal_18 = this._NgControlStatus_7_7.ngClassInvalid;
         if (import4.checkBinding(throwOnChange, this._expr_18, currVal_18)) {
-            this.renderer.setElementClass(this._el_10, 'ng-invalid', currVal_18);
+            this.renderer.setElementClass(this._el_7, 'ng-invalid', currVal_18);
             this._expr_18 = currVal_18;
         }
-        var currVal_23 = this._NgControlStatus_20_7.ngClassUntouched;
+        var currVal_23 = this._NgControlStatus_14_7.ngClassUntouched;
         if (import4.checkBinding(throwOnChange, this._expr_23, currVal_23)) {
-            this.renderer.setElementClass(this._el_20, 'ng-untouched', currVal_23);
+            this.renderer.setElementClass(this._el_14, 'ng-untouched', currVal_23);
             this._expr_23 = currVal_23;
         }
-        var currVal_24 = this._NgControlStatus_20_7.ngClassTouched;
+        var currVal_24 = this._NgControlStatus_14_7.ngClassTouched;
         if (import4.checkBinding(throwOnChange, this._expr_24, currVal_24)) {
-            this.renderer.setElementClass(this._el_20, 'ng-touched', currVal_24);
+            this.renderer.setElementClass(this._el_14, 'ng-touched', currVal_24);
             this._expr_24 = currVal_24;
         }
-        var currVal_25 = this._NgControlStatus_20_7.ngClassPristine;
+        var currVal_25 = this._NgControlStatus_14_7.ngClassPristine;
         if (import4.checkBinding(throwOnChange, this._expr_25, currVal_25)) {
-            this.renderer.setElementClass(this._el_20, 'ng-pristine', currVal_25);
+            this.renderer.setElementClass(this._el_14, 'ng-pristine', currVal_25);
             this._expr_25 = currVal_25;
         }
-        var currVal_26 = this._NgControlStatus_20_7.ngClassDirty;
+        var currVal_26 = this._NgControlStatus_14_7.ngClassDirty;
         if (import4.checkBinding(throwOnChange, this._expr_26, currVal_26)) {
-            this.renderer.setElementClass(this._el_20, 'ng-dirty', currVal_26);
+            this.renderer.setElementClass(this._el_14, 'ng-dirty', currVal_26);
             this._expr_26 = currVal_26;
         }
-        var currVal_27 = this._NgControlStatus_20_7.ngClassValid;
+        var currVal_27 = this._NgControlStatus_14_7.ngClassValid;
         if (import4.checkBinding(throwOnChange, this._expr_27, currVal_27)) {
-            this.renderer.setElementClass(this._el_20, 'ng-valid', currVal_27);
+            this.renderer.setElementClass(this._el_14, 'ng-valid', currVal_27);
             this._expr_27 = currVal_27;
         }
-        var currVal_28 = this._NgControlStatus_20_7.ngClassInvalid;
+        var currVal_28 = this._NgControlStatus_14_7.ngClassInvalid;
         if (import4.checkBinding(throwOnChange, this._expr_28, currVal_28)) {
-            this.renderer.setElementClass(this._el_20, 'ng-invalid', currVal_28);
+            this.renderer.setElementClass(this._el_14, 'ng-invalid', currVal_28);
             this._expr_28 = currVal_28;
         }
         this.detectViewChildrenChanges(throwOnChange);
     };
     _View_LoginFormComponent0.prototype.destroyInternal = function () {
-        this._FormControlName_10_5.ngOnDestroy();
-        this._FormControlName_20_5.ngOnDestroy();
+        this._FormControlName_7_5.ngOnDestroy();
+        this._FormControlName_14_5.ngOnDestroy();
     };
     _View_LoginFormComponent0.prototype._handle_ngSubmit_0_0 = function ($event) {
         this.markPathToRootAsCheckOnce();
@@ -421,24 +409,24 @@ var _View_LoginFormComponent0 = (function (_super) {
         var pd_0 = (this._FormGroupDirective_0_3.onReset() !== false);
         return (true && pd_0);
     };
-    _View_LoginFormComponent0.prototype._handle_input_10_0 = function ($event) {
+    _View_LoginFormComponent0.prototype._handle_input_7_0 = function ($event) {
         this.markPathToRootAsCheckOnce();
-        var pd_0 = (this._DefaultValueAccessor_10_3.onChange($event.target.value) !== false);
+        var pd_0 = (this._DefaultValueAccessor_7_3.onChange($event.target.value) !== false);
         return (true && pd_0);
     };
-    _View_LoginFormComponent0.prototype._handle_blur_10_1 = function ($event) {
+    _View_LoginFormComponent0.prototype._handle_blur_7_1 = function ($event) {
         this.markPathToRootAsCheckOnce();
-        var pd_0 = (this._DefaultValueAccessor_10_3.onTouched() !== false);
+        var pd_0 = (this._DefaultValueAccessor_7_3.onTouched() !== false);
         return (true && pd_0);
     };
-    _View_LoginFormComponent0.prototype._handle_input_20_0 = function ($event) {
+    _View_LoginFormComponent0.prototype._handle_input_14_0 = function ($event) {
         this.markPathToRootAsCheckOnce();
-        var pd_0 = (this._DefaultValueAccessor_20_3.onChange($event.target.value) !== false);
+        var pd_0 = (this._DefaultValueAccessor_14_3.onChange($event.target.value) !== false);
         return (true && pd_0);
     };
-    _View_LoginFormComponent0.prototype._handle_blur_20_1 = function ($event) {
+    _View_LoginFormComponent0.prototype._handle_blur_14_1 = function ($event) {
         this.markPathToRootAsCheckOnce();
-        var pd_0 = (this._DefaultValueAccessor_20_3.onTouched() !== false);
+        var pd_0 = (this._DefaultValueAccessor_14_3.onTouched() !== false);
         return (true && pd_0);
     };
     return _View_LoginFormComponent0;

@@ -60,7 +60,7 @@ function viewFactory_SlackInviteComponent_Host0(viewUtils, parentInjector, decla
     return new _View_SlackInviteComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
 export var SlackInviteComponentNgFactory = new import10.ComponentFactory('slack-invite', viewFactory_SlackInviteComponent_Host0, import3.SlackInviteComponent);
-var styles_SlackInviteComponent = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; margin: 25px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    .message[_ngcontent-%COMP%]{\n        text-align: center;\n        margin-top: 30%;\n    }'];
+var styles_SlackInviteComponent = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; margin: 25px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    .message[_ngcontent-%COMP%]{\n        text-align: center;\n        margin-top: 30%;\n    }\n    h1[_ngcontent-%COMP%]{\n        margin: 20px;\n    }'];
 var renderType_SlackInviteComponent = null;
 var _View_SlackInviteComponent0 = (function (_super) {
     __extends(_View_SlackInviteComponent0, _super);
@@ -423,37 +423,15 @@ var _View_SlackInviteComponent3 = (function (_super) {
         this.renderer.setElementAttribute(this._el_0, 'class', 'message');
         this._text_1 = this.renderer.createText(this._el_0, '', null);
         this._el_2 = this.renderer.createElement(this._el_0, 'br', null);
-        this._text_3 = this.renderer.createText(this._el_0, '\n', null);
-        this._anchor_4 = this.renderer.createTemplateAnchor(this._el_0, null);
-        this._appEl_4 = new import2.AppElement(4, 0, this, this._anchor_4);
-        this._TemplateRef_4_5 = new import12.TemplateRef_(this._appEl_4, viewFactory_SlackInviteComponent4);
-        this._NgIf_4_6 = new import11.NgIf(this._appEl_4.vcRef, this._TemplateRef_4_5);
         this._expr_0 = import7.UNINITIALIZED;
-        this._expr_1 = import7.UNINITIALIZED;
         this.init([].concat([this._el_0]), [
             this._el_0,
             this._text_1,
-            this._el_2,
-            this._text_3,
-            this._anchor_4
+            this._el_2
         ], [], []);
         return null;
     };
-    _View_SlackInviteComponent3.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import12.TemplateRef) && (4 === requestNodeIndex))) {
-            return this._TemplateRef_4_5;
-        }
-        if (((token === import11.NgIf) && (4 === requestNodeIndex))) {
-            return this._NgIf_4_6;
-        }
-        return notFoundResult;
-    };
     _View_SlackInviteComponent3.prototype.detectChangesInternal = function (throwOnChange) {
-        var currVal_1 = this.parent.context.redirect;
-        if (import4.checkBinding(throwOnChange, this._expr_1, currVal_1)) {
-            this._NgIf_4_6.ngIf = currVal_1;
-            this._expr_1 = currVal_1;
-        }
         this.detectContentChildrenChanges(throwOnChange);
         var currVal_0 = import4.interpolate(1, '', this.parent.context.message, '');
         if (import4.checkBinding(throwOnChange, this._expr_0, currVal_0)) {
@@ -466,30 +444,4 @@ var _View_SlackInviteComponent3 = (function (_super) {
 }(import1.AppView));
 function viewFactory_SlackInviteComponent3(viewUtils, parentInjector, declarationEl) {
     return new _View_SlackInviteComponent3(viewUtils, parentInjector, declarationEl);
-}
-var _View_SlackInviteComponent4 = (function (_super) {
-    __extends(_View_SlackInviteComponent4, _super);
-    function _View_SlackInviteComponent4(viewUtils, parentInjector, declarationEl) {
-        _super.call(this, _View_SlackInviteComponent4, renderType_SlackInviteComponent, import6.ViewType.EMBEDDED, viewUtils, parentInjector, declarationEl, import7.ChangeDetectorStatus.CheckAlways);
-    }
-    _View_SlackInviteComponent4.prototype.createInternal = function (rootSelector) {
-        this._el_0 = this.renderer.createElement(null, 'span', null);
-        this._text_1 = this.renderer.createText(this._el_0, 'Please visit the ', null);
-        this._el_2 = this.renderer.createElement(this._el_0, 'a', null);
-        this.renderer.setElementAttribute(this._el_2, 'href', 'https://www.unitystudygroup.slack.com');
-        this._text_3 = this.renderer.createText(this._el_2, 'Unity Study Group', null);
-        this._text_4 = this.renderer.createText(this._el_0, ' Slack chat', null);
-        this.init([].concat([this._el_0]), [
-            this._el_0,
-            this._text_1,
-            this._el_2,
-            this._text_3,
-            this._text_4
-        ], [], []);
-        return null;
-    };
-    return _View_SlackInviteComponent4;
-}(import1.AppView));
-function viewFactory_SlackInviteComponent4(viewUtils, parentInjector, declarationEl) {
-    return new _View_SlackInviteComponent4(viewUtils, parentInjector, declarationEl);
 }

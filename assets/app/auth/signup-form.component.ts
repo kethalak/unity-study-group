@@ -20,6 +20,9 @@ import { User } from './user.model';
     .ng-touched.ng-invalid.form-control{
         border: 1px solid red;
     }
+    h1{
+        margin: 20px;
+    }
     `]
 })
 export class SignUpFormComponent {

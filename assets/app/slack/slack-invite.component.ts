@@ -20,13 +20,15 @@ import { SlackService } from './slack.service';
         text-align: center;
         margin-top: 30%;
     }
+    h1{
+        margin: 20px;
+    }
     `]
 })
 
 export class SlackInviteComponent{
     message: string;
     inviteSent = false;
-    redirect = false;
     constructor(private slackService: SlackService){
 
     }
@@ -35,9 +37,6 @@ export class SlackInviteComponent{
             .subscribe(response => {
                 this.message = response.message;
                 this.inviteSent = true;
-                if(response.redirect){
-                    this.redirect = true;
-                }
             })
             //error => console.error(error)
             

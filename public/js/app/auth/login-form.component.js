@@ -31,7 +31,7 @@ export var LoginFormComponent = (function () {
         { type: Component, args: [{
                     selector: 'login-form',
                     templateUrl: './login-form.component.html',
-                    styles: ["\n    .form-group{\n        width: 30%; margin: 25px auto;\n    }\n    .btn{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control{\n        border: 1px solid red;\n    }\n    "]
+                    styles: ["\n    .form-group{\n        width: 30%; \n        margin: 20px auto;\n    }\n    .btn{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control{\n        border: 1px solid red;\n    }\n    h1{\n        margin: 20px;\n    }\n    "]
                 },] },
     ];
     /** @nocollapse */

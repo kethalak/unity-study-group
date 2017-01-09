@@ -1,12 +1,12 @@
 <form [formGroup]="form" (ngSubmit)='onSubmit()'>
     <div class="form-group container">
         <h1 style="text-align: center">Sign Up</h1>
-        <label for="username">Username</label>
         <input 
             id="username" 
             type="text" 
             class="form-control"
-            formControlName="username">
+            formControlName="username"
+            placeholder="Username">
         <div *ngIf="form.get('username').pending">Checking for uniqueness...</div>
         <div *ngIf="form.get('username').touched && form.get('username').errors">
             <div 
@@ -22,12 +22,12 @@
     </div>
 
     <div class="form-group container">
-        <label for="email">Email</label>
         <input 
             id="email" 
             type="text" 
             class="form-control"
-            formControlName="email">
+            formControlName="email"
+            placeholder="Email">
         <div *ngIf="form.get('email').touched && !form.get('email').valid">
             <div 
                 class="alert alert-danger"
@@ -39,12 +39,12 @@
     </div>
 
     <div class="form-group container">
-        <label for="password">New Password</label>
         <input 
             id="password" 
             type="password" 
             class="form-control"
-            formControlName="password">
+            formControlName="password"
+            placeholder="New Password">
         <div *ngIf="form.get('password').touched && !form.get('password').valid">
             <div 
                 class="alert alert-danger"
@@ -57,12 +57,12 @@
     </div>
 
     <div class="form-group container">
-        <label for="confirmPassword">Confirm Password</label>
         <input 
             id="confirmPassword" 
             type="password" 
             class="form-control"
-            formControlName="confirmPassword">
+            formControlName="confirmPassword"
+            placeholder="Confirm Password">
         <div *ngIf="form.get('confirmPassword').touched && !form.get('confirmPassword').valid">
             <div 
                 class="alert alert-danger"
