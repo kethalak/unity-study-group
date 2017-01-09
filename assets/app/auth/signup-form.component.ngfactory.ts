@@ -55,7 +55,7 @@ function viewFactory_SignUpFormComponent_Host0(viewUtils:import4.ViewUtils,paren
   return new _View_SignUpFormComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const SignUpFormComponentNgFactory:import12.ComponentFactory<import3.SignUpFormComponent> = new import12.ComponentFactory<import3.SignUpFormComponent>('signup-form',viewFactory_SignUpFormComponent_Host0,import3.SignUpFormComponent);
-const styles_SignUpFormComponent:any[] = ['.form-group[_ngcontent-%COMP%]{width: 30%; margin: 25px auto;}\n    .btn[_ngcontent-%COMP%]{margin-top: 20px;}'];
+const styles_SignUpFormComponent:any[] = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; margin: 25px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }'];
 var renderType_SignUpFormComponent:import0.RenderComponentType = (null as any);
 class _View_SignUpFormComponent0 extends import1.AppView<import3.SignUpFormComponent> {
   _el_0:any;

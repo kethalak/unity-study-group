@@ -35,19 +35,19 @@ export class PaginationDirective implements ControlValueAccessor, OnChanges{
   @Output("pageChanged") pageChanged = new EventEmitter();
   currentpage:number;
   pageList:Array<number> = [];
-  private onChange: Function;
-  private onTouched: Function;
-  private seletedPage: number;
-  private nextItem: number;
-  private previousItem: number;
-  private nextItemValid: boolean;
-  private previousItemValid: boolean;
+  onChange: Function;
+  onTouched: Function;
+  seletedPage: number;
+  nextItem: number;
+  previousItem: number;
+  nextItemValid: boolean;
+  previousItemValid: boolean;
   
   constructor(private pageChangedNgModel: NgModel) {
     this.pageChangedNgModel.valueAccessor = this;
    
   }
-  ngOnChanges() {
+  ngOnChanges(changes?) {
     this.doPaging();
   }
   doPaging() {
@@ -77,12 +77,12 @@ export class PaginationDirective implements ControlValueAccessor, OnChanges{
   setCurrentPage(pageNo:number) {
     this.seletedPage = pageNo;
     this.pageChangedNgModel.viewToModelUpdate(pageNo);
-    this.pageChageListner();
+    this.pageChangeListener();
   }
   firstPage() {
      this.currentpage = 1;
     this.pageChangedNgModel.viewToModelUpdate(1);
-    this.pageChageListner();
+    this.pageChangeListener();
     this.doPaging()
   }
   lastPage() {
@@ -90,20 +90,20 @@ export class PaginationDirective implements ControlValueAccessor, OnChanges{
     var lastPage = (totalPages) - (totalPages % this.pageSize === 0 ? this.pageSize : totalPages % this.pageSize)+1;
      this.currentpage = lastPage;
     this.pageChangedNgModel.viewToModelUpdate(lastPage);
-    this.pageChageListner();
+    this.pageChangeListener();
     this.doPaging()
   }
   nextPage(pageNo:number) {
     this.currentpage = pageNo;
     this.pageChangedNgModel.viewToModelUpdate(pageNo);
-    this.pageChageListner();
+    this.pageChangeListener();
     this.doPaging()
   }
   previousPage(pageNo:number) {
     var temp = pageNo - this.pageSize;
     this.currentpage = temp > 0 ?temp: 1;
     this.pageChangedNgModel.viewToModelUpdate(this.currentpage);
-    this.pageChageListner();
+    this.pageChangeListener();
     this.doPaging();
   }
   writeValue(value: string): void {
@@ -122,7 +122,7 @@ export class PaginationDirective implements ControlValueAccessor, OnChanges{
     this.currentpage = currentValue;
     this.doPaging();
   }
-  pageChageListner() {
+  pageChangeListener() {
     this.pageChanged.emit({
       itemsPerPage: this.currentpage
     })

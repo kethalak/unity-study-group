@@ -14,6 +14,9 @@ import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
 import * as import8 from '@angular/core/src/metadata/view';
 import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import10 from '../slack/slack-invite.component';
+import * as import11 from '../slack/slack-invite.component.ngfactory';
+import * as import12 from '../slack/slack.service';
 var renderType_HomeComponent_Host:import0.RenderComponentType = (null as any);
 class _View_HomeComponent_Host0 extends import1.AppView<any> {
   _el_0:any;
@@ -46,20 +49,25 @@ const styles_HomeComponent:any[] = [];
 var renderType_HomeComponent:import0.RenderComponentType = (null as any);
 class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
   _el_0:any;
-  _text_1:any;
+  /*private*/ _appEl_0:import2.AppElement;
+  _SlackInviteComponent_0_4:import10.SlackInviteComponent;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_HomeComponent0,renderType_HomeComponent,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import2.AppElement {
     const parentRenderNode:any = this.renderer.createViewRoot(this.declarationAppElement.nativeElement);
-    this._el_0 = this.renderer.createElement(parentRenderNode,'h1',(null as any));
-    this._text_1 = this.renderer.createText(this._el_0,'Home',(null as any));
-    this.init([],[
-      this._el_0,
-      this._text_1
-    ]
-    ,[],[]);
+    this._el_0 = this.renderer.createElement(parentRenderNode,'slack-invite',(null as any));
+    this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
+    var compView_0:any = import11.viewFactory_SlackInviteComponent0(this.viewUtils,this.injector(0),this._appEl_0);
+    this._SlackInviteComponent_0_4 = new import10.SlackInviteComponent(this.parentInjector.get(import12.SlackService));
+    this._appEl_0.initComponent(this._SlackInviteComponent_0_4,[],compView_0);
+    compView_0.create(this._SlackInviteComponent_0_4,[],(null as any));
+    this.init([],[this._el_0],[],[]);
     return (null as any);
+  }
+  injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
+    if (((token === import10.SlackInviteComponent) && (0 === requestNodeIndex))) { return this._SlackInviteComponent_0_4; }
+    return notFoundResult;
   }
 }
 export function viewFactory_HomeComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.HomeComponent> {

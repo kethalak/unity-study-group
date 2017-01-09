@@ -12,8 +12,21 @@ import * as import4 from '@angular/core/src/linker/view_utils';
 import * as import5 from '@angular/core/src/di/injector';
 import * as import6 from '@angular/core/src/linker/view_type';
 import * as import7 from '@angular/core/src/change_detection/change_detection';
-import * as import8 from '@angular/core/src/metadata/view';
-import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import8 from './news.service';
+import * as import9 from '@angular/core/src/metadata/view';
+import * as import10 from '@angular/core/src/linker/component_factory';
+import * as import11 from './news.component.css.shim';
+import * as import12 from '../shared/spinner.component';
+import * as import13 from '@angular/common/src/directives/ng_for';
+import * as import14 from '@angular/forms/src/directives/ng_model';
+import * as import15 from '@angular/forms/src/directives/ng_control_status';
+import * as import16 from '../shared/pagination.directive';
+import * as import17 from '../shared/spinner.component.ngfactory';
+import * as import18 from '@angular/core/src/linker/template_ref';
+import * as import19 from '@angular/core/src/change_detection/differs/iterable_differs';
+import * as import20 from '../shared/pagination.directive.ngfactory';
+import * as import21 from '@angular/forms/src/directives/ng_control';
+import * as import22 from '@angular/core/src/security';
 var renderType_NewsComponent_Host:import0.RenderComponentType = (null as any);
 class _View_NewsComponent_Host0 extends import1.AppView<any> {
   _el_0:any;
@@ -26,7 +39,7 @@ class _View_NewsComponent_Host0 extends import1.AppView<any> {
     this._el_0 = this.selectOrCreateHostElement('news-component',rootSelector,(null as any));
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_NewsComponent0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._NewsComponent_0_4 = new import3.NewsComponent();
+    this._NewsComponent_0_4 = new import3.NewsComponent(this.parentInjector.get(import8.NewsService));
     this._appEl_0.initComponent(this._NewsComponent_0_4,[],compView_0);
     compView_0.create(this._NewsComponent_0_4,this.projectableNodes,(null as any));
     this.init([].concat([this._el_0]),[this._el_0],[],[]);
@@ -36,33 +49,414 @@ class _View_NewsComponent_Host0 extends import1.AppView<any> {
     if (((token === import3.NewsComponent) && (0 === requestNodeIndex))) { return this._NewsComponent_0_4; }
     return notFoundResult;
   }
+  detectChangesInternal(throwOnChange:boolean):void {
+    if (((this.numberOfChecks === 0) && !throwOnChange)) { this._NewsComponent_0_4.ngOnInit(); }
+    this.detectContentChildrenChanges(throwOnChange);
+    this.detectViewChildrenChanges(throwOnChange);
+  }
 }
 function viewFactory_NewsComponent_Host0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_NewsComponent_Host === (null as any))) { (renderType_NewsComponent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,[],{})); }
+  if ((renderType_NewsComponent_Host === (null as any))) { (renderType_NewsComponent_Host = viewUtils.createRenderComponentType('',0,import9.ViewEncapsulation.None,[],{})); }
   return new _View_NewsComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const NewsComponentNgFactory:import9.ComponentFactory<import3.NewsComponent> = new import9.ComponentFactory<import3.NewsComponent>('news-component',viewFactory_NewsComponent_Host0,import3.NewsComponent);
-const styles_NewsComponent:any[] = [];
+export const NewsComponentNgFactory:import10.ComponentFactory<import3.NewsComponent> = new import10.ComponentFactory<import3.NewsComponent>('news-component',viewFactory_NewsComponent_Host0,import3.NewsComponent);
+const styles_NewsComponent:any[] = [import11.styles];
 var renderType_NewsComponent:import0.RenderComponentType = (null as any);
 class _View_NewsComponent0 extends import1.AppView<import3.NewsComponent> {
   _el_0:any;
   _text_1:any;
+  _text_2:any;
+  _el_3:any;
+  _text_4:any;
+  _el_5:any;
+  /*private*/ _appEl_5:import2.AppElement;
+  _SpinnerComponent_5_4:import12.SpinnerComponent;
+  _text_6:any;
+  _anchor_7:any;
+  /*private*/ _appEl_7:import2.AppElement;
+  _TemplateRef_7_5:any;
+  _NgFor_7_6:import13.NgFor;
+  _text_8:any;
+  _el_9:any;
+  /*private*/ _appEl_9:import2.AppElement;
+  _NgModel_9_4:import14.NgModel;
+  _NgControl_9_5:any;
+  _NgControlStatus_9_6:import15.NgControlStatus;
+  _PaginationDirective_9_7:import16.PaginationDirective;
+  /*private*/ _expr_0:any;
+  /*private*/ _expr_1:any;
+  /*private*/ _expr_5:any;
+  /*private*/ _expr_6:any;
+  /*private*/ _expr_7:any;
+  /*private*/ _expr_8:any;
+  /*private*/ _expr_9:any;
+  /*private*/ _expr_10:any;
+  /*private*/ _expr_11:any;
+  /*private*/ _expr_12:any;
+  /*private*/ _expr_13:any;
+  /*private*/ _expr_14:any;
+  /*private*/ _expr_15:any;
+  /*private*/ _expr_16:any;
+  /*private*/ _expr_17:any;
+  /*private*/ _expr_18:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_NewsComponent0,renderType_NewsComponent,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import2.AppElement {
     const parentRenderNode:any = this.renderer.createViewRoot(this.declarationAppElement.nativeElement);
     this._el_0 = this.renderer.createElement(parentRenderNode,'h1',(null as any));
-    this._text_1 = this.renderer.createText(this._el_0,'News',(null as any));
+    this._text_1 = this.renderer.createText(this._el_0,'Curated Game Development Posts',(null as any));
+    this._text_2 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._el_3 = this.renderer.createElement(parentRenderNode,'hr',(null as any));
+    this._text_4 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._el_5 = this.renderer.createElement(parentRenderNode,'spinner',(null as any));
+    this._appEl_5 = new import2.AppElement(5,(null as any),this,this._el_5);
+    var compView_5:any = import17.viewFactory_SpinnerComponent0(this.viewUtils,this.injector(5),this._appEl_5);
+    this._SpinnerComponent_5_4 = new import12.SpinnerComponent();
+    this._appEl_5.initComponent(this._SpinnerComponent_5_4,[],compView_5);
+    compView_5.create(this._SpinnerComponent_5_4,[],(null as any));
+    this._text_6 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._anchor_7 = this.renderer.createTemplateAnchor(parentRenderNode,(null as any));
+    this._appEl_7 = new import2.AppElement(7,(null as any),this,this._anchor_7);
+    this._TemplateRef_7_5 = new import18.TemplateRef_(this._appEl_7,viewFactory_NewsComponent1);
+    this._NgFor_7_6 = new import13.NgFor(this._appEl_7.vcRef,this._TemplateRef_7_5,this.parentInjector.get(import19.IterableDiffers),this.ref);
+    this._text_8 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._el_9 = this.renderer.createElement(parentRenderNode,'ng-pagination',(null as any));
+    this.renderer.setElementAttribute(this._el_9,'first-text','First');
+    this.renderer.setElementAttribute(this._el_9,'last-text','Last');
+    this.renderer.setElementAttribute(this._el_9,'next-text','›');
+    this.renderer.setElementAttribute(this._el_9,'previous-text','‹');
+    this._appEl_9 = new import2.AppElement(9,(null as any),this,this._el_9);
+    var compView_9:any = import20.viewFactory_PaginationDirective0(this.viewUtils,this.injector(9),this._appEl_9);
+    this._NgModel_9_4 = new import14.NgModel((null as any),(null as any),(null as any),(null as any));
+    this._NgControl_9_5 = this._NgModel_9_4;
+    this._NgControlStatus_9_6 = new import15.NgControlStatus(this._NgControl_9_5);
+    this._PaginationDirective_9_7 = new import16.PaginationDirective(this._NgModel_9_4);
+    this._appEl_9.initComponent(this._PaginationDirective_9_7,[],compView_9);
+    compView_9.create(this._PaginationDirective_9_7,[],(null as any));
+    this._expr_0 = import7.UNINITIALIZED;
+    this._expr_1 = import7.UNINITIALIZED;
+    var disposable_0:Function = this.renderer.listen(this._el_9,'totalItemsChange',this.eventHandler(this._handle_totalItemsChange_9_0.bind(this)));
+    var disposable_1:Function = this.renderer.listen(this._el_9,'ngModelChange',this.eventHandler(this._handle_ngModelChange_9_1.bind(this)));
+    var disposable_2:Function = this.renderer.listen(this._el_9,'pageChanged',this.eventHandler(this._handle_pageChanged_9_2.bind(this)));
+    this._expr_5 = import7.UNINITIALIZED;
+    const subscription_0:any = this._NgModel_9_4.update.subscribe(this.eventHandler(this._handle_ngModelChange_9_1.bind(this)));
+    this._expr_6 = import7.UNINITIALIZED;
+    this._expr_7 = import7.UNINITIALIZED;
+    this._expr_8 = import7.UNINITIALIZED;
+    this._expr_9 = import7.UNINITIALIZED;
+    this._expr_10 = import7.UNINITIALIZED;
+    this._expr_11 = import7.UNINITIALIZED;
+    this._expr_12 = import7.UNINITIALIZED;
+    this._expr_13 = import7.UNINITIALIZED;
+    this._expr_14 = import7.UNINITIALIZED;
+    this._expr_15 = import7.UNINITIALIZED;
+    this._expr_16 = import7.UNINITIALIZED;
+    this._expr_17 = import7.UNINITIALIZED;
+    this._expr_18 = import7.UNINITIALIZED;
+    const subscription_1:any = this._PaginationDirective_9_7.pageChanged.subscribe(this.eventHandler(this._handle_pageChanged_9_2.bind(this)));
     this.init([],[
       this._el_0,
-      this._text_1
+      this._text_1,
+      this._text_2,
+      this._el_3,
+      this._text_4,
+      this._el_5,
+      this._text_6,
+      this._anchor_7,
+      this._text_8,
+      this._el_9
+    ]
+    ,[
+      disposable_0,
+      disposable_1,
+      disposable_2
+    ]
+    ,[
+      subscription_0,
+      subscription_1
+    ]
+    );
+    return (null as any);
+  }
+  injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
+    if (((token === import12.SpinnerComponent) && (5 === requestNodeIndex))) { return this._SpinnerComponent_5_4; }
+    if (((token === import18.TemplateRef) && (7 === requestNodeIndex))) { return this._TemplateRef_7_5; }
+    if (((token === import13.NgFor) && (7 === requestNodeIndex))) { return this._NgFor_7_6; }
+    if (((token === import14.NgModel) && (9 === requestNodeIndex))) { return this._NgModel_9_4; }
+    if (((token === import21.NgControl) && (9 === requestNodeIndex))) { return this._NgControl_9_5; }
+    if (((token === import15.NgControlStatus) && (9 === requestNodeIndex))) { return this._NgControlStatus_9_6; }
+    if (((token === import16.PaginationDirective) && (9 === requestNodeIndex))) { return this._PaginationDirective_9_7; }
+    return notFoundResult;
+  }
+  detectChangesInternal(throwOnChange:boolean):void {
+    var changes:{[key: string]:import7.SimpleChange} = (null as any);
+    const currVal_0:any = this.context.postsLoading;
+    if (import4.checkBinding(throwOnChange,this._expr_0,currVal_0)) {
+      this._SpinnerComponent_5_4.visible = currVal_0;
+      this._expr_0 = currVal_0;
+    }
+    changes = (null as any);
+    const currVal_1:any = this.context.pagedPosts;
+    if (import4.checkBinding(throwOnChange,this._expr_1,currVal_1)) {
+      this._NgFor_7_6.ngForOf = currVal_1;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['ngForOf'] = new import7.SimpleChange(this._expr_1,currVal_1);
+      this._expr_1 = currVal_1;
+    }
+    if ((changes !== (null as any))) { this._NgFor_7_6.ngOnChanges(changes); }
+    if (!throwOnChange) { this._NgFor_7_6.ngDoCheck(); }
+    changes = (null as any);
+    const currVal_5:any = this.context.currentPage;
+    if (import4.checkBinding(throwOnChange,this._expr_5,currVal_5)) {
+      this._NgModel_9_4.model = currVal_5;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['model'] = new import7.SimpleChange(this._expr_5,currVal_5);
+      this._expr_5 = currVal_5;
+    }
+    if ((changes !== (null as any))) { this._NgModel_9_4.ngOnChanges(changes); }
+    changes = (null as any);
+    const currVal_12:any = '‹';
+    if (import4.checkBinding(throwOnChange,this._expr_12,currVal_12)) {
+      this._PaginationDirective_9_7.previousText = currVal_12;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['previousText'] = new import7.SimpleChange(this._expr_12,currVal_12);
+      this._expr_12 = currVal_12;
+    }
+    const currVal_13:any = '›';
+    if (import4.checkBinding(throwOnChange,this._expr_13,currVal_13)) {
+      this._PaginationDirective_9_7.nextText = currVal_13;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['nextText'] = new import7.SimpleChange(this._expr_13,currVal_13);
+      this._expr_13 = currVal_13;
+    }
+    const currVal_14:any = 'First';
+    if (import4.checkBinding(throwOnChange,this._expr_14,currVal_14)) {
+      this._PaginationDirective_9_7.firstText = currVal_14;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['firstText'] = new import7.SimpleChange(this._expr_14,currVal_14);
+      this._expr_14 = currVal_14;
+    }
+    const currVal_15:any = 'Last';
+    if (import4.checkBinding(throwOnChange,this._expr_15,currVal_15)) {
+      this._PaginationDirective_9_7.lastText = currVal_15;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['lastText'] = new import7.SimpleChange(this._expr_15,currVal_15);
+      this._expr_15 = currVal_15;
+    }
+    const currVal_16:any = this.context.posts.length;
+    if (import4.checkBinding(throwOnChange,this._expr_16,currVal_16)) {
+      this._PaginationDirective_9_7.totalItems = currVal_16;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['totalItems'] = new import7.SimpleChange(this._expr_16,currVal_16);
+      this._expr_16 = currVal_16;
+    }
+    const currVal_17:any = this.context.maxSize;
+    if (import4.checkBinding(throwOnChange,this._expr_17,currVal_17)) {
+      this._PaginationDirective_9_7.pageSize = currVal_17;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['pageSize'] = new import7.SimpleChange(this._expr_17,currVal_17);
+      this._expr_17 = currVal_17;
+    }
+    const currVal_18:any = true;
+    if (import4.checkBinding(throwOnChange,this._expr_18,currVal_18)) {
+      this._PaginationDirective_9_7.boundaryLinks = currVal_18;
+      if ((changes === (null as any))) { (changes = {}); }
+      changes['boundaryLinks'] = new import7.SimpleChange(this._expr_18,currVal_18);
+      this._expr_18 = currVal_18;
+    }
+    if ((changes !== (null as any))) { this._PaginationDirective_9_7.ngOnChanges(changes); }
+    this.detectContentChildrenChanges(throwOnChange);
+    const currVal_6:any = this._NgControlStatus_9_6.ngClassUntouched;
+    if (import4.checkBinding(throwOnChange,this._expr_6,currVal_6)) {
+      this.renderer.setElementClass(this._el_9,'ng-untouched',currVal_6);
+      this._expr_6 = currVal_6;
+    }
+    const currVal_7:any = this._NgControlStatus_9_6.ngClassTouched;
+    if (import4.checkBinding(throwOnChange,this._expr_7,currVal_7)) {
+      this.renderer.setElementClass(this._el_9,'ng-touched',currVal_7);
+      this._expr_7 = currVal_7;
+    }
+    const currVal_8:any = this._NgControlStatus_9_6.ngClassPristine;
+    if (import4.checkBinding(throwOnChange,this._expr_8,currVal_8)) {
+      this.renderer.setElementClass(this._el_9,'ng-pristine',currVal_8);
+      this._expr_8 = currVal_8;
+    }
+    const currVal_9:any = this._NgControlStatus_9_6.ngClassDirty;
+    if (import4.checkBinding(throwOnChange,this._expr_9,currVal_9)) {
+      this.renderer.setElementClass(this._el_9,'ng-dirty',currVal_9);
+      this._expr_9 = currVal_9;
+    }
+    const currVal_10:any = this._NgControlStatus_9_6.ngClassValid;
+    if (import4.checkBinding(throwOnChange,this._expr_10,currVal_10)) {
+      this.renderer.setElementClass(this._el_9,'ng-valid',currVal_10);
+      this._expr_10 = currVal_10;
+    }
+    const currVal_11:any = this._NgControlStatus_9_6.ngClassInvalid;
+    if (import4.checkBinding(throwOnChange,this._expr_11,currVal_11)) {
+      this.renderer.setElementClass(this._el_9,'ng-invalid',currVal_11);
+      this._expr_11 = currVal_11;
+    }
+    this.detectViewChildrenChanges(throwOnChange);
+  }
+  destroyInternal():void {
+    this._NgModel_9_4.ngOnDestroy();
+  }
+  private _handle_totalItemsChange_9_0($event:any):boolean {
+    this.markPathToRootAsCheckOnce();
+    const pd_0:any = ((<any>(this.context.posts.length = $event)) !== false);
+    return (true && pd_0);
+  }
+  private _handle_ngModelChange_9_1($event:any):boolean {
+    this.markPathToRootAsCheckOnce();
+    const pd_0:any = ((<any>(this.context.currentPage = $event)) !== false);
+    return (true && pd_0);
+  }
+  private _handle_pageChanged_9_2($event:any):boolean {
+    this.markPathToRootAsCheckOnce();
+    const pd_0:any = ((<any>this.context.pageChanged($event)) !== false);
+    return (true && pd_0);
+  }
+}
+export function viewFactory_NewsComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.NewsComponent> {
+  if ((renderType_NewsComponent === (null as any))) { (renderType_NewsComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/news/news.component.html',0,import9.ViewEncapsulation.Emulated,styles_NewsComponent,{})); }
+  return new _View_NewsComponent0(viewUtils,parentInjector,declarationEl);
+}
+class _View_NewsComponent1 extends import1.AppView<any> {
+  _el_0:any;
+  _text_1:any;
+  _el_2:any;
+  _text_3:any;
+  _el_4:any;
+  _text_5:any;
+  _el_6:any;
+  _text_7:any;
+  _text_8:any;
+  _text_9:any;
+  _el_10:any;
+  _text_11:any;
+  _el_12:any;
+  _el_13:any;
+  _text_14:any;
+  _text_15:any;
+  _el_16:any;
+  _text_17:any;
+  _text_18:any;
+  _el_19:any;
+  _el_20:any;
+  _text_21:any;
+  _text_22:any;
+  _text_23:any;
+  /*private*/ _expr_0:any;
+  /*private*/ _expr_1:any;
+  /*private*/ _expr_2:any;
+  /*private*/ _expr_3:any;
+  /*private*/ _expr_4:any;
+  /*private*/ _expr_5:any;
+  constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
+    super(_View_NewsComponent1,renderType_NewsComponent,import6.ViewType.EMBEDDED,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
+  }
+  createInternal(rootSelector:string):import2.AppElement {
+    this._el_0 = this.renderer.createElement((null as any),'div',(null as any));
+    this.renderer.setElementAttribute(this._el_0,'class','media');
+    this._text_1 = this.renderer.createText(this._el_0,'\n  ',(null as any));
+    this._el_2 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this.renderer.setElementAttribute(this._el_2,'class','media-left');
+    this._text_3 = this.renderer.createText(this._el_2,'\n    ',(null as any));
+    this._el_4 = this.renderer.createElement(this._el_2,'a',(null as any));
+    this._text_5 = this.renderer.createText(this._el_4,'\n      ',(null as any));
+    this._el_6 = this.renderer.createElement(this._el_4,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_6,'alt','USG');
+    this.renderer.setElementAttribute(this._el_6,'class','media-object');
+    this._text_7 = this.renderer.createText(this._el_4,'\n    ',(null as any));
+    this._text_8 = this.renderer.createText(this._el_2,'\n  ',(null as any));
+    this._text_9 = this.renderer.createText(this._el_0,'\n  ',(null as any));
+    this._el_10 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this.renderer.setElementAttribute(this._el_10,'class','media-body');
+    this._text_11 = this.renderer.createText(this._el_10,'\n    ',(null as any));
+    this._el_12 = this.renderer.createElement(this._el_10,'h3',(null as any));
+    this.renderer.setElementAttribute(this._el_12,'class','media-heading');
+    this._el_13 = this.renderer.createElement(this._el_12,'a',(null as any));
+    this._text_14 = this.renderer.createText(this._el_13,'',(null as any));
+    this._text_15 = this.renderer.createText(this._el_10,'\n    ',(null as any));
+    this._el_16 = this.renderer.createElement(this._el_10,'h4',(null as any));
+    this._text_17 = this.renderer.createText(this._el_16,'',(null as any));
+    this._text_18 = this.renderer.createText(this._el_10,'\n    ',(null as any));
+    this._el_19 = this.renderer.createElement(this._el_10,'p',(null as any));
+    this._el_20 = this.renderer.createElement(this._el_19,'a',(null as any));
+    this._text_21 = this.renderer.createText(this._el_20,'View Comments',(null as any));
+    this._text_22 = this.renderer.createText(this._el_10,'\n  ',(null as any));
+    this._text_23 = this.renderer.createText(this._el_0,'\n',(null as any));
+    this._expr_0 = import7.UNINITIALIZED;
+    this._expr_1 = import7.UNINITIALIZED;
+    this._expr_2 = import7.UNINITIALIZED;
+    this._expr_3 = import7.UNINITIALIZED;
+    this._expr_4 = import7.UNINITIALIZED;
+    this._expr_5 = import7.UNINITIALIZED;
+    this.init([].concat([this._el_0]),[
+      this._el_0,
+      this._text_1,
+      this._el_2,
+      this._text_3,
+      this._el_4,
+      this._text_5,
+      this._el_6,
+      this._text_7,
+      this._text_8,
+      this._text_9,
+      this._el_10,
+      this._text_11,
+      this._el_12,
+      this._el_13,
+      this._text_14,
+      this._text_15,
+      this._el_16,
+      this._text_17,
+      this._text_18,
+      this._el_19,
+      this._el_20,
+      this._text_21,
+      this._text_22,
+      this._text_23
     ]
     ,[],[]);
     return (null as any);
   }
+  detectChangesInternal(throwOnChange:boolean):void {
+    this.detectContentChildrenChanges(throwOnChange);
+    const currVal_0:any = import4.interpolate(1,'',this.context.$implicit.url,'');
+    if (import4.checkBinding(throwOnChange,this._expr_0,currVal_0)) {
+      this.renderer.setElementProperty(this._el_4,'href',this.viewUtils.sanitizer.sanitize(import22.SecurityContext.URL,currVal_0));
+      this._expr_0 = currVal_0;
+    }
+    const currVal_1:any = import4.interpolate(1,'',this.context.$implicit.thumbnail,'');
+    if (import4.checkBinding(throwOnChange,this._expr_1,currVal_1)) {
+      this.renderer.setElementProperty(this._el_6,'src',this.viewUtils.sanitizer.sanitize(import22.SecurityContext.URL,currVal_1));
+      this._expr_1 = currVal_1;
+    }
+    const currVal_2:any = import4.interpolate(1,'',this.context.$implicit.url,'');
+    if (import4.checkBinding(throwOnChange,this._expr_2,currVal_2)) {
+      this.renderer.setElementProperty(this._el_13,'href',this.viewUtils.sanitizer.sanitize(import22.SecurityContext.URL,currVal_2));
+      this._expr_2 = currVal_2;
+    }
+    const currVal_3:any = import4.interpolate(1,'',this.context.$implicit.title,'');
+    if (import4.checkBinding(throwOnChange,this._expr_3,currVal_3)) {
+      this.renderer.setText(this._text_14,currVal_3);
+      this._expr_3 = currVal_3;
+    }
+    const currVal_4:any = import4.interpolate(2,'r/',this.context.$implicit.subreddit,' post by ',this.context.$implicit.author,'');
+    if (import4.checkBinding(throwOnChange,this._expr_4,currVal_4)) {
+      this.renderer.setText(this._text_17,currVal_4);
+      this._expr_4 = currVal_4;
+    }
+    const currVal_5:any = import4.interpolate(1,'http://www.reddit.com',this.context.$implicit.sourceUrl,'');
+    if (import4.checkBinding(throwOnChange,this._expr_5,currVal_5)) {
+      this.renderer.setElementProperty(this._el_20,'href',this.viewUtils.sanitizer.sanitize(import22.SecurityContext.URL,currVal_5));
+      this._expr_5 = currVal_5;
+    }
+    this.detectViewChildrenChanges(throwOnChange);
+  }
 }
-export function viewFactory_NewsComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.NewsComponent> {
-  if ((renderType_NewsComponent === (null as any))) { (renderType_NewsComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/news/news.component.html',0,import8.ViewEncapsulation.None,styles_NewsComponent,{})); }
-  return new _View_NewsComponent0(viewUtils,parentInjector,declarationEl);
+function viewFactory_NewsComponent1(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
+  return new _View_NewsComponent1(viewUtils,parentInjector,declarationEl);
 }

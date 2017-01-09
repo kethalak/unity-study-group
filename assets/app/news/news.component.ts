@@ -20,11 +20,11 @@ export class NewsComponent implements OnInit{
 
     }
 
-    public setPage(pageNo:number):void {
+    setPage(pageNo:number):void {
         this.currentPage = pageNo;    
     };
     
-    public pageChanged(event:any):void {
+    pageChanged(event:any):void {
         var startIndex = (this.currentPage - 1) * this.maxSize;
         this.pagedPosts = _.take(_.rest(this.posts, startIndex), this.maxSize);
   };
@@ -33,7 +33,7 @@ export class NewsComponent implements OnInit{
         this.loadPosts();
     }
 
-    private loadPosts(filter?){
+    loadPosts(){
         this.postsLoading = true;
         this.newsService.getPosts()
             .subscribe(

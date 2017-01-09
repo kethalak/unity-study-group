@@ -55,7 +55,7 @@ function viewFactory_LoginFormComponent_Host0(viewUtils:import4.ViewUtils,parent
   return new _View_LoginFormComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const LoginFormComponentNgFactory:import12.ComponentFactory<import3.LoginFormComponent> = new import12.ComponentFactory<import3.LoginFormComponent>('login-form',viewFactory_LoginFormComponent_Host0,import3.LoginFormComponent);
-const styles_LoginFormComponent:any[] = ['.form-group[_ngcontent-%COMP%]{width: 30%; margin: 25px auto;}\n    .btn[_ngcontent-%COMP%]{margin-top: 20px;}'];
+const styles_LoginFormComponent:any[] = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; margin: 25px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }'];
 var renderType_LoginFormComponent:import0.RenderComponentType = (null as any);
 class _View_LoginFormComponent0 extends import1.AppView<import3.LoginFormComponent> {
   _el_0:any;

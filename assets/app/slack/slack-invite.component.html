@@ -1,0 +1,21 @@
+<form *ngIf="!inviteSent" #f="ngForm" (ngSubmit)="onSubmit(f.form)">
+    <div class="form-group container">
+        <h1 style="text-align: center">Join our Slack!</h1>
+        <input 
+            ngModel name="email"
+            #email = "ngModel"
+            id="email" 
+            type="email" 
+            class="form-control"
+            placeholder="Enter an email"
+            required >
+        <div    *ngIf="email.touched && !email.valid" 
+                class="alert alert-danger">
+                email is required.
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Send Invite</button>
+    </div>
+</form>
+<h3 class = "message" *ngIf="inviteSent">{{message}}<br>
+<span *ngIf="redirect">Please visit the <a href="unitystudygroup.slack.com">Unity Study Group</a> Slack chat</span></h3>
+

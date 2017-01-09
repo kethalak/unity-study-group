@@ -4,4 +4,4 @@
  */
  /* tslint:disable */
 
-export const styles:any[] = ['h1[_ngcontent-%COMP%] {\n    color: red;\n}'];
+export const styles:any[] = ['h1[_ngcontent-%COMP%] {\n    color: red;\n}\ndiv[_ngcontent-%COMP%]{\n    font-family: Raleway;\n}'];

@@ -11,8 +11,15 @@ import { User } from './user.model';
     selector: 'signup-form',
     templateUrl: './signup-form.component.html',
     styles: [`
-    .form-group{width: 30%; margin: 25px auto;}
-    .btn{margin-top: 20px;}
+    .form-group{
+        width: 30%; margin: 25px auto;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .ng-touched.ng-invalid.form-control{
+        border: 1px solid red;
+    }
     `]
 })
 export class SignUpFormComponent {

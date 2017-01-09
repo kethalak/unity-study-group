@@ -4,6 +4,7 @@ import { AppComponent }   from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { SlackService } from './slack/slack.service';
 import { PreventUnsavedChangesGuard } from './shared/prevent-unsaved-changes-guard.service';
 import { AuthService } from './auth/auth.service';
 import { NewsService } from './news/news.service';
@@ -17,6 +18,7 @@ import { LoginFormComponent } from './auth/login-form.component';
 import { HeaderComponent } from './header.component';
 import { HomeComponent } from './home/home.component';
 import { SpinnerComponent } from './shared/spinner.component';
+import { SlackInviteComponent } from './slack/slack-invite.component';
 import { routing }         from './app.routing';
 
 @NgModule({
@@ -35,11 +37,13 @@ import { routing }         from './app.routing';
                   NewsComponent,
                   ForumComponent,
                   SpinnerComponent,
+                  SlackInviteComponent,
                   PaginationDirective ],
 
   bootstrap:    [ AppComponent ],
 
-  providers: [ PreventUnsavedChangesGuard, 
+  providers: [ SlackService,
+               PreventUnsavedChangesGuard, 
                AuthService,
                NewsService]
 })

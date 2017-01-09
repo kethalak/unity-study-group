@@ -11,6 +11,7 @@ var RedditPost = require('./models/redditpost');
 var appRoutes = require('./routes/app');
 var userRoutes = require('./routes/user');
 var newsRoutes = require('./routes/news');
+var inviteRoutes = require('./routes/invite');
 
 var app = express();
 
@@ -43,6 +44,7 @@ app.use(function(req, res, next) {
 app.use('/', appRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/news', newsRoutes);
+app.use('/api/invite', inviteRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
