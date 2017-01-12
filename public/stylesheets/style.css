@@ -6,3 +6,10 @@ body {
 a {
   color: #00B7FF;
 }
+
+.main-space{
+    box-shadow: 10px 10px 5px #888888;
+    border-bottom: 5px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}

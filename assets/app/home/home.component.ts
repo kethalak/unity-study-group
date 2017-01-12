@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'home',
-    template: '<slack-invite></slack-invite>'
+    templateUrl: './home.component.html',
+    styles: [``]
 })
 
 export class HomeComponent{
