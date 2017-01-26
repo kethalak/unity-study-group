@@ -55,19 +55,28 @@ function viewFactory_SlackInviteComponent_Host0(viewUtils:import4.ViewUtils,pare
   return new _View_SlackInviteComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const SlackInviteComponentNgFactory:import10.ComponentFactory<import3.SlackInviteComponent> = new import10.ComponentFactory<import3.SlackInviteComponent>('slack-invite',viewFactory_SlackInviteComponent_Host0,import3.SlackInviteComponent);
-const styles_SlackInviteComponent:any[] = ['.form-group[_ngcontent-%COMP%]{\n        width: 30%; margin: 25px auto;\n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    .message[_ngcontent-%COMP%]{\n        text-align: center;\n        margin-top: 30%;\n    }\n    h1[_ngcontent-%COMP%]{\n        margin: 20px;\n    }'];
+const styles_SlackInviteComponent:any[] = ['.form-group[_ngcontent-%COMP%]{\n        margin: 25px auto;\n    }\n    form[_ngcontent-%COMP%]{\n    margin-bottom: 10%;\n    display: flex;\n    align-items: center; \n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    .message[_ngcontent-%COMP%]{\n        text-align: center;\n        margin-top: 30%;\n    }\n    .unity-title[_ngcontent-%COMP%]{\n        margin-top: 5%;\n        font-size: 4em;\n        text-align: center;\n    }\n    p[_ngcontent-%COMP%]{\n        margin-top: 5%;\n        font-size: 2em;\n        text-align: center;\n    }'];
 var renderType_SlackInviteComponent:import0.RenderComponentType = (null as any);
 class _View_SlackInviteComponent0 extends import1.AppView<import3.SlackInviteComponent> {
-  _anchor_0:any;
-  /*private*/ _appEl_0:import2.AppElement;
-  _TemplateRef_0_5:any;
-  _NgIf_0_6:import11.NgIf;
+  _el_0:any;
   _text_1:any;
-  _anchor_2:any;
-  /*private*/ _appEl_2:import2.AppElement;
-  _TemplateRef_2_5:any;
-  _NgIf_2_6:import11.NgIf;
+  _el_2:any;
   _text_3:any;
+  _text_4:any;
+  _el_5:any;
+  _text_6:any;
+  _text_7:any;
+  _text_8:any;
+  _anchor_9:any;
+  /*private*/ _appEl_9:import2.AppElement;
+  _TemplateRef_9_5:any;
+  _NgIf_9_6:import11.NgIf;
+  _text_10:any;
+  _anchor_11:any;
+  /*private*/ _appEl_11:import2.AppElement;
+  _TemplateRef_11_5:any;
+  _NgIf_11_6:import11.NgIf;
+  _text_12:any;
   /*private*/ _expr_0:any;
   /*private*/ _expr_1:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
@@ -75,43 +84,63 @@ class _View_SlackInviteComponent0 extends import1.AppView<import3.SlackInviteCom
   }
   createInternal(rootSelector:string):import2.AppElement {
     const parentRenderNode:any = this.renderer.createViewRoot(this.declarationAppElement.nativeElement);
-    this._anchor_0 = this.renderer.createTemplateAnchor(parentRenderNode,(null as any));
-    this._appEl_0 = new import2.AppElement(0,(null as any),this,this._anchor_0);
-    this._TemplateRef_0_5 = new import12.TemplateRef_(this._appEl_0,viewFactory_SlackInviteComponent1);
-    this._NgIf_0_6 = new import11.NgIf(this._appEl_0.vcRef,this._TemplateRef_0_5);
-    this._text_1 = this.renderer.createText(parentRenderNode,'\n',(null as any));
-    this._anchor_2 = this.renderer.createTemplateAnchor(parentRenderNode,(null as any));
-    this._appEl_2 = new import2.AppElement(2,(null as any),this,this._anchor_2);
-    this._TemplateRef_2_5 = new import12.TemplateRef_(this._appEl_2,viewFactory_SlackInviteComponent3);
-    this._NgIf_2_6 = new import11.NgIf(this._appEl_2.vcRef,this._TemplateRef_2_5);
-    this._text_3 = this.renderer.createText(parentRenderNode,'\n\n',(null as any));
+    this._el_0 = this.renderer.createElement(parentRenderNode,'div',(null as any));
+    this.renderer.setElementAttribute(this._el_0,'class','container');
+    this._text_1 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_2 = this.renderer.createElement(this._el_0,'h1',(null as any));
+    this.renderer.setElementAttribute(this._el_2,'class','unity-title');
+    this._text_3 = this.renderer.createText(this._el_2,'Unity Study Group',(null as any));
+    this._text_4 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_5 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_6 = this.renderer.createText(this._el_5,'A small community working to help one another code and stay motivated.',(null as any));
+    this._text_7 = this.renderer.createText(this._el_0,'\n',(null as any));
+    this._text_8 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._anchor_9 = this.renderer.createTemplateAnchor(parentRenderNode,(null as any));
+    this._appEl_9 = new import2.AppElement(9,(null as any),this,this._anchor_9);
+    this._TemplateRef_9_5 = new import12.TemplateRef_(this._appEl_9,viewFactory_SlackInviteComponent1);
+    this._NgIf_9_6 = new import11.NgIf(this._appEl_9.vcRef,this._TemplateRef_9_5);
+    this._text_10 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._anchor_11 = this.renderer.createTemplateAnchor(parentRenderNode,(null as any));
+    this._appEl_11 = new import2.AppElement(11,(null as any),this,this._anchor_11);
+    this._TemplateRef_11_5 = new import12.TemplateRef_(this._appEl_11,viewFactory_SlackInviteComponent3);
+    this._NgIf_11_6 = new import11.NgIf(this._appEl_11.vcRef,this._TemplateRef_11_5);
+    this._text_12 = this.renderer.createText(parentRenderNode,'\n\n',(null as any));
     this._expr_0 = import7.UNINITIALIZED;
     this._expr_1 = import7.UNINITIALIZED;
     this.init([],[
-      this._anchor_0,
+      this._el_0,
       this._text_1,
-      this._anchor_2,
-      this._text_3
+      this._el_2,
+      this._text_3,
+      this._text_4,
+      this._el_5,
+      this._text_6,
+      this._text_7,
+      this._text_8,
+      this._anchor_9,
+      this._text_10,
+      this._anchor_11,
+      this._text_12
     ]
     ,[],[]);
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import12.TemplateRef) && (0 === requestNodeIndex))) { return this._TemplateRef_0_5; }
-    if (((token === import11.NgIf) && (0 === requestNodeIndex))) { return this._NgIf_0_6; }
-    if (((token === import12.TemplateRef) && (2 === requestNodeIndex))) { return this._TemplateRef_2_5; }
-    if (((token === import11.NgIf) && (2 === requestNodeIndex))) { return this._NgIf_2_6; }
+    if (((token === import12.TemplateRef) && (9 === requestNodeIndex))) { return this._TemplateRef_9_5; }
+    if (((token === import11.NgIf) && (9 === requestNodeIndex))) { return this._NgIf_9_6; }
+    if (((token === import12.TemplateRef) && (11 === requestNodeIndex))) { return this._TemplateRef_11_5; }
+    if (((token === import11.NgIf) && (11 === requestNodeIndex))) { return this._NgIf_11_6; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
     const currVal_0:boolean = !this.context.inviteSent;
     if (import4.checkBinding(throwOnChange,this._expr_0,currVal_0)) {
-      this._NgIf_0_6.ngIf = currVal_0;
+      this._NgIf_9_6.ngIf = currVal_0;
       this._expr_0 = currVal_0;
     }
     const currVal_1:any = this.context.inviteSent;
     if (import4.checkBinding(throwOnChange,this._expr_1,currVal_1)) {
-      this._NgIf_2_6.ngIf = currVal_1;
+      this._NgIf_11_6.ngIf = currVal_1;
       this._expr_1 = currVal_1;
     }
     this.detectContentChildrenChanges(throwOnChange);
@@ -178,7 +207,7 @@ class _View_SlackInviteComponent1 extends import1.AppView<any> {
     this._NgControlStatusGroup_0_5 = new import14.NgControlStatusGroup(this._ControlContainer_0_4);
     this._text_1 = this.renderer.createText(this._el_0,'\n    ',(null as any));
     this._el_2 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this.renderer.setElementAttribute(this._el_2,'class','form-group container');
+    this.renderer.setElementAttribute(this._el_2,'class','form-group container col-lg-4 col-md-5 col-sm-8');
     this._text_3 = this.renderer.createText(this._el_2,'\n        ',(null as any));
     this._el_4 = this.renderer.createElement(this._el_2,'h1',(null as any));
     this.renderer.setElementAttribute(this._el_4,'style','text-align: center');

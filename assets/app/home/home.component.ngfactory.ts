@@ -45,12 +45,13 @@ function viewFactory_HomeComponent_Host0(viewUtils:import4.ViewUtils,parentInjec
   return new _View_HomeComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const HomeComponentNgFactory:import9.ComponentFactory<import3.HomeComponent> = new import9.ComponentFactory<import3.HomeComponent>('home',viewFactory_HomeComponent_Host0,import3.HomeComponent);
-const styles_HomeComponent:any[] = [];
+const styles_HomeComponent:any[] = [''];
 var renderType_HomeComponent:import0.RenderComponentType = (null as any);
 class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
   _el_0:any;
   /*private*/ _appEl_0:import2.AppElement;
   _SlackInviteComponent_0_4:import10.SlackInviteComponent;
+  _text_1:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_HomeComponent0,renderType_HomeComponent,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -62,7 +63,12 @@ class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
     this._SlackInviteComponent_0_4 = new import10.SlackInviteComponent(this.parentInjector.get(import12.SlackService));
     this._appEl_0.initComponent(this._SlackInviteComponent_0_4,[],compView_0);
     compView_0.create(this._SlackInviteComponent_0_4,[],(null as any));
-    this.init([],[this._el_0],[],[]);
+    this._text_1 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this.init([],[
+      this._el_0,
+      this._text_1
+    ]
+    ,[],[]);
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -71,6 +77,6 @@ class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
   }
 }
 export function viewFactory_HomeComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.HomeComponent> {
-  if ((renderType_HomeComponent === (null as any))) { (renderType_HomeComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/home/home.component.ts class HomeComponent - inline template',0,import8.ViewEncapsulation.None,styles_HomeComponent,{})); }
+  if ((renderType_HomeComponent === (null as any))) { (renderType_HomeComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/home/home.component.html',0,import8.ViewEncapsulation.Emulated,styles_HomeComponent,{})); }
   return new _View_HomeComponent0(viewUtils,parentInjector,declarationEl);
 }

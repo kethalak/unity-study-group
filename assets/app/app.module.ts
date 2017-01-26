@@ -13,6 +13,7 @@ import { PaginationDirective } from './shared/pagination.directive';
 import { NewsComponent } from './news/news.component';
 import { ForumComponent } from './forum/forum.component';
 import { CollisionTableComponent } from './unitydocs/collision-table.component';
+import { UnetSteamBlogComponent } from './unitydocs/unet-steam-blog.component';
 import { SignUpFormComponent } from './auth/signup-form.component';
 import { LoginFormComponent } from './auth/login-form.component';
 import { HeaderComponent } from './header.component';
@@ -34,6 +35,7 @@ import { routing }         from './app.routing';
                   HeaderComponent, 
                   HomeComponent,
                   CollisionTableComponent,
+                  UnetSteamBlogComponent,
                   NewsComponent,
                   ForumComponent,
                   SpinnerComponent,

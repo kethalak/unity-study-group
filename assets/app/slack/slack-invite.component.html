@@ -1,5 +1,9 @@
+<div class = "container">
+    <h1 class = "unity-title">Unity Study Group</h1>
+    <p>A small community working to help one another code and stay motivated.</p>
+</div>
 <form *ngIf="!inviteSent" #f="ngForm" (ngSubmit)="onSubmit(f.form)">
-    <div class="form-group container">
+    <div class="form-group container col-lg-4 col-md-5 col-sm-8">
         <h1 style="text-align: center">Join our Slack!</h1>
         <input 
             ngModel name="email"

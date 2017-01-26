@@ -4,4 +4,4 @@
  */
  /* tslint:disable */
 
-export const styles:any[] = ['h1[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin: auto;\r\n}\r\n.pagination[_ngcontent-%COMP%]{\r\n    float: right;\r\n}\r\n\r\nul[_ngcontent-%COMP%]{\r\n    display: block;\r\n    margin: 0 auto;\r\n    width: 200%;\r\n    font-size: 2em;\r\n  }'];
+export const styles:any[] = ['h1[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    align-items: center;\r\n    display: flex;\r\n    margin: auto;\r\n}\r\n.pagination[_ngcontent-%COMP%]{\r\n    float: right;\r\n}\r\n\r\nul[_ngcontent-%COMP%]{\r\n    display: block;\r\n    margin: 0 auto;\r\n    width: 200%;\r\n    font-size: 2em;\r\n  }'];

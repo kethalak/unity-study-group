@@ -8,7 +8,12 @@ import { SlackService } from './slack.service';
     templateUrl: './slack-invite.component.html',
     styles: [`
     .form-group{
-        width: 30%; margin: 25px auto;
+        margin: 25px auto;
+    }
+    form{
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center; 
     }
     .btn{
         margin-top: 20px;
@@ -20,8 +25,15 @@ import { SlackService } from './slack.service';
         text-align: center;
         margin-top: 30%;
     }
-    h1{
-        margin: 20px;
+    .unity-title{
+        margin-top: 5%;
+        font-size: 4em;
+        text-align: center;
+    }
+    p{
+        margin-top: 5%;
+        font-size: 2em;
+        text-align: center;
     }
     `]
 })

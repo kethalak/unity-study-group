@@ -42,7 +42,7 @@ function viewFactory_CollisionTableComponent_Host0(viewUtils:import4.ViewUtils,p
   return new _View_CollisionTableComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const CollisionTableComponentNgFactory:import9.ComponentFactory<import3.CollisionTableComponent> = new import9.ComponentFactory<import3.CollisionTableComponent>('col-table',viewFactory_CollisionTableComponent_Host0,import3.CollisionTableComponent);
-const styles_CollisionTableComponent:any[] = ['.glyphicon[_ngcontent-%COMP%]{\n        display: block;\n        text-align: center;\n        margin: auto;\n        vertical-align: middle;\n        line-height: normal;\n    }'];
+const styles_CollisionTableComponent:any[] = ['.glyphicon[_ngcontent-%COMP%]{\n        display: block;\n        text-align: center;\n        margin: auto;\n        vertical-align: middle;\n        line-height: normal;\n    }\n    .container[_ngcontent-%COMP%]{\n        padding-bottom: 5%;\n    }'];
 var renderType_CollisionTableComponent:import0.RenderComponentType = (null as any);
 class _View_CollisionTableComponent0 extends import1.AppView<import3.CollisionTableComponent> {
   _el_0:any;

@@ -11,6 +11,9 @@ import { Component } from '@angular/core';
         vertical-align: middle;
         line-height: normal;
     }
+    .container{
+        padding-bottom: 5%;
+    }
     `]
 })
 

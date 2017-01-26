@@ -78,7 +78,7 @@ class _View_AppComponent0 extends import1.AppView<import3.AppComponent> {
     compView_1.create(this._HeaderComponent_1_4,[],(null as any));
     this._text_2 = this.renderer.createText(parentRenderNode,'\n  ',(null as any));
     this._el_3 = this.renderer.createElement(parentRenderNode,'div',(null as any));
-    this.renderer.setElementAttribute(this._el_3,'class','container');
+    this.renderer.setElementAttribute(this._el_3,'class','container main-space');
     this._text_4 = this.renderer.createText(this._el_3,'\n    ',(null as any));
     this._el_5 = this.renderer.createElement(this._el_3,'router-outlet',(null as any));
     this._appEl_5 = new import2.AppElement(5,3,this,this._el_5);
