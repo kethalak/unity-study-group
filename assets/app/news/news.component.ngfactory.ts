@@ -325,7 +325,7 @@ class _View_NewsComponent0 extends import1.AppView<import3.NewsComponent> {
   }
 }
 export function viewFactory_NewsComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.NewsComponent> {
-  if ((renderType_NewsComponent === (null as any))) { (renderType_NewsComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/news/news.component.html',0,import9.ViewEncapsulation.Emulated,styles_NewsComponent,{})); }
+  if ((renderType_NewsComponent === (null as any))) { (renderType_NewsComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/news/news.component.html',0,import9.ViewEncapsulation.Emulated,styles_NewsComponent,{})); }
   return new _View_NewsComponent0(viewUtils,parentInjector,declarationEl);
 }
 class _View_NewsComponent1 extends import1.AppView<any> {

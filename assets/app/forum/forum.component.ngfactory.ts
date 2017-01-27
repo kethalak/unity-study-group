@@ -63,6 +63,6 @@ class _View_ForumComponent0 extends import1.AppView<import3.ForumComponent> {
   }
 }
 export function viewFactory_ForumComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForumComponent> {
-  if ((renderType_ForumComponent === (null as any))) { (renderType_ForumComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/forum/forum.component.html',0,import8.ViewEncapsulation.None,styles_ForumComponent,{})); }
+  if ((renderType_ForumComponent === (null as any))) { (renderType_ForumComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/forum/forum.component.html',0,import8.ViewEncapsulation.None,styles_ForumComponent,{})); }
   return new _View_ForumComponent0(viewUtils,parentInjector,declarationEl);
 }

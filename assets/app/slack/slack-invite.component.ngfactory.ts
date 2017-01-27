@@ -55,7 +55,7 @@ function viewFactory_SlackInviteComponent_Host0(viewUtils:import4.ViewUtils,pare
   return new _View_SlackInviteComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const SlackInviteComponentNgFactory:import10.ComponentFactory<import3.SlackInviteComponent> = new import10.ComponentFactory<import3.SlackInviteComponent>('slack-invite',viewFactory_SlackInviteComponent_Host0,import3.SlackInviteComponent);
-const styles_SlackInviteComponent:any[] = ['.form-group[_ngcontent-%COMP%]{\n        margin: 25px auto;\n    }\n    form[_ngcontent-%COMP%]{\n    margin-bottom: 10%;\n    display: flex;\n    align-items: center; \n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    .message[_ngcontent-%COMP%]{\n        text-align: center;\n        margin-top: 30%;\n    }\n    .unity-title[_ngcontent-%COMP%]{\n        margin-top: 5%;\n        font-size: 4em;\n        text-align: center;\n    }\n    p[_ngcontent-%COMP%]{\n        margin-top: 5%;\n        font-size: 2em;\n        text-align: center;\n    }'];
+const styles_SlackInviteComponent:any[] = ['.form-group[_ngcontent-%COMP%]{\n        margin: 25px auto;\n    }\n    form[_ngcontent-%COMP%]{\n    margin-bottom: 10%;\n    display: flex;\n    align-items: center; \n    }\n    .btn[_ngcontent-%COMP%]{\n        margin-top: 20px;\n    }\n    .ng-touched.ng-invalid.form-control[_ngcontent-%COMP%]{\n        border: 1px solid red;\n    }\n    .message[_ngcontent-%COMP%]{\n        text-align: center;\n        margin-bottom: 50px;\n    }\n    .unity-title[_ngcontent-%COMP%]{\n        margin-top: 5%;\n        font-size: 3em;\n        text-align: center;\n    }\n    p[_ngcontent-%COMP%]{\n        margin-top: 5%;\n        font-size: 1.5em;\n        text-align: center;\n    }'];
 var renderType_SlackInviteComponent:import0.RenderComponentType = (null as any);
 class _View_SlackInviteComponent0 extends import1.AppView<import3.SlackInviteComponent> {
   _el_0:any;
@@ -148,7 +148,7 @@ class _View_SlackInviteComponent0 extends import1.AppView<import3.SlackInviteCom
   }
 }
 export function viewFactory_SlackInviteComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.SlackInviteComponent> {
-  if ((renderType_SlackInviteComponent === (null as any))) { (renderType_SlackInviteComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/slack/slack-invite.component.html',0,import9.ViewEncapsulation.Emulated,styles_SlackInviteComponent,{})); }
+  if ((renderType_SlackInviteComponent === (null as any))) { (renderType_SlackInviteComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/slack/slack-invite.component.html',0,import9.ViewEncapsulation.Emulated,styles_SlackInviteComponent,{})); }
   return new _View_SlackInviteComponent0(viewUtils,parentInjector,declarationEl);
 }
 class _View_SlackInviteComponent1 extends import1.AppView<any> {

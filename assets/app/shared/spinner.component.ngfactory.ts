@@ -90,7 +90,7 @@ class _View_SpinnerComponent0 extends import1.AppView<import3.SpinnerComponent> 
   }
 }
 export function viewFactory_SpinnerComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.SpinnerComponent> {
-  if ((renderType_SpinnerComponent === (null as any))) { (renderType_SpinnerComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/shared/spinner.component.ts class SpinnerComponent - inline template',0,import8.ViewEncapsulation.None,styles_SpinnerComponent,{})); }
+  if ((renderType_SpinnerComponent === (null as any))) { (renderType_SpinnerComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/shared/spinner.component.ts class SpinnerComponent - inline template',0,import8.ViewEncapsulation.None,styles_SpinnerComponent,{})); }
   return new _View_SpinnerComponent0(viewUtils,parentInjector,declarationEl);
 }
 class _View_SpinnerComponent1 extends import1.AppView<any> {

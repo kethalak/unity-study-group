@@ -1221,6 +1221,6 @@ class _View_CollisionTableComponent0 extends import1.AppView<import3.CollisionTa
   }
 }
 export function viewFactory_CollisionTableComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.CollisionTableComponent> {
-  if ((renderType_CollisionTableComponent === (null as any))) { (renderType_CollisionTableComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/unitydocs/collision-table.component.html',0,import8.ViewEncapsulation.Emulated,styles_CollisionTableComponent,{})); }
+  if ((renderType_CollisionTableComponent === (null as any))) { (renderType_CollisionTableComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/unitydocs/collision-table.component.html',0,import8.ViewEncapsulation.Emulated,styles_CollisionTableComponent,{})); }
   return new _View_CollisionTableComponent0(viewUtils,parentInjector,declarationEl);
 }

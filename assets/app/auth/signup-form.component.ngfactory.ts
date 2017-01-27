@@ -744,7 +744,7 @@ class _View_SignUpFormComponent0 extends import1.AppView<import3.SignUpFormCompo
   }
 }
 export function viewFactory_SignUpFormComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.SignUpFormComponent> {
-  if ((renderType_SignUpFormComponent === (null as any))) { (renderType_SignUpFormComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/auth/signup-form.component.html',0,import11.ViewEncapsulation.Emulated,styles_SignUpFormComponent,{})); }
+  if ((renderType_SignUpFormComponent === (null as any))) { (renderType_SignUpFormComponent = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/auth/signup-form.component.html',0,import11.ViewEncapsulation.Emulated,styles_SignUpFormComponent,{})); }
   return new _View_SignUpFormComponent0(viewUtils,parentInjector,declarationEl);
 }
 class _View_SignUpFormComponent1 extends import1.AppView<any> {

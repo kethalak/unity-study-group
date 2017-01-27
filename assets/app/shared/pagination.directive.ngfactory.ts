@@ -226,7 +226,7 @@ class _View_PaginationDirective0 extends import1.AppView<import3.PaginationDirec
   }
 }
 export function viewFactory_PaginationDirective0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.PaginationDirective> {
-  if ((renderType_PaginationDirective === (null as any))) { (renderType_PaginationDirective = viewUtils.createRenderComponentType('C:/Users/ketha/Desktop/projects/web/unitystudygroup/assets/app/shared/pagination.directive.ts class PaginationDirective - inline template',0,import9.ViewEncapsulation.Emulated,styles_PaginationDirective,{})); }
+  if ((renderType_PaginationDirective === (null as any))) { (renderType_PaginationDirective = viewUtils.createRenderComponentType('C:/Users/ketha/Documents/projects/web/unitystudygroup/assets/app/shared/pagination.directive.ts class PaginationDirective - inline template',0,import9.ViewEncapsulation.Emulated,styles_PaginationDirective,{})); }
   return new _View_PaginationDirective0(viewUtils,parentInjector,declarationEl);
 }
 class _View_PaginationDirective1 extends import1.AppView<any> {
