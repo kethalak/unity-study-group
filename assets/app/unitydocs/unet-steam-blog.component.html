@@ -1,0 +1,138 @@
+<div class = "blog-post">
+    <h1>UNet with Steamworks</h1>
+    <h3>How to use Steamworks matchmaking with UNet's high level API</h3>
+    <hr>
+    <div><img src = "/imgs/capture.png" class = "blog-img"></div>
+    <p>
+        Interested in networking? Unity offers a high level API networking solution called UNet, which is quite appealing for many developers.
+        However.. Matchmaking aint free, and using their services can get <strong>expensive.</strong> Same strikes true
+        for other third party networking frameworks such as Photon, leaving developers thinking "if only there was a way to use Unity's networking features without having to rely on expensive matchmaking services!"
+    </p>
+
+    <p>
+        Well if you are one of the many developers that plan on releasing their games via Steam, then you're in luck. Steamworks offers matchmaking as a <strong>free service</strong>.
+        You can use the Steamworks SDK to obtain client/connection info, then serve it to the UNet API and voila, you can use everything that Unity has to offer, <em>for free!</em> This is a guide for connecting Steamworks matchmaking services
+        to Unity's hlapi, at the time of writing this there are virtually no resources on the subject so I hope this blog post serves as helpful tool for getting started.
+    </p>
+    <hr>
+    <h2> Getting Started </h2>
+    <h4> <strong>What you'll need</strong> </h4>
+    <p>
+        You can get the completed project as well as the starter project from my <a href = "https://github.com/WitsBitz/UNET-Steamworks-Integration">Github repository.</a> 
+        The starter project is essentially a finished version of the <a href ="https://unity3d.com/learn/tutorials/topics/multiplayer-networking"> official Unity multiplayer networking example</a> so if you are completely new to UNet I advise you check it out.
+    </p>
+    <p>
+        This project also includes a plugin called Steamworks.NET, a C# wrapper for the Steamoworks SDK. For more information on Steamworks.NET.<a href = "https://steamworks.github.io/"> Please visit their website. </a> 
+    </p>
+    <p>
+        Please keep in mind that this is an <strong>absolute barebones implementation</strong> of Steamworks matchmaking. I tried to only put what is necessary to integegrate Steamworks into Unity. 
+        There are many resources online for further development of Steamworks and UNet.
+    </p>
+    <hr>
+    <h2> Prepare the scene </h2>
+    <p>
+        The starter project contains a working network environment. If you hit <strong>play</strong> you will see that via the UGUI HUD you can start a game as a host or and also direct connect as a client. 
+        If you were to set up matchmaking services with Unity then the matchmaker would also work(but that's not why we're here is it?).
+    </p>
+    <p>
+        First things first, delete the Network Manager gameObject as we will be creating our own. Create a UI Canvas(with an Event System) and 3 child UI Text gameObjects. Name the Canvas "Menu"
+         and the three Text objects as "Find Match", "Create Match", and "Wait Message". Add a Button Component to both the "Find Match" and "Create Match" gameObjects and change the Text fields of the Text components to
+         "Find Match" and "Create Match", adjust the fontsize to something like 22 then move them apart from one another so they are both visible in the middle of the canvas. Configure the Button components as follows.
+    </p>
+    <div><img src = "/imgs/insp1.png" class = "blog-img">
+    <img src = "/imgs/insp2.png" class = "blog-img"></div>
+    <p>
+        With the UI objects set up, create a new Empty gameObject in the scene called "Steam Manager". Via the inspector add the script "Steam Manager" which is supplied from Steamworks.NET(This will initialize Steam when the scene begins.)
+        Create two new scripts, one named "SteamNetworkManager" and another named "SteamServerManager" and add them both to the Steam Manager gameObject. Once you're finished, open up the SteamServerManager script in your code editor.
+    </p>
+    <hr>
+    <h2> Steam Server Manager </h2>
+    <div><img src = "/imgs/serverusing.png" class = "blog-img"></div>
+    <p>
+        This script will initialize the game instance on Steam's servers, allowing you to retrieve and create meta data about it. 
+        Make sure you have the following Using directives and declare an SteamServerManager instance, a bool for initialization, and a callback for for when the server successfully connects.
+    </p>
+    <hr>
+    <div><img src = "/imgs/serverinit.png" class = "blog-img"></div>
+    <p>
+         In Start we initialize the _instance variable with this instance and attach the callback to the function "OnSteamServerConnected" which we will create shortly.
+         We then create a public function named CreateServer which sets the appropriate ports and parameters for intializing our simple implementation on Steam's servers. Once we initialize we check to see if it failed before setting the game directory and initiating an Anonymous Login.
+    </p>
+    <p>
+         For more information about the exact purpose of these paramaters, please check out the <a href = "https://partner.steamgames.com/documentation/api">official Steamworks SDK documentation.</a>
+         In addition to the official documentation, here is <a href = "https://github.com/rlabrecque/Steamworks.NET-GameServerTest/blob/master/Assets/Scripts/GameServerTest.cs">a Github repository </a>containing a much more broad and detailed implementation of a Steamworks gameserver.
+    </p>
+    <hr>
+    <div><img src = "/imgs/servercb.png" class = "blog-img"></div>
+    <p>
+        This is the callback for when the matchmaking server successfully connects, now that we are connected we can start a matchmaking lobby, in this case it will be public with four max players.
+    </p>
+    <hr>
+    <div><img src = "/imgs/ondisableupdate.png" class = "blog-img"></div>
+    <p>
+        With OnDisable we make sure to LogOff and shutdown our Gameserver, then via Update we run the GameServer callbacks as long as it is initialized.
+    </p>
+    <hr>
+    <p>
+        That's it for SteamworksServerManager, now we can set up matchmaking. Open up SteamNetworkManager in your code editor.
+    </p>
+    <hr>
+    <h2> Steam Network Manager </h2>
+    <div><img src = "/imgs/usingdirs.png" class = "blog-img"></div>
+    <p>
+        Here are the Using Directives we will be using for this script.
+    </p>
+    <hr>
+    <div><img src = "/imgs/initializevar.png" class = "blog-img"></div>
+    <p>
+        Make sure SteamNetworkManager inherits from NetworkManager not MonoBehavior, this is how we will be rigging the server and client info into UNet.
+        Create three public Text variables as references for the Text UI elements we created earlier. Also create the three callbacks for creating, entering, and retrieving Steam Lobbies. Finally add a bool that we'll use to check if we're the host.
+    </p>
+    <hr>
+    <div><img src = "/imgs/lobbystart.png" class = "blog-img"></div>
+    <p>
+        On Start we deactivate the waitMsg and connect the three Lobby callbacks to the three seperate functions we're about to define. Then we check run a quick Debug.Log if/else statement to see if steamworks was intialized correctly.
+    </p>
+    <hr>
+    <div><img src = "/imgs/createfind.png" class = "blog-img"></div>
+    <p>
+        The CreateMatch and FindMatch functions will soon be attached to the "FindMatch" and "CreateMatch" gameObjects we created earlier. In Create match we set the waitMsg, toggle menu visibility and start the GameServer via the SteamServerManager instance.
+        In FindMatch we make a lobby request, triggering the OnGetLobbiesList callback with a list of all the available lobbies.
+    </p>
+    <hr>
+    <div><img src = "/imgs/lobbycreatecb.png" class = "blog-img"></div>
+    <p>
+        Here's our first callback. Once the lobby is created we check to see if it was a success. If so, we retrieve the host's external ip from the GameServer, cast it as a string, and push it into the the Steam Lobby data, allowing clients access it.
+        We se the isHost bool to true, deactivate the waitMsg, and start the host's application.
+    </p>
+    <hr>
+    <div><img src = "/imgs/lobbycb.png" class = "blog-img"></div>
+    <p>
+        Our last two callbacks. OnGetLobbiesList returns a list of available lobbies which we cycle thorough, checking for lobbies that contain the "ServerIP" data we set earlier. If we find a lobby that has the data we join it. 
+        When we join the lobby we OnLobbyEntered is called and we retrieve the ServerIP, set it as the UNet NetworkManager NetworkAddress, and then start the client application.
+    </p>
+    <p>
+        Congratulations! We are finished writing code. Now we just need to finish assembling the scene and we're good to go.
+    </p>
+    <hr>
+    <h2> Finishing touches </h2>
+    <div><img src = "/imgs/insp3.png" class = "blog-img"></div>
+    <p>
+        On both Button Components, set the CreateMatch and FindMatch OnClick listeners to the CreateMatch and FindMatch functions on the SteamNetworkManager via the SteamManager gameobject.
+    </p>
+    <hr>
+    <div><img src = "/imgs/fillmanager.png" class = "blog-img"></div>
+    <p>
+        Since we had to create our own version of the NetworkManager, we must replace the necessary UNet variables for starting our game. Drag the Player prefab and Text gameObjects into their appropriate slots.
+        In addition, add the Bullet and Enemy prefabs as registered spawnable prefabs, also set the Spawn Method to "Round Robin".
+    </p>
+    <hr>
+    <div><img src = "/imgs/insp4.png" class = "blog-img"></div>
+    <p>
+        You're ready to play! <strong>Make sure</strong> that you have Steam running in the background otherwise Steamworks will not initialize. I also highly reccomend going into the project folder and setting your AppID to that of your own Steamworks App.
+        The default Steamworks appID is set to SpaceWars but many people use it for development which inherently creates problems for individual testing. 
+    </p>
+    <p>
+        <strong>Thanks for reading my guide, best of luck!</strong>
+    </p>
+</div>

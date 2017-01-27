@@ -23,16 +23,16 @@ import { SlackService } from './slack.service';
     }
     .message{
         text-align: center;
-        margin-top: 30%;
+        margin-bottom: 50px;
     }
     .unity-title{
         margin-top: 5%;
-        font-size: 4em;
+        font-size: 3em;
         text-align: center;
     }
     p{
         margin-top: 5%;
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
     }
     `]

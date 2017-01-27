@@ -8,12 +8,14 @@ import { ForumComponent } from './forum/forum.component';
 import { HomeComponent } from './home/home.component';
 import { PreventUnsavedChangesGuard } from './shared/prevent-unsaved-changes-guard.service';
 import { CollisionTableComponent } from './unitydocs/collision-table.component';
+import { UnetSteamBlogComponent } from './unitydocs/unet-steam-blog.component';
 
 const APP_ROUTES: Routes = [
     { path: '', component: HomeComponent},
     { path: 'signup', component: SignUpFormComponent, canDeactivate: [ PreventUnsavedChangesGuard ] },
     { path: 'login', component: LoginFormComponent, canDeactivate: [ PreventUnsavedChangesGuard ] },
     { path: 'collisiontable', component: CollisionTableComponent },
+    { path: 'unetsteamblog', component: UnetSteamBlogComponent },
     { path: 'news', component: NewsComponent },
     { path: 'forum', component: ForumComponent },
     { path: '**', component: HomeComponent}
