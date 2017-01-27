@@ -1,0 +1,31 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { NewsService } from './news.service';
+
+import { NewsComponent } from './news.component';
+import { SpinnerComponent } from '../shared/spinner.component';
+import { PaginationDirective } from '../shared/pagination.directive';
+
+import { newsRouting } from './news.routing';
+
+@NgModule({
+    imports: [
+        CommonModule,
+        FormsModule,
+        newsRouting
+    ],
+    declarations: [
+        NewsComponent,
+        SpinnerComponent,
+        PaginationDirective,
+    ],
+    providers: [
+        NewsService
+    ]
+})
+
+export class NewsModule{
+
+}

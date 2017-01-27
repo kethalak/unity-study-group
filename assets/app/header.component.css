@@ -5,9 +5,11 @@
     border-bottom: 5px black solid;
     border-left: 3px black solid;
     border-right: 3px black solid;
+
     margin: auto;
     background-color: #fefefe;
-    border-radius: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
 }
 .navbar-brand{
     font-size: 1.3em;

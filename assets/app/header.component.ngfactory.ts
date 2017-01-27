@@ -272,9 +272,9 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
     this._text_44 = this.renderer.createText(this._el_39,'\n            ',(null as any));
     this._el_45 = this.renderer.createElement(this._el_39,'li',(null as any));
     this._el_46 = this.renderer.createElement(this._el_45,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_46,'routerLink','unetsteamblog');
+    this.renderer.setElementAttribute(this._el_46,'routerLink','unetsteam');
     this._RouterLinkWithHref_46_3 = new import13.RouterLinkWithHref(this.parentInjector.get(import8.Router),this.parentInjector.get(import17.ActivatedRoute),this.parentInjector.get(import18.LocationStrategy));
-    this._text_47 = this.renderer.createText(this._el_46,'Unet/Steamworks blog',(null as any));
+    this._text_47 = this.renderer.createText(this._el_46,'Unet/Steamworks',(null as any));
     this._text_48 = this.renderer.createText(this._el_39,'\n            ',(null as any));
     this._text_49 = this.renderer.createText(this._el_39,'\n          ',(null as any));
     this._text_50 = this.renderer.createText(this._el_33,'\n          ',(null as any));
@@ -532,7 +532,7 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
     }
     if ((changes !== (null as any))) { this._RouterLinkWithHref_42_3.ngOnChanges(changes); }
     changes = (null as any);
-    const currVal_11:any = 'unetsteamblog';
+    const currVal_11:any = 'unetsteam';
     if (import4.checkBinding(throwOnChange,this._expr_11,currVal_11)) {
       this._RouterLinkWithHref_46_3.routerLink = currVal_11;
       if ((changes === (null as any))) { (changes = {}); }
