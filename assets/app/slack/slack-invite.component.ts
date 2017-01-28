@@ -21,13 +21,11 @@ import { SlackService } from './slack.service';
     }
     .form-group{
         padding: 15px;
-        border-top: 2px solid black;
-        border-left: 2px solid black;
-        border-right: 4px solid black;
-        border-bottom: 4px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+        border-bottom: 5px solid black;
         margin-top: 15px;
         margin-bottom: 15px;
-        box-shadow: 5px 5px 2.5px #888888;
         border-radius: 25px;
     }
     .message{

@@ -8,11 +8,11 @@ mongoose.connect(process.env.DB_URL);
 
 var posts = [];
 
-var request1 = request({url:'http://www.reddit.com/r/unity3d/top.json', qs:{limit: 5, t:"day"}});
-var request2 = request({url:'http://www.reddit.com/r/gamedev/top.json', qs:{limit: 4, t:"day"}});
-var request3 = request({url:'http://www.reddit.com/r/virtualreality/top.json', qs:{limit: 3, t:"day"}});
-var request4 = request({url:'http://www.reddit.com/r/gamedesign/top.json', qs:{limit: 2, t:"day"}});
-var request5 = request({url:'http://www.reddit.com/r/unity_tutorials/top.json', qs:{limit: 2, t:"day"}});
+var request1 = request({url:'http://www.reddit.com/r/unity3d/top.json', qs:{limit: 4, t:"day"}});
+var request2 = request({url:'http://www.reddit.com/r/gamedev/top.json', qs:{limit: 3, t:"day"}});
+var request3 = request({url:'http://www.reddit.com/r/virtualreality/top.json', qs:{limit: 2, t:"day"}});
+var request4 = request({url:'http://www.reddit.com/r/gamedesign/top.json', qs:{limit: 1, t:"day"}});
+var request5 = request({url:'http://www.reddit.com/r/unity_tutorials/top.json', qs:{limit: 1, t:"day"}});
 
 bluebird.all([request1, request2, request3, request4, request5])
     .spread(function (rOR1, rOR2, rOR3, rOR4, rOR5) {
