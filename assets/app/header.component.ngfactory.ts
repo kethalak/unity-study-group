@@ -113,66 +113,142 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
   _RouterLinkWithHref_46_3:import13.RouterLinkWithHref;
   _text_47:any;
   _text_48:any;
-  _text_49:any;
+  _el_49:any;
   _text_50:any;
-  _text_51:any;
-  _el_52:any;
-  _text_53:any;
-  _el_54:any;
+  _el_51:any;
+  _text_52:any;
+  _el_53:any;
+  _text_54:any;
   _text_55:any;
   _el_56:any;
   _text_57:any;
   _el_58:any;
   _text_59:any;
   _el_60:any;
-  _el_61:any;
+  _text_61:any;
   _text_62:any;
-  _text_63:any;
-  _el_64:any;
+  _el_63:any;
+  _text_64:any;
   _el_65:any;
-  _text_66:any;
+  _el_66:any;
   _text_67:any;
-  _el_68:any;
+  _text_68:any;
   _el_69:any;
-  _text_70:any;
+  _el_70:any;
   _text_71:any;
-  _el_72:any;
-  _el_73:any;
+  _text_72:any;
+  _text_73:any;
   _text_74:any;
-  _text_75:any;
-  _el_76:any;
+  _el_75:any;
+  _text_76:any;
   _el_77:any;
   _text_78:any;
   _text_79:any;
   _el_80:any;
-  _el_81:any;
-  _text_82:any;
-  _text_83:any;
+  _text_81:any;
+  _el_82:any;
+  _el_83:any;
   _text_84:any;
   _text_85:any;
   _text_86:any;
   _text_87:any;
   _el_88:any;
   _text_89:any;
-  _anchor_90:any;
-  /*private*/ _appEl_90:import2.AppElement;
-  _TemplateRef_90_5:any;
-  _NgIf_90_6:import16.NgIf;
+  _el_90:any;
   _text_91:any;
-  _anchor_92:any;
-  /*private*/ _appEl_92:import2.AppElement;
-  _TemplateRef_92_5:any;
-  _NgIf_92_6:import16.NgIf;
-  _text_93:any;
-  _anchor_94:any;
-  /*private*/ _appEl_94:import2.AppElement;
-  _TemplateRef_94_5:any;
-  _NgIf_94_6:import16.NgIf;
-  _text_95:any;
-  _text_96:any;
+  _text_92:any;
+  _el_93:any;
+  _text_94:any;
+  _el_95:any;
+  _el_96:any;
   _text_97:any;
   _text_98:any;
-  _text_99:any;
+  _el_99:any;
+  _el_100:any;
+  _text_101:any;
+  _text_102:any;
+  _el_103:any;
+  _el_104:any;
+  _text_105:any;
+  _text_106:any;
+  _el_107:any;
+  _el_108:any;
+  _text_109:any;
+  _text_110:any;
+  _el_111:any;
+  _el_112:any;
+  _text_113:any;
+  _text_114:any;
+  _el_115:any;
+  _el_116:any;
+  _text_117:any;
+  _text_118:any;
+  _el_119:any;
+  _el_120:any;
+  _text_121:any;
+  _text_122:any;
+  _text_123:any;
+  _text_124:any;
+  _text_125:any;
+  _text_126:any;
+  _text_127:any;
+  _el_128:any;
+  _text_129:any;
+  _el_130:any;
+  _text_131:any;
+  _el_132:any;
+  _text_133:any;
+  _el_134:any;
+  _text_135:any;
+  _el_136:any;
+  _el_137:any;
+  _text_138:any;
+  _text_139:any;
+  _el_140:any;
+  _el_141:any;
+  _text_142:any;
+  _text_143:any;
+  _el_144:any;
+  _el_145:any;
+  _text_146:any;
+  _text_147:any;
+  _el_148:any;
+  _el_149:any;
+  _text_150:any;
+  _text_151:any;
+  _el_152:any;
+  _el_153:any;
+  _text_154:any;
+  _text_155:any;
+  _el_156:any;
+  _el_157:any;
+  _text_158:any;
+  _text_159:any;
+  _text_160:any;
+  _text_161:any;
+  _text_162:any;
+  _text_163:any;
+  _el_164:any;
+  _text_165:any;
+  _anchor_166:any;
+  /*private*/ _appEl_166:import2.AppElement;
+  _TemplateRef_166_5:any;
+  _NgIf_166_6:import16.NgIf;
+  _text_167:any;
+  _anchor_168:any;
+  /*private*/ _appEl_168:import2.AppElement;
+  _TemplateRef_168_5:any;
+  _NgIf_168_6:import16.NgIf;
+  _text_169:any;
+  _anchor_170:any;
+  /*private*/ _appEl_170:import2.AppElement;
+  _TemplateRef_170_5:any;
+  _NgIf_170_6:import16.NgIf;
+  _text_171:any;
+  _text_172:any;
+  _text_173:any;
+  _text_174:any;
+  _text_175:any;
   /*private*/ _expr_1:any;
   /*private*/ _expr_2:any;
   /*private*/ _expr_3:any;
@@ -226,7 +302,7 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
     this.renderer.setElementAttribute(this._el_20,'class','navbar-brand');
     this.renderer.setElementAttribute(this._el_20,'routerLink','');
     this._RouterLinkWithHref_20_3 = new import13.RouterLinkWithHref(this.parentInjector.get(import8.Router),this.parentInjector.get(import17.ActivatedRoute),this.parentInjector.get(import18.LocationStrategy));
-    this._text_21 = this.renderer.createText(this._el_20,'Unity Study Group',(null as any));
+    this._text_21 = this.renderer.createText(this._el_20,'USG',(null as any));
     this._text_22 = this.renderer.createText(this._el_6,'\n    ',(null as any));
     this._text_23 = this.renderer.createText(this._el_3,'\n\n    ',(null as any));
     this._text_24 = this.renderer.createText(this._el_3,'\n    ',(null as any));
@@ -263,95 +339,195 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
     this._text_38 = this.renderer.createText(this._el_33,'\n          ',(null as any));
     this._el_39 = this.renderer.createElement(this._el_33,'ul',(null as any));
     this.renderer.setElementAttribute(this._el_39,'class','dropdown-menu');
-    this._text_40 = this.renderer.createText(this._el_39,'\n            ',(null as any));
+    this._text_40 = this.renderer.createText(this._el_39,'\n          ',(null as any));
     this._el_41 = this.renderer.createElement(this._el_39,'li',(null as any));
     this._el_42 = this.renderer.createElement(this._el_41,'a',(null as any));
     this.renderer.setElementAttribute(this._el_42,'routerLink','collisiontable');
     this._RouterLinkWithHref_42_3 = new import13.RouterLinkWithHref(this.parentInjector.get(import8.Router),this.parentInjector.get(import17.ActivatedRoute),this.parentInjector.get(import18.LocationStrategy));
     this._text_43 = this.renderer.createText(this._el_42,'Collision Table',(null as any));
-    this._text_44 = this.renderer.createText(this._el_39,'\n            ',(null as any));
+    this._text_44 = this.renderer.createText(this._el_39,'\n          ',(null as any));
     this._el_45 = this.renderer.createElement(this._el_39,'li',(null as any));
     this._el_46 = this.renderer.createElement(this._el_45,'a',(null as any));
     this.renderer.setElementAttribute(this._el_46,'routerLink','unetsteam');
     this._RouterLinkWithHref_46_3 = new import13.RouterLinkWithHref(this.parentInjector.get(import8.Router),this.parentInjector.get(import17.ActivatedRoute),this.parentInjector.get(import18.LocationStrategy));
     this._text_47 = this.renderer.createText(this._el_46,'Unet/Steamworks',(null as any));
     this._text_48 = this.renderer.createText(this._el_39,'\n            ',(null as any));
-    this._text_49 = this.renderer.createText(this._el_39,'\n          ',(null as any));
-    this._text_50 = this.renderer.createText(this._el_33,'\n          ',(null as any));
-    this._text_51 = this.renderer.createText(this._el_27,'\n          ',(null as any));
-    this._el_52 = this.renderer.createElement(this._el_27,'li',(null as any));
-    this.renderer.setElementAttribute(this._el_52,'class','dropdown');
-    this._text_53 = this.renderer.createText(this._el_52,'\n          ',(null as any));
-    this._el_54 = this.renderer.createElement(this._el_52,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_54,'aria-expanded','false');
-    this.renderer.setElementAttribute(this._el_54,'aria-haspopup','true');
-    this.renderer.setElementAttribute(this._el_54,'class','dropdown-toggle');
-    this.renderer.setElementAttribute(this._el_54,'data-toggle','dropdown');
-    this.renderer.setElementAttribute(this._el_54,'href','#');
-    this.renderer.setElementAttribute(this._el_54,'role','button');
-    this._text_55 = this.renderer.createText(this._el_54,'Unity Official ',(null as any));
-    this._el_56 = this.renderer.createElement(this._el_54,'span',(null as any));
-    this.renderer.setElementAttribute(this._el_56,'class','caret');
-    this._text_57 = this.renderer.createText(this._el_52,'\n          ',(null as any));
-    this._el_58 = this.renderer.createElement(this._el_52,'ul',(null as any));
-    this.renderer.setElementAttribute(this._el_58,'class','dropdown-menu');
-    this._text_59 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._el_60 = this.renderer.createElement(this._el_58,'li',(null as any));
-    this._el_61 = this.renderer.createElement(this._el_60,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_61,'href','https://docs.unity3d.com/ScriptReference/');
-    this._text_62 = this.renderer.createText(this._el_61,'Scripting API',(null as any));
-    this._text_63 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._el_64 = this.renderer.createElement(this._el_58,'li',(null as any));
-    this._el_65 = this.renderer.createElement(this._el_64,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_65,'href','https://forum.unity3d.com/');
-    this._text_66 = this.renderer.createText(this._el_65,'Forums',(null as any));
-    this._text_67 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._el_68 = this.renderer.createElement(this._el_58,'li',(null as any));
-    this._el_69 = this.renderer.createElement(this._el_68,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_69,'href','http://wiki.unity3d.com/index.php/Main_Page');
-    this._text_70 = this.renderer.createText(this._el_69,'Wiki',(null as any));
-    this._text_71 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._el_72 = this.renderer.createElement(this._el_58,'li',(null as any));
-    this._el_73 = this.renderer.createElement(this._el_72,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_73,'href','https://www.youtube.com/user/Unity3D');
-    this._text_74 = this.renderer.createText(this._el_73,'YouTube',(null as any));
-    this._text_75 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._el_76 = this.renderer.createElement(this._el_58,'li',(null as any));
-    this._el_77 = this.renderer.createElement(this._el_76,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_77,'href','https://www.unity3d.com/learn');
-    this._text_78 = this.renderer.createText(this._el_77,'Learn',(null as any));
-    this._text_79 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._el_80 = this.renderer.createElement(this._el_58,'li',(null as any));
-    this._el_81 = this.renderer.createElement(this._el_80,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_81,'href','https://store.unity.com/front-page');
-    this._text_82 = this.renderer.createText(this._el_81,'Get Unity',(null as any));
-    this._text_83 = this.renderer.createText(this._el_58,'\n            ',(null as any));
-    this._text_84 = this.renderer.createText(this._el_58,'\n          ',(null as any));
-    this._text_85 = this.renderer.createText(this._el_52,'\n        ',(null as any));
-    this._text_86 = this.renderer.createText(this._el_27,'\n        \n      ',(null as any));
-    this._text_87 = this.renderer.createText(this._el_25,'\n      ',(null as any));
-    this._el_88 = this.renderer.createElement(this._el_25,'ul',(null as any));
-    this.renderer.setElementAttribute(this._el_88,'class','nav navbar-nav navbar-right');
-    this._text_89 = this.renderer.createText(this._el_88,'\n        ',(null as any));
-    this._anchor_90 = this.renderer.createTemplateAnchor(this._el_88,(null as any));
-    this._appEl_90 = new import2.AppElement(90,88,this,this._anchor_90);
-    this._TemplateRef_90_5 = new import20.TemplateRef_(this._appEl_90,viewFactory_HeaderComponent1);
-    this._NgIf_90_6 = new import16.NgIf(this._appEl_90.vcRef,this._TemplateRef_90_5);
-    this._text_91 = this.renderer.createText(this._el_88,'\n        ',(null as any));
-    this._anchor_92 = this.renderer.createTemplateAnchor(this._el_88,(null as any));
-    this._appEl_92 = new import2.AppElement(92,88,this,this._anchor_92);
-    this._TemplateRef_92_5 = new import20.TemplateRef_(this._appEl_92,viewFactory_HeaderComponent2);
-    this._NgIf_92_6 = new import16.NgIf(this._appEl_92.vcRef,this._TemplateRef_92_5);
-    this._text_93 = this.renderer.createText(this._el_88,'\n        ',(null as any));
-    this._anchor_94 = this.renderer.createTemplateAnchor(this._el_88,(null as any));
-    this._appEl_94 = new import2.AppElement(94,88,this,this._anchor_94);
-    this._TemplateRef_94_5 = new import20.TemplateRef_(this._appEl_94,viewFactory_HeaderComponent3);
-    this._NgIf_94_6 = new import16.NgIf(this._appEl_94.vcRef,this._TemplateRef_94_5);
-    this._text_95 = this.renderer.createText(this._el_88,'      \n      ',(null as any));
-    this._text_96 = this.renderer.createText(this._el_25,'\n    ',(null as any));
-    this._text_97 = this.renderer.createText(this._el_3,'\n  ',(null as any));
-    this._text_98 = this.renderer.createText(this._el_1,'\n',(null as any));
-    this._text_99 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._el_49 = this.renderer.createElement(this._el_39,'li',(null as any));
+    this.renderer.setElementAttribute(this._el_49,'class','divider');
+    this._text_50 = this.renderer.createText(this._el_39,'\n            ',(null as any));
+    this._el_51 = this.renderer.createElement(this._el_39,'li',(null as any));
+    this.renderer.setElementAttribute(this._el_51,'class','dropdown-submenu');
+    this._text_52 = this.renderer.createText(this._el_51,'\n              ',(null as any));
+    this._el_53 = this.renderer.createElement(this._el_51,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_53,'href','#');
+    this.renderer.setElementAttribute(this._el_53,'tabindex','-1');
+    this._text_54 = this.renderer.createText(this._el_53,'Free Assets',(null as any));
+    this._text_55 = this.renderer.createText(this._el_51,'\n              ',(null as any));
+    this._el_56 = this.renderer.createElement(this._el_51,'ul',(null as any));
+    this.renderer.setElementAttribute(this._el_56,'class','dropdown-menu');
+    this._text_57 = this.renderer.createText(this._el_56,'\n                ',(null as any));
+    this._el_58 = this.renderer.createElement(this._el_56,'li',(null as any));
+    this.renderer.setElementAttribute(this._el_58,'class','dropdown-submenu');
+    this._text_59 = this.renderer.createText(this._el_58,'\n                    ',(null as any));
+    this._el_60 = this.renderer.createElement(this._el_58,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_60,'href','#');
+    this._text_61 = this.renderer.createText(this._el_60,'Music',(null as any));
+    this._text_62 = this.renderer.createText(this._el_58,'\n                    ',(null as any));
+    this._el_63 = this.renderer.createElement(this._el_58,'ul',(null as any));
+    this.renderer.setElementAttribute(this._el_63,'class','dropdown-menu');
+    this._text_64 = this.renderer.createText(this._el_63,'\n                      ',(null as any));
+    this._el_65 = this.renderer.createElement(this._el_63,'li',(null as any));
+    this._el_66 = this.renderer.createElement(this._el_65,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_66,'href','http://www.chibola.com/crfml');
+    this._text_67 = this.renderer.createText(this._el_66,'Chibola',(null as any));
+    this._text_68 = this.renderer.createText(this._el_63,'\n                      ',(null as any));
+    this._el_69 = this.renderer.createElement(this._el_63,'li',(null as any));
+    this._el_70 = this.renderer.createElement(this._el_69,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_70,'href','http://incompetech.com/');
+    this._text_71 = this.renderer.createText(this._el_70,'Incompetech',(null as any));
+    this._text_72 = this.renderer.createText(this._el_63,'\n                    ',(null as any));
+    this._text_73 = this.renderer.createText(this._el_58,'\n                ',(null as any));
+    this._text_74 = this.renderer.createText(this._el_56,'\n                ',(null as any));
+    this._el_75 = this.renderer.createElement(this._el_56,'li',(null as any));
+    this.renderer.setElementAttribute(this._el_75,'class','dropdown-submenu');
+    this._text_76 = this.renderer.createText(this._el_75,'\n                    ',(null as any));
+    this._el_77 = this.renderer.createElement(this._el_75,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_77,'href','#');
+    this._text_78 = this.renderer.createText(this._el_77,'Sounds',(null as any));
+    this._text_79 = this.renderer.createText(this._el_75,'\n                    ',(null as any));
+    this._el_80 = this.renderer.createElement(this._el_75,'ul',(null as any));
+    this.renderer.setElementAttribute(this._el_80,'class','dropdown-menu');
+    this._text_81 = this.renderer.createText(this._el_80,'\n                      ',(null as any));
+    this._el_82 = this.renderer.createElement(this._el_80,'li',(null as any));
+    this._el_83 = this.renderer.createElement(this._el_82,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_83,'href','http://www.freesound.org');
+    this._text_84 = this.renderer.createText(this._el_83,'FreeSound.org',(null as any));
+    this._text_85 = this.renderer.createText(this._el_80,'\n                    ',(null as any));
+    this._text_86 = this.renderer.createText(this._el_75,'\n                ',(null as any));
+    this._text_87 = this.renderer.createText(this._el_56,'\n                ',(null as any));
+    this._el_88 = this.renderer.createElement(this._el_56,'li',(null as any));
+    this.renderer.setElementAttribute(this._el_88,'class','dropdown-submenu');
+    this._text_89 = this.renderer.createText(this._el_88,'\n                    ',(null as any));
+    this._el_90 = this.renderer.createElement(this._el_88,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_90,'href','#');
+    this._text_91 = this.renderer.createText(this._el_90,'Models and More',(null as any));
+    this._text_92 = this.renderer.createText(this._el_88,'\n                    ',(null as any));
+    this._el_93 = this.renderer.createElement(this._el_88,'ul',(null as any));
+    this.renderer.setElementAttribute(this._el_93,'class','dropdown-menu');
+    this._text_94 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_95 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_96 = this.renderer.createElement(this._el_95,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_96,'href','http://www.blendswap.com/');
+    this._text_97 = this.renderer.createText(this._el_96,'BlendSwap.com',(null as any));
+    this._text_98 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_99 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_100 = this.renderer.createElement(this._el_99,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_100,'href','http://sketchup.google.com/3dwarehouse/');
+    this._text_101 = this.renderer.createText(this._el_100,'Google 3d Warehouse',(null as any));
+    this._text_102 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_103 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_104 = this.renderer.createElement(this._el_103,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_104,'href','http://www.cgtextures.com/');
+    this._text_105 = this.renderer.createText(this._el_104,'cgTextures',(null as any));
+    this._text_106 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_107 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_108 = this.renderer.createElement(this._el_107,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_108,'href','http://opengameart.org/');
+    this._text_109 = this.renderer.createText(this._el_108,'OpenGameArt.org',(null as any));
+    this._text_110 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_111 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_112 = this.renderer.createElement(this._el_111,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_112,'href','http://www.glitchthegame.com/');
+    this._text_113 = this.renderer.createText(this._el_112,'Glitch Garden',(null as any));
+    this._text_114 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_115 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_116 = this.renderer.createElement(this._el_115,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_116,'href','http://kenney.nl/assets');
+    this._text_117 = this.renderer.createText(this._el_116,'Kenney Sprites/Tiles',(null as any));
+    this._text_118 = this.renderer.createText(this._el_93,'\n                      ',(null as any));
+    this._el_119 = this.renderer.createElement(this._el_93,'li',(null as any));
+    this._el_120 = this.renderer.createElement(this._el_119,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_120,'href','http://www.procedural-worlds.com/blog/best-free-unity-assets-categorised-mega-list/');
+    this._text_121 = this.renderer.createText(this._el_120,'Procedural Worlds Asset List',(null as any));
+    this._text_122 = this.renderer.createText(this._el_93,'\n                    ',(null as any));
+    this._text_123 = this.renderer.createText(this._el_88,'\n                ',(null as any));
+    this._text_124 = this.renderer.createText(this._el_56,'\n              ',(null as any));
+    this._text_125 = this.renderer.createText(this._el_51,'\n            ',(null as any));
+    this._text_126 = this.renderer.createText(this._el_39,'\n          ',(null as any));
+    this._text_127 = this.renderer.createText(this._el_33,'\n          ',(null as any));
+    this._el_128 = this.renderer.createElement(this._el_27,'li',(null as any));
+    this.renderer.setElementAttribute(this._el_128,'class','dropdown');
+    this._text_129 = this.renderer.createText(this._el_128,'\n          ',(null as any));
+    this._el_130 = this.renderer.createElement(this._el_128,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_130,'aria-expanded','false');
+    this.renderer.setElementAttribute(this._el_130,'aria-haspopup','true');
+    this.renderer.setElementAttribute(this._el_130,'class','dropdown-toggle');
+    this.renderer.setElementAttribute(this._el_130,'data-toggle','dropdown');
+    this.renderer.setElementAttribute(this._el_130,'href','#');
+    this.renderer.setElementAttribute(this._el_130,'role','button');
+    this._text_131 = this.renderer.createText(this._el_130,'Unity Official ',(null as any));
+    this._el_132 = this.renderer.createElement(this._el_130,'span',(null as any));
+    this.renderer.setElementAttribute(this._el_132,'class','caret');
+    this._text_133 = this.renderer.createText(this._el_128,'\n          ',(null as any));
+    this._el_134 = this.renderer.createElement(this._el_128,'ul',(null as any));
+    this.renderer.setElementAttribute(this._el_134,'class','dropdown-menu');
+    this._text_135 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._el_136 = this.renderer.createElement(this._el_134,'li',(null as any));
+    this._el_137 = this.renderer.createElement(this._el_136,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_137,'href','https://docs.unity3d.com/ScriptReference/');
+    this._text_138 = this.renderer.createText(this._el_137,'Scripting API',(null as any));
+    this._text_139 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._el_140 = this.renderer.createElement(this._el_134,'li',(null as any));
+    this._el_141 = this.renderer.createElement(this._el_140,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_141,'href','https://forum.unity3d.com/');
+    this._text_142 = this.renderer.createText(this._el_141,'Forums',(null as any));
+    this._text_143 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._el_144 = this.renderer.createElement(this._el_134,'li',(null as any));
+    this._el_145 = this.renderer.createElement(this._el_144,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_145,'href','http://wiki.unity3d.com/index.php/Main_Page');
+    this._text_146 = this.renderer.createText(this._el_145,'Wiki',(null as any));
+    this._text_147 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._el_148 = this.renderer.createElement(this._el_134,'li',(null as any));
+    this._el_149 = this.renderer.createElement(this._el_148,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_149,'href','https://www.youtube.com/user/Unity3D');
+    this._text_150 = this.renderer.createText(this._el_149,'YouTube',(null as any));
+    this._text_151 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._el_152 = this.renderer.createElement(this._el_134,'li',(null as any));
+    this._el_153 = this.renderer.createElement(this._el_152,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_153,'href','https://www.unity3d.com/learn');
+    this._text_154 = this.renderer.createText(this._el_153,'Learn',(null as any));
+    this._text_155 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._el_156 = this.renderer.createElement(this._el_134,'li',(null as any));
+    this._el_157 = this.renderer.createElement(this._el_156,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_157,'href','https://store.unity.com/front-page');
+    this._text_158 = this.renderer.createText(this._el_157,'Get Unity',(null as any));
+    this._text_159 = this.renderer.createText(this._el_134,'\n            ',(null as any));
+    this._text_160 = this.renderer.createText(this._el_134,'\n          ',(null as any));
+    this._text_161 = this.renderer.createText(this._el_128,'\n        ',(null as any));
+    this._text_162 = this.renderer.createText(this._el_27,'\n        \n      ',(null as any));
+    this._text_163 = this.renderer.createText(this._el_25,'\n      ',(null as any));
+    this._el_164 = this.renderer.createElement(this._el_25,'ul',(null as any));
+    this.renderer.setElementAttribute(this._el_164,'class','nav navbar-nav navbar-right');
+    this._text_165 = this.renderer.createText(this._el_164,'\n        ',(null as any));
+    this._anchor_166 = this.renderer.createTemplateAnchor(this._el_164,(null as any));
+    this._appEl_166 = new import2.AppElement(166,164,this,this._anchor_166);
+    this._TemplateRef_166_5 = new import20.TemplateRef_(this._appEl_166,viewFactory_HeaderComponent1);
+    this._NgIf_166_6 = new import16.NgIf(this._appEl_166.vcRef,this._TemplateRef_166_5);
+    this._text_167 = this.renderer.createText(this._el_164,'\n        ',(null as any));
+    this._anchor_168 = this.renderer.createTemplateAnchor(this._el_164,(null as any));
+    this._appEl_168 = new import2.AppElement(168,164,this,this._anchor_168);
+    this._TemplateRef_168_5 = new import20.TemplateRef_(this._appEl_168,viewFactory_HeaderComponent2);
+    this._NgIf_168_6 = new import16.NgIf(this._appEl_168.vcRef,this._TemplateRef_168_5);
+    this._text_169 = this.renderer.createText(this._el_164,'\n        ',(null as any));
+    this._anchor_170 = this.renderer.createTemplateAnchor(this._el_164,(null as any));
+    this._appEl_170 = new import2.AppElement(170,164,this,this._anchor_170);
+    this._TemplateRef_170_5 = new import20.TemplateRef_(this._appEl_170,viewFactory_HeaderComponent3);
+    this._NgIf_170_6 = new import16.NgIf(this._appEl_170.vcRef,this._TemplateRef_170_5);
+    this._text_171 = this.renderer.createText(this._el_164,'      \n      ',(null as any));
+    this._text_172 = this.renderer.createText(this._el_25,'\n    ',(null as any));
+    this._text_173 = this.renderer.createText(this._el_3,'\n  ',(null as any));
+    this._text_174 = this.renderer.createText(this._el_1,'\n',(null as any));
+    this._text_175 = this.renderer.createText(parentRenderNode,'\n',(null as any));
     var disposable_0:Function = this.renderer.listen(this._el_20,'click',this.eventHandler(this._handle_click_20_0.bind(this)));
     this._expr_1 = import7.UNINITIALIZED;
     this._expr_2 = import7.UNINITIALIZED;
@@ -418,57 +594,133 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
       this._el_46,
       this._text_47,
       this._text_48,
-      this._text_49,
+      this._el_49,
       this._text_50,
-      this._text_51,
-      this._el_52,
-      this._text_53,
-      this._el_54,
+      this._el_51,
+      this._text_52,
+      this._el_53,
+      this._text_54,
       this._text_55,
       this._el_56,
       this._text_57,
       this._el_58,
       this._text_59,
       this._el_60,
-      this._el_61,
+      this._text_61,
       this._text_62,
-      this._text_63,
-      this._el_64,
+      this._el_63,
+      this._text_64,
       this._el_65,
-      this._text_66,
+      this._el_66,
       this._text_67,
-      this._el_68,
+      this._text_68,
       this._el_69,
-      this._text_70,
+      this._el_70,
       this._text_71,
-      this._el_72,
-      this._el_73,
+      this._text_72,
+      this._text_73,
       this._text_74,
-      this._text_75,
-      this._el_76,
+      this._el_75,
+      this._text_76,
       this._el_77,
       this._text_78,
       this._text_79,
       this._el_80,
-      this._el_81,
-      this._text_82,
-      this._text_83,
+      this._text_81,
+      this._el_82,
+      this._el_83,
       this._text_84,
       this._text_85,
       this._text_86,
       this._text_87,
       this._el_88,
       this._text_89,
-      this._anchor_90,
+      this._el_90,
       this._text_91,
-      this._anchor_92,
-      this._text_93,
-      this._anchor_94,
-      this._text_95,
-      this._text_96,
+      this._text_92,
+      this._el_93,
+      this._text_94,
+      this._el_95,
+      this._el_96,
       this._text_97,
       this._text_98,
-      this._text_99
+      this._el_99,
+      this._el_100,
+      this._text_101,
+      this._text_102,
+      this._el_103,
+      this._el_104,
+      this._text_105,
+      this._text_106,
+      this._el_107,
+      this._el_108,
+      this._text_109,
+      this._text_110,
+      this._el_111,
+      this._el_112,
+      this._text_113,
+      this._text_114,
+      this._el_115,
+      this._el_116,
+      this._text_117,
+      this._text_118,
+      this._el_119,
+      this._el_120,
+      this._text_121,
+      this._text_122,
+      this._text_123,
+      this._text_124,
+      this._text_125,
+      this._text_126,
+      this._text_127,
+      this._el_128,
+      this._text_129,
+      this._el_130,
+      this._text_131,
+      this._el_132,
+      this._text_133,
+      this._el_134,
+      this._text_135,
+      this._el_136,
+      this._el_137,
+      this._text_138,
+      this._text_139,
+      this._el_140,
+      this._el_141,
+      this._text_142,
+      this._text_143,
+      this._el_144,
+      this._el_145,
+      this._text_146,
+      this._text_147,
+      this._el_148,
+      this._el_149,
+      this._text_150,
+      this._text_151,
+      this._el_152,
+      this._el_153,
+      this._text_154,
+      this._text_155,
+      this._el_156,
+      this._el_157,
+      this._text_158,
+      this._text_159,
+      this._text_160,
+      this._text_161,
+      this._text_162,
+      this._text_163,
+      this._el_164,
+      this._text_165,
+      this._anchor_166,
+      this._text_167,
+      this._anchor_168,
+      this._text_169,
+      this._anchor_170,
+      this._text_171,
+      this._text_172,
+      this._text_173,
+      this._text_174,
+      this._text_175
     ]
     ,[
       disposable_0,
@@ -485,12 +737,12 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
     if (((token === import14.RouterLinkActive) && ((29 <= requestNodeIndex) && (requestNodeIndex <= 31)))) { return this._RouterLinkActive_29_3; }
     if (((token === import13.RouterLinkWithHref) && ((42 <= requestNodeIndex) && (requestNodeIndex <= 43)))) { return this._RouterLinkWithHref_42_3; }
     if (((token === import13.RouterLinkWithHref) && ((46 <= requestNodeIndex) && (requestNodeIndex <= 47)))) { return this._RouterLinkWithHref_46_3; }
-    if (((token === import20.TemplateRef) && (90 === requestNodeIndex))) { return this._TemplateRef_90_5; }
-    if (((token === import16.NgIf) && (90 === requestNodeIndex))) { return this._NgIf_90_6; }
-    if (((token === import20.TemplateRef) && (92 === requestNodeIndex))) { return this._TemplateRef_92_5; }
-    if (((token === import16.NgIf) && (92 === requestNodeIndex))) { return this._NgIf_92_6; }
-    if (((token === import20.TemplateRef) && (94 === requestNodeIndex))) { return this._TemplateRef_94_5; }
-    if (((token === import16.NgIf) && (94 === requestNodeIndex))) { return this._NgIf_94_6; }
+    if (((token === import20.TemplateRef) && (166 === requestNodeIndex))) { return this._TemplateRef_166_5; }
+    if (((token === import16.NgIf) && (166 === requestNodeIndex))) { return this._NgIf_166_6; }
+    if (((token === import20.TemplateRef) && (168 === requestNodeIndex))) { return this._TemplateRef_168_5; }
+    if (((token === import16.NgIf) && (168 === requestNodeIndex))) { return this._NgIf_168_6; }
+    if (((token === import20.TemplateRef) && (170 === requestNodeIndex))) { return this._TemplateRef_170_5; }
+    if (((token === import16.NgIf) && (170 === requestNodeIndex))) { return this._NgIf_170_6; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
@@ -542,17 +794,17 @@ class _View_HeaderComponent0 extends import1.AppView<import3.HeaderComponent> {
     if ((changes !== (null as any))) { this._RouterLinkWithHref_46_3.ngOnChanges(changes); }
     const currVal_13:boolean = !this.context.isLoggedIn();
     if (import4.checkBinding(throwOnChange,this._expr_13,currVal_13)) {
-      this._NgIf_90_6.ngIf = currVal_13;
+      this._NgIf_166_6.ngIf = currVal_13;
       this._expr_13 = currVal_13;
     }
     const currVal_14:boolean = !this.context.isLoggedIn();
     if (import4.checkBinding(throwOnChange,this._expr_14,currVal_14)) {
-      this._NgIf_92_6.ngIf = currVal_14;
+      this._NgIf_168_6.ngIf = currVal_14;
       this._expr_14 = currVal_14;
     }
     const currVal_15:any = this.context.isLoggedIn();
     if (import4.checkBinding(throwOnChange,this._expr_15,currVal_15)) {
-      this._NgIf_94_6.ngIf = currVal_15;
+      this._NgIf_170_6.ngIf = currVal_15;
       this._expr_15 = currVal_15;
     }
     this.detectContentChildrenChanges(throwOnChange);

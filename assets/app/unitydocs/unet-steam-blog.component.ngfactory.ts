@@ -55,34 +55,34 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
   _text_6:any;
   _text_7:any;
   _el_8:any;
-  _text_9:any;
-  _el_10:any;
+  _el_9:any;
+  _text_10:any;
   _el_11:any;
   _text_12:any;
-  _el_13:any;
-  _text_14:any;
-  _el_15:any;
-  _text_16:any;
-  _text_17:any;
+  _text_13:any;
+  _el_14:any;
+  _text_15:any;
+  _el_16:any;
+  _el_17:any;
   _text_18:any;
   _el_19:any;
   _text_20:any;
   _el_21:any;
   _text_22:any;
   _text_23:any;
-  _el_24:any;
-  _text_25:any;
+  _text_24:any;
+  _el_25:any;
   _text_26:any;
-  _text_27:any;
-  _el_28:any;
+  _el_27:any;
+  _text_28:any;
   _text_29:any;
   _el_30:any;
   _text_31:any;
   _text_32:any;
-  _el_33:any;
-  _text_34:any;
-  _el_35:any;
-  _text_36:any;
+  _text_33:any;
+  _el_34:any;
+  _text_35:any;
+  _el_36:any;
   _text_37:any;
   _text_38:any;
   _el_39:any;
@@ -90,11 +90,11 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
   _el_41:any;
   _text_42:any;
   _text_43:any;
-  _el_44:any;
-  _text_45:any;
+  _text_44:any;
+  _el_45:any;
   _text_46:any;
-  _text_47:any;
-  _el_48:any;
+  _el_47:any;
+  _text_48:any;
   _text_49:any;
   _el_50:any;
   _text_51:any;
@@ -111,155 +111,155 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
   _el_62:any;
   _text_63:any;
   _text_64:any;
-  _el_65:any;
-  _text_66:any;
-  _el_67:any;
-  _text_68:any;
+  _text_65:any;
+  _el_66:any;
+  _text_67:any;
+  _el_68:any;
   _text_69:any;
   _text_70:any;
   _el_71:any;
   _text_72:any;
-  _text_73:any;
-  _el_74:any;
-  _el_75:any;
+  _el_73:any;
+  _text_74:any;
+  _text_75:any;
   _text_76:any;
   _el_77:any;
   _text_78:any;
-  _el_79:any;
-  _text_80:any;
-  _text_81:any;
-  _el_82:any;
-  _text_83:any;
-  _el_84:any;
-  _text_85:any;
+  _text_79:any;
+  _el_80:any;
+  _el_81:any;
+  _text_82:any;
+  _el_83:any;
+  _text_84:any;
+  _el_85:any;
   _text_86:any;
-  _el_87:any;
+  _text_87:any;
   _el_88:any;
   _text_89:any;
   _el_90:any;
   _text_91:any;
   _text_92:any;
   _el_93:any;
-  _text_94:any;
-  _el_95:any;
+  _el_94:any;
+  _text_95:any;
   _el_96:any;
   _text_97:any;
-  _el_98:any;
-  _text_99:any;
+  _text_98:any;
+  _el_99:any;
   _text_100:any;
   _el_101:any;
-  _text_102:any;
-  _el_103:any;
-  _text_104:any;
+  _el_102:any;
+  _text_103:any;
+  _el_104:any;
   _text_105:any;
-  _el_106:any;
-  _text_107:any;
+  _text_106:any;
+  _el_107:any;
   _text_108:any;
-  _text_109:any;
-  _el_110:any;
+  _el_109:any;
+  _text_110:any;
   _text_111:any;
   _el_112:any;
-  _el_113:any;
+  _text_113:any;
   _text_114:any;
-  _el_115:any;
-  _text_116:any;
+  _text_115:any;
+  _el_116:any;
   _text_117:any;
   _el_118:any;
-  _text_119:any;
-  _el_120:any;
+  _el_119:any;
+  _text_120:any;
   _el_121:any;
   _text_122:any;
-  _el_123:any;
-  _text_124:any;
+  _text_123:any;
+  _el_124:any;
   _text_125:any;
   _el_126:any;
-  _text_127:any;
-  _el_128:any;
-  _text_129:any;
+  _el_127:any;
+  _text_128:any;
+  _el_129:any;
   _text_130:any;
-  _el_131:any;
-  _text_132:any;
-  _el_133:any;
-  _text_134:any;
+  _text_131:any;
+  _el_132:any;
+  _text_133:any;
+  _el_134:any;
   _text_135:any;
-  _el_136:any;
+  _text_136:any;
   _el_137:any;
   _text_138:any;
   _el_139:any;
   _text_140:any;
   _text_141:any;
   _el_142:any;
-  _text_143:any;
-  _el_144:any;
+  _el_143:any;
+  _text_144:any;
   _el_145:any;
   _text_146:any;
-  _el_147:any;
-  _text_148:any;
+  _text_147:any;
+  _el_148:any;
   _text_149:any;
   _el_150:any;
-  _text_151:any;
-  _el_152:any;
+  _el_151:any;
+  _text_152:any;
   _el_153:any;
   _text_154:any;
-  _el_155:any;
-  _text_156:any;
+  _text_155:any;
+  _el_156:any;
   _text_157:any;
   _el_158:any;
-  _text_159:any;
-  _el_160:any;
+  _el_159:any;
+  _text_160:any;
   _el_161:any;
   _text_162:any;
-  _el_163:any;
-  _text_164:any;
+  _text_163:any;
+  _el_164:any;
   _text_165:any;
   _el_166:any;
-  _text_167:any;
-  _el_168:any;
+  _el_167:any;
+  _text_168:any;
   _el_169:any;
   _text_170:any;
-  _el_171:any;
-  _text_172:any;
+  _text_171:any;
+  _el_172:any;
   _text_173:any;
   _el_174:any;
-  _text_175:any;
-  _el_176:any;
+  _el_175:any;
+  _text_176:any;
   _el_177:any;
   _text_178:any;
-  _el_179:any;
-  _text_180:any;
+  _text_179:any;
+  _el_180:any;
   _text_181:any;
   _el_182:any;
-  _text_183:any;
+  _el_183:any;
   _text_184:any;
   _el_185:any;
   _text_186:any;
-  _el_187:any;
-  _text_188:any;
+  _text_187:any;
+  _el_188:any;
   _text_189:any;
-  _el_190:any;
+  _text_190:any;
   _el_191:any;
   _text_192:any;
   _el_193:any;
   _text_194:any;
   _text_195:any;
   _el_196:any;
-  _text_197:any;
-  _el_198:any;
+  _el_197:any;
+  _text_198:any;
   _el_199:any;
   _text_200:any;
-  _el_201:any;
-  _text_202:any;
+  _text_201:any;
+  _el_202:any;
   _text_203:any;
   _el_204:any;
-  _text_205:any;
-  _el_206:any;
+  _el_205:any;
+  _text_206:any;
   _el_207:any;
   _text_208:any;
-  _el_209:any;
-  _text_210:any;
-  _el_211:any;
-  _text_212:any;
-  _text_213:any;
+  _text_209:any;
+  _el_210:any;
+  _text_211:any;
+  _el_212:any;
+  _el_213:any;
   _text_214:any;
   _el_215:any;
   _text_216:any;
@@ -267,7 +267,13 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
   _text_218:any;
   _text_219:any;
   _text_220:any;
-  _text_221:any;
+  _el_221:any;
+  _text_222:any;
+  _el_223:any;
+  _text_224:any;
+  _text_225:any;
+  _text_226:any;
+  _text_227:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_UnetSteamBlogComponent0,renderType_UnetSteamBlogComponent,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -282,257 +288,266 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
     this._el_5 = this.renderer.createElement(this._el_0,'h3',(null as any));
     this._text_6 = this.renderer.createText(this._el_5,'How to use Steamworks matchmaking with UNet\'s high level API',(null as any));
     this._text_7 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_8 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_9 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_10 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_11 = this.renderer.createElement(this._el_10,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_11,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_11,'src','/imgs/capture.png');
-    this._text_12 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_13 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_14 = this.renderer.createText(this._el_13,'\n        Interested in networking? Unity offers a high level API networking solution called UNet, which is quite appealing for many developers.\n        However.. Matchmaking aint free, and using their services can get ',(null as any));
-    this._el_15 = this.renderer.createElement(this._el_13,'strong',(null as any));
-    this._text_16 = this.renderer.createText(this._el_15,'expensive.',(null as any));
-    this._text_17 = this.renderer.createText(this._el_13,' Same strikes true\n        for other third party networking frameworks such as Photon, leaving developers thinking "if only there was a way to use Unity\'s networking features without having to rely on expensive matchmaking services!"\n    ',(null as any));
-    this._text_18 = this.renderer.createText(this._el_0,'\n\n    ',(null as any));
+    this._el_8 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._el_9 = this.renderer.createElement(this._el_8,'em',(null as any));
+    this._text_10 = this.renderer.createText(this._el_9,'Written by Roldan Melcon on January 27th, 2017.   ',(null as any));
+    this._el_11 = this.renderer.createElement(this._el_9,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_11,'class','twitter-follow-button');
+    this.renderer.setElementAttribute(this._el_11,'data-show-count','false');
+    this.renderer.setElementAttribute(this._el_11,'href','https://twitter.com/Witsbitz');
+    this._text_12 = this.renderer.createText(this._el_11,'Follow On Twitter',(null as any));
+    this._text_13 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_14 = this.renderer.createElement(this._el_0,'hr',(null as any));
+    this._text_15 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_16 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_17 = this.renderer.createElement(this._el_16,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_17,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_17,'src','/imgs/capture.png');
+    this._text_18 = this.renderer.createText(this._el_0,'\n    ',(null as any));
     this._el_19 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_20 = this.renderer.createText(this._el_19,'\n        Well if you are one of the many developers that plan on releasing their games via Steam, then you\'re in luck. Steamworks offers matchmaking as a ',(null as any));
+    this._text_20 = this.renderer.createText(this._el_19,'\n        Interested in networking? Unity offers a high level API networking solution called UNet, which is quite appealing for many developers.\n        However.. Matchmaking aint free, and using their services can get ',(null as any));
     this._el_21 = this.renderer.createElement(this._el_19,'strong',(null as any));
-    this._text_22 = this.renderer.createText(this._el_21,'free service',(null as any));
-    this._text_23 = this.renderer.createText(this._el_19,'.\n        You can use the Steamworks SDK to obtain client/connection info, then serve it to the UNet API and voila, you can use everything that Unity has to offer, ',(null as any));
-    this._el_24 = this.renderer.createElement(this._el_19,'em',(null as any));
-    this._text_25 = this.renderer.createText(this._el_24,'for free!',(null as any));
-    this._text_26 = this.renderer.createText(this._el_19,' This is a guide for connecting Steamworks matchmaking services\n        to Unity\'s hlapi, at the time of writing this there are virtually no resources on the subject so I hope this blog post serves as helpful tool for getting started.\n    ',(null as any));
-    this._text_27 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_28 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_29 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_30 = this.renderer.createElement(this._el_0,'h2',(null as any));
-    this._text_31 = this.renderer.createText(this._el_30,' Getting Started ',(null as any));
-    this._text_32 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_33 = this.renderer.createElement(this._el_0,'h4',(null as any));
-    this._text_34 = this.renderer.createText(this._el_33,' ',(null as any));
-    this._el_35 = this.renderer.createElement(this._el_33,'strong',(null as any));
-    this._text_36 = this.renderer.createText(this._el_35,'What you\'ll need',(null as any));
-    this._text_37 = this.renderer.createText(this._el_33,' ',(null as any));
+    this._text_22 = this.renderer.createText(this._el_21,'expensive.',(null as any));
+    this._text_23 = this.renderer.createText(this._el_19,' Same strikes true\n        for other third party networking frameworks such as Photon, leaving developers thinking "if only there was a way to use Unity\'s networking features without having to rely on expensive matchmaking services!"\n    ',(null as any));
+    this._text_24 = this.renderer.createText(this._el_0,'\n\n    ',(null as any));
+    this._el_25 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_26 = this.renderer.createText(this._el_25,'\n        Well if you are one of the many developers that plan on releasing their games via Steam, then you\'re in luck. Steamworks offers matchmaking as a ',(null as any));
+    this._el_27 = this.renderer.createElement(this._el_25,'strong',(null as any));
+    this._text_28 = this.renderer.createText(this._el_27,'free service',(null as any));
+    this._text_29 = this.renderer.createText(this._el_25,'.\n        You can use the Steamworks SDK to obtain client/connection info, then serve it to the UNet API and voila, you can use everything that Unity has to offer, ',(null as any));
+    this._el_30 = this.renderer.createElement(this._el_25,'em',(null as any));
+    this._text_31 = this.renderer.createText(this._el_30,'for free!',(null as any));
+    this._text_32 = this.renderer.createText(this._el_25,' This is a guide for connecting Steamworks matchmaking services\n        to Unity\'s hlapi, at the time of writing this there are virtually no resources on the subject so I hope this blog post serves as helpful tool for getting started.\n    ',(null as any));
+    this._text_33 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_34 = this.renderer.createElement(this._el_0,'hr',(null as any));
+    this._text_35 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_36 = this.renderer.createElement(this._el_0,'h2',(null as any));
+    this._text_37 = this.renderer.createText(this._el_36,' Getting Started ',(null as any));
     this._text_38 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_39 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_40 = this.renderer.createText(this._el_39,'\n        You can get the completed project as well as the starter project from my ',(null as any));
-    this._el_41 = this.renderer.createElement(this._el_39,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_41,'href','https://github.com/WitsBitz/UNET-Steamworks-Integration');
-    this._text_42 = this.renderer.createText(this._el_41,'Github repository.',(null as any));
-    this._text_43 = this.renderer.createText(this._el_39,' \n        The starter project is essentially a finished version of the ',(null as any));
-    this._el_44 = this.renderer.createElement(this._el_39,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_44,'href','https://unity3d.com/learn/tutorials/topics/multiplayer-networking');
-    this._text_45 = this.renderer.createText(this._el_44,' official Unity multiplayer networking example',(null as any));
-    this._text_46 = this.renderer.createText(this._el_39,' so if you are completely new to UNet I advise you check it out.\n    ',(null as any));
-    this._text_47 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_48 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_49 = this.renderer.createText(this._el_48,'\n        This project also includes a plugin called Steamworks.NET, a C# wrapper for the Steamoworks SDK. For more information on Steamworks.NET.',(null as any));
-    this._el_50 = this.renderer.createElement(this._el_48,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_50,'href','https://steamworks.github.io/');
-    this._text_51 = this.renderer.createText(this._el_50,' Please visit their website. ',(null as any));
-    this._text_52 = this.renderer.createText(this._el_48,' \n    ',(null as any));
+    this._el_39 = this.renderer.createElement(this._el_0,'h4',(null as any));
+    this._text_40 = this.renderer.createText(this._el_39,' ',(null as any));
+    this._el_41 = this.renderer.createElement(this._el_39,'strong',(null as any));
+    this._text_42 = this.renderer.createText(this._el_41,'What you\'ll need',(null as any));
+    this._text_43 = this.renderer.createText(this._el_39,' ',(null as any));
+    this._text_44 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_45 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_46 = this.renderer.createText(this._el_45,'\n        You can get the completed project as well as the starter project from my ',(null as any));
+    this._el_47 = this.renderer.createElement(this._el_45,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_47,'href','https://github.com/WitsBitz/UNET-Steamworks-Integration');
+    this._text_48 = this.renderer.createText(this._el_47,'Github repository.',(null as any));
+    this._text_49 = this.renderer.createText(this._el_45,' \n        The starter project is essentially a finished version of the ',(null as any));
+    this._el_50 = this.renderer.createElement(this._el_45,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_50,'href','https://unity3d.com/learn/tutorials/topics/multiplayer-networking');
+    this._text_51 = this.renderer.createText(this._el_50,' official Unity multiplayer networking example',(null as any));
+    this._text_52 = this.renderer.createText(this._el_45,' so if you are completely new to UNet I advise you check it out.\n    ',(null as any));
     this._text_53 = this.renderer.createText(this._el_0,'\n    ',(null as any));
     this._el_54 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_55 = this.renderer.createText(this._el_54,'\n        Please keep in mind that this is an ',(null as any));
-    this._el_56 = this.renderer.createElement(this._el_54,'strong',(null as any));
-    this._text_57 = this.renderer.createText(this._el_56,'absolute barebones implementation',(null as any));
-    this._text_58 = this.renderer.createText(this._el_54,' of Steamworks matchmaking. I tried to only put what is necessary to integegrate Steamworks into Unity. \n        There are many resources online for further development of Steamworks and UNet.\n    ',(null as any));
+    this._text_55 = this.renderer.createText(this._el_54,'\n        This project also includes a plugin called Steamworks.NET, a C# wrapper for the Steamoworks SDK. For more information on Steamworks.NET.',(null as any));
+    this._el_56 = this.renderer.createElement(this._el_54,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_56,'href','https://steamworks.github.io/');
+    this._text_57 = this.renderer.createText(this._el_56,' Please visit their website. ',(null as any));
+    this._text_58 = this.renderer.createText(this._el_54,' \n    ',(null as any));
     this._text_59 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_60 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_61 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_62 = this.renderer.createElement(this._el_0,'h2',(null as any));
-    this._text_63 = this.renderer.createText(this._el_62,' Prepare the scene ',(null as any));
-    this._text_64 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_65 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_66 = this.renderer.createText(this._el_65,'\n        The starter project contains a working network environment. If you hit ',(null as any));
-    this._el_67 = this.renderer.createElement(this._el_65,'strong',(null as any));
-    this._text_68 = this.renderer.createText(this._el_67,'play',(null as any));
-    this._text_69 = this.renderer.createText(this._el_65,' you will see that you can start a game as a host or direct connect as a client. \n        You could also set up matchmaking services to use Unity\'s matchmaking, costing you your hard earned cash(but that\'s not why we\'re here is it?).\n    ',(null as any));
+    this._el_60 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_61 = this.renderer.createText(this._el_60,'\n        Please keep in mind that this is an ',(null as any));
+    this._el_62 = this.renderer.createElement(this._el_60,'strong',(null as any));
+    this._text_63 = this.renderer.createText(this._el_62,'absolute barebones implementation',(null as any));
+    this._text_64 = this.renderer.createText(this._el_60,' of Steamworks matchmaking. I tried to only put what is necessary to integegrate Steamworks into Unity. \n        There are many resources online for further development of Steamworks and UNet.\n    ',(null as any));
+    this._text_65 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_66 = this.renderer.createElement(this._el_0,'hr',(null as any));
+    this._text_67 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_68 = this.renderer.createElement(this._el_0,'h2',(null as any));
+    this._text_69 = this.renderer.createText(this._el_68,' Prepare the scene ',(null as any));
     this._text_70 = this.renderer.createText(this._el_0,'\n    ',(null as any));
     this._el_71 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_72 = this.renderer.createText(this._el_71,'\n        First things first, delete the Network Manager gameObject as we will be creating our own. Create a UI Canvas(with an Event System) and 3 child UI Text gameObjects. Name the Canvas "Menu"\n         and the three Text objects as "Find Match", "Create Match", and "Wait Message". Add a Button Component to both the "Find Match" and "Create Match" gameObjects and change the Text fields of the Text components to\n         "Find Match" and "Create Match", adjust the fontsize to something like 22 then move them apart from one another so they are both visible in the middle of the canvas. Configure the Button components as follows.\n    ',(null as any));
-    this._text_73 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_74 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_75 = this.renderer.createElement(this._el_74,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_75,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_75,'src','/imgs/insp1.png');
-    this._text_76 = this.renderer.createText(this._el_74,'\n    ',(null as any));
-    this._el_77 = this.renderer.createElement(this._el_74,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_77,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_77,'src','/imgs/insp2.png');
-    this._text_78 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_79 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_80 = this.renderer.createText(this._el_79,'\n        With the UI objects set up, create a new Empty gameObject in the scene called "Steam Manager". Via the inspector add the script "Steam Manager" which is supplied from Steamworks.NET(This will initialize Steam when the scene begins.)\n        Create two new scripts, one named "SteamNetworkManager" and another named "SteamServerManager" and add them both to the Steam Manager gameObject. Once you\'re finished, open up the SteamServerManager script in your code editor.\n    ',(null as any));
-    this._text_81 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_82 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_83 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_84 = this.renderer.createElement(this._el_0,'h2',(null as any));
-    this._text_85 = this.renderer.createText(this._el_84,' Steam Server Manager ',(null as any));
-    this._text_86 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_87 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_88 = this.renderer.createElement(this._el_87,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_88,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_88,'src','/imgs/serverusing.png');
+    this._text_72 = this.renderer.createText(this._el_71,'\n        The starter project contains a working network environment. If you hit ',(null as any));
+    this._el_73 = this.renderer.createElement(this._el_71,'strong',(null as any));
+    this._text_74 = this.renderer.createText(this._el_73,'play',(null as any));
+    this._text_75 = this.renderer.createText(this._el_71,' you will see that you can start a game as a host or direct connect as a client. \n        You could also set up matchmaking services to use Unity\'s matchmaking, costing you your hard earned cash(but that\'s not why we\'re here is it?).\n    ',(null as any));
+    this._text_76 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_77 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_78 = this.renderer.createText(this._el_77,'\n        First things first, delete the Network Manager gameObject as we will be creating our own. Create a UI Canvas(with an Event System) and 3 child UI Text gameObjects. Name the Canvas "Menu"\n         and the three Text objects as "Find Match", "Create Match", and "Wait Message". Add a Button Component to both the "Find Match" and "Create Match" gameObjects and change the Text fields of the Text components to\n         "Find Match" and "Create Match", adjust the fontsize to something like 22 then move them apart from one another so they are both visible in the middle of the canvas. Configure the Button components as follows.\n    ',(null as any));
+    this._text_79 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_80 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_81 = this.renderer.createElement(this._el_80,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_81,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_81,'src','/imgs/insp1.png');
+    this._text_82 = this.renderer.createText(this._el_80,'\n    ',(null as any));
+    this._el_83 = this.renderer.createElement(this._el_80,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_83,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_83,'src','/imgs/insp2.png');
+    this._text_84 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_85 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_86 = this.renderer.createText(this._el_85,'\n        With the UI objects set up, create a new Empty gameObject in the scene called "Steam Manager". Via the inspector add the script "Steam Manager" which is supplied from Steamworks.NET(This will initialize Steam when the scene begins.)\n        Create two new scripts, one named "SteamNetworkManager" and another named "SteamServerManager" and add them both to the Steam Manager gameObject. Once you\'re finished, open up the SteamServerManager script in your code editor.\n    ',(null as any));
+    this._text_87 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_88 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_89 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_90 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_91 = this.renderer.createText(this._el_90,'\n        This script will initialize the game instance on Steam\'s servers, allowing you to retrieve and create meta data about it. \n        Make sure you have the following Using directives and declare an SteamServerManager instance, a bool for initialization, and a callback for for when the server successfully connects.\n    ',(null as any));
+    this._el_90 = this.renderer.createElement(this._el_0,'h2',(null as any));
+    this._text_91 = this.renderer.createText(this._el_90,' Steam Server Manager ',(null as any));
     this._text_92 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_93 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_94 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_95 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_96 = this.renderer.createElement(this._el_95,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_96,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_96,'src','/imgs/serverinit.png');
-    this._text_97 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_98 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_99 = this.renderer.createText(this._el_98,'\n         In Start we initialize the _instance variable with this instance and attach the callback to the function "OnSteamServerConnected" which we will create shortly.\n         We then create a public function named CreateServer which sets the appropriate ports and parameters for intializing our simple implementation on Steam\'s servers. Once we initialize we check to see if it failed before setting the game directory and initiating an Anonymous Login.\n    ',(null as any));
+    this._el_93 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_94 = this.renderer.createElement(this._el_93,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_94,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_94,'src','/imgs/serverusing.png');
+    this._text_95 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_96 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_97 = this.renderer.createText(this._el_96,'\n        This script will initialize the game instance on Steam\'s servers, allowing you to retrieve and create meta data about it. \n        Make sure you have the following Using directives and declare an SteamServerManager instance, a bool for initialization, and a callback for for when the server successfully connects.\n    ',(null as any));
+    this._text_98 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_99 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_100 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_101 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_102 = this.renderer.createText(this._el_101,'\n         For more information about the exact purpose of these paramaters, please check out the ',(null as any));
-    this._el_103 = this.renderer.createElement(this._el_101,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_103,'href','https://partner.steamgames.com/documentation/api');
-    this._text_104 = this.renderer.createText(this._el_103,'official Steamworks SDK documentation.',(null as any));
-    this._text_105 = this.renderer.createText(this._el_101,'\n         In addition to the official documentation, here is ',(null as any));
-    this._el_106 = this.renderer.createElement(this._el_101,'a',(null as any));
-    this.renderer.setElementAttribute(this._el_106,'href','https://github.com/rlabrecque/Steamworks.NET-GameServerTest/blob/master/Assets/Scripts/GameServerTest.cs');
-    this._text_107 = this.renderer.createText(this._el_106,'a Github repository ',(null as any));
-    this._text_108 = this.renderer.createText(this._el_101,'containing a much more broad and detailed implementation of a Steamworks gameserver.\n    ',(null as any));
-    this._text_109 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_110 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_111 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_112 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_113 = this.renderer.createElement(this._el_112,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_113,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_113,'src','/imgs/servercb.png');
-    this._text_114 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_115 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_116 = this.renderer.createText(this._el_115,'\n        This is the callback for when the matchmaking server successfully connects, now that we are connected we can start a matchmaking lobby, in this case it will be public with four max players.\n    ',(null as any));
+    this._el_101 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_102 = this.renderer.createElement(this._el_101,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_102,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_102,'src','/imgs/serverinit.png');
+    this._text_103 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_104 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_105 = this.renderer.createText(this._el_104,'\n         In Start we initialize the _instance variable with this instance and attach the callback to the function "OnSteamServerConnected" which we will create shortly.\n         We then create a public function named CreateServer which sets the appropriate ports and parameters for intializing a session on Steam\'s servers. Once we initialize we make sure it didn\'t fail, set the game directory, and initiating an Anonymous Login.\n    ',(null as any));
+    this._text_106 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_107 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_108 = this.renderer.createText(this._el_107,'\n         For more information about the exact purpose of these paramaters, please check out the ',(null as any));
+    this._el_109 = this.renderer.createElement(this._el_107,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_109,'href','https://partner.steamgames.com/documentation/api');
+    this._text_110 = this.renderer.createText(this._el_109,'official Steamworks SDK documentation.',(null as any));
+    this._text_111 = this.renderer.createText(this._el_107,'\n         In addition to the official documentation, here is ',(null as any));
+    this._el_112 = this.renderer.createElement(this._el_107,'a',(null as any));
+    this.renderer.setElementAttribute(this._el_112,'href','https://github.com/rlabrecque/Steamworks.NET-GameServerTest/blob/master/Assets/Scripts/GameServerTest.cs');
+    this._text_113 = this.renderer.createText(this._el_112,'a Github repository ',(null as any));
+    this._text_114 = this.renderer.createText(this._el_107,'containing a much more broad and detailed approach to creating a Steamworks gameserver.\n    ',(null as any));
+    this._text_115 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_116 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_117 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_118 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_119 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_120 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_121 = this.renderer.createElement(this._el_120,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_121,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_121,'src','/imgs/ondisableupdate.png');
-    this._text_122 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_123 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_124 = this.renderer.createText(this._el_123,'\n        With OnDisable we make sure to LogOff and shutdown our Gameserver, then via Update we run the GameServer callbacks as long as it is initialized.\n    ',(null as any));
+    this._el_118 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_119 = this.renderer.createElement(this._el_118,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_119,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_119,'src','/imgs/servercb.png');
+    this._text_120 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_121 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_122 = this.renderer.createText(this._el_121,'\n        This is the callback for when the matchmaking server successfully connects, now that we are connected we can start a matchmaking lobby, in this case it will be public with four max players.\n    ',(null as any));
+    this._text_123 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_124 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_125 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_126 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_127 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_128 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_129 = this.renderer.createText(this._el_128,'\n        That\'s it for SteamworksServerManager, now we can set up matchmaking. Open up SteamNetworkManager in your code editor.\n    ',(null as any));
-    this._text_130 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_131 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_132 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_133 = this.renderer.createElement(this._el_0,'h2',(null as any));
-    this._text_134 = this.renderer.createText(this._el_133,' Steam Network Manager ',(null as any));
-    this._text_135 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_136 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_137 = this.renderer.createElement(this._el_136,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_137,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_137,'src','/imgs/usingdirs.png');
+    this._el_126 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_127 = this.renderer.createElement(this._el_126,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_127,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_127,'src','/imgs/ondisableupdate.png');
+    this._text_128 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_129 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_130 = this.renderer.createText(this._el_129,'\n        With OnDisable we make sure to LogOff and shutdown our Gameserver, then via Update we run the GameServer callbacks as long as it is initialized.\n    ',(null as any));
+    this._text_131 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_132 = this.renderer.createElement(this._el_0,'hr',(null as any));
+    this._text_133 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_134 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_135 = this.renderer.createText(this._el_134,'\n        That\'s it for SteamworksServerManager, now we can set up matchmaking. Open up SteamNetworkManager in your code editor.\n    ',(null as any));
+    this._text_136 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_137 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_138 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_139 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_140 = this.renderer.createText(this._el_139,'\n        Here are the Using Directives we will be using for this script.\n    ',(null as any));
+    this._el_139 = this.renderer.createElement(this._el_0,'h2',(null as any));
+    this._text_140 = this.renderer.createText(this._el_139,' Steam Network Manager ',(null as any));
     this._text_141 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_142 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_143 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_144 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_145 = this.renderer.createElement(this._el_144,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_145,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_145,'src','/imgs/initializevar.png');
-    this._text_146 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_147 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_148 = this.renderer.createText(this._el_147,'\n        Make sure SteamNetworkManager inherits from NetworkManager not MonoBehavior, this is how we will be rigging the server and client info into UNet.\n        Create three public Text variables as references for the Text UI elements we created earlier. Also create the three callbacks for creating, entering, and retrieving Steam Lobbies. Finally add a bool that we\'ll use to check if we\'re the host.\n    ',(null as any));
+    this._el_142 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_143 = this.renderer.createElement(this._el_142,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_143,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_143,'src','/imgs/usingdirs.png');
+    this._text_144 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_145 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_146 = this.renderer.createText(this._el_145,'\n        Here are the Using Directives we will be using for this script.\n    ',(null as any));
+    this._text_147 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_148 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_149 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_150 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_151 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_152 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_153 = this.renderer.createElement(this._el_152,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_153,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_153,'src','/imgs/lobbystart.png');
-    this._text_154 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_155 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_156 = this.renderer.createText(this._el_155,'\n        On Start we deactivate the waitMsg and connect the three Lobby callbacks to the three seperate functions we\'re about to define. Then we check run a quick Debug.Log if/else statement to see if steamworks was intialized correctly.\n    ',(null as any));
+    this._el_150 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_151 = this.renderer.createElement(this._el_150,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_151,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_151,'src','/imgs/initializevar.png');
+    this._text_152 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_153 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_154 = this.renderer.createText(this._el_153,'\n        Make sure SteamNetworkManager inherits from NetworkManager not MonoBehavior, this is how we will be rigging the server and client info into UNet.\n        Create three public Text variables as references for the Text UI elements we created earlier. Also create the three callbacks for creating, entering, and retrieving Steam Lobbies. Finally add a bool that we\'ll use to check if we\'re the host.\n    ',(null as any));
+    this._text_155 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_156 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_157 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_158 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_159 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_160 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_161 = this.renderer.createElement(this._el_160,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_161,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_161,'src','/imgs/createfind.png');
-    this._text_162 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_163 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_164 = this.renderer.createText(this._el_163,'\n        The CreateMatch and FindMatch functions will soon be attached to the "FindMatch" and "CreateMatch" gameObjects we created earlier. In Create match we set the waitMsg, toggle menu visibility and start the GameServer via the SteamServerManager instance.\n        In FindMatch we make a lobby request, triggering the OnGetLobbiesList callback with a list of all the available lobbies.\n    ',(null as any));
+    this._el_158 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_159 = this.renderer.createElement(this._el_158,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_159,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_159,'src','/imgs/lobbystart.png');
+    this._text_160 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_161 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_162 = this.renderer.createText(this._el_161,'\n        On Start we deactivate the waitMsg and connect the three Lobby callbacks to the three seperate functions we\'re about to define. Then we check run a quick Debug.Log if/else statement to see if steamworks was intialized correctly.\n    ',(null as any));
+    this._text_163 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_164 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_165 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_166 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_167 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_168 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_169 = this.renderer.createElement(this._el_168,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_169,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_169,'src','/imgs/lobbycreatecb.png');
-    this._text_170 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_171 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_172 = this.renderer.createText(this._el_171,'\n        Here\'s our first callback. Once the lobby is created we check to see if it was a success. If so, we retrieve the host\'s external ip from the GameServer, cast it as a string, and push it into the the Steam Lobby data, allowing clients access it.\n        We se the isHost bool to true, deactivate the waitMsg, and start the host\'s application.\n    ',(null as any));
+    this._el_166 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_167 = this.renderer.createElement(this._el_166,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_167,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_167,'src','/imgs/createfind.png');
+    this._text_168 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_169 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_170 = this.renderer.createText(this._el_169,'\n        The CreateMatch and FindMatch functions will soon be attached to the "FindMatch" and "CreateMatch" gameObjects we created earlier. In Create match we set the waitMsg, toggle menu visibility and start the GameServer via the SteamServerManager instance.\n        In FindMatch we make a lobby request, triggering the OnGetLobbiesList callback with a list of all the available lobbies.\n    ',(null as any));
+    this._text_171 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_172 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_173 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_174 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_175 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_176 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_177 = this.renderer.createElement(this._el_176,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_177,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_177,'src','/imgs/lobbycb.png');
-    this._text_178 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_179 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_180 = this.renderer.createText(this._el_179,'\n        Our last two callbacks. OnGetLobbiesList returns a list of available lobbies which we cycle thorough, checking for lobbies that contain the "ServerIP" data we set earlier. If we find a lobby that has the data we join it. \n        When we join the lobby we OnLobbyEntered is called and we retrieve the ServerIP, set it as the UNet NetworkManager NetworkAddress, and then start the client application.\n    ',(null as any));
+    this._el_174 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_175 = this.renderer.createElement(this._el_174,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_175,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_175,'src','/imgs/lobbycreatecb.png');
+    this._text_176 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_177 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_178 = this.renderer.createText(this._el_177,'\n        Here\'s our first callback. Once the lobby is created we check to see if it was a success. If so, we retrieve the host\'s external ip from the GameServer, cast it as a string, and push it into the the Steam Lobby data, allowing clients access it.\n        We se the isHost bool to true, deactivate the waitMsg, and start the host\'s application.\n    ',(null as any));
+    this._text_179 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_180 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_181 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_182 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_183 = this.renderer.createText(this._el_182,'\n        Congratulations! We are finished writing code. Now we just need to finish assembling the scene and we\'re good to go.\n    ',(null as any));
+    this._el_182 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_183 = this.renderer.createElement(this._el_182,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_183,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_183,'src','/imgs/lobbycb.png');
     this._text_184 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_185 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_186 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_187 = this.renderer.createElement(this._el_0,'h2',(null as any));
-    this._text_188 = this.renderer.createText(this._el_187,' Finishing touches ',(null as any));
-    this._text_189 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_190 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_191 = this.renderer.createElement(this._el_190,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_191,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_191,'src','/imgs/insp3.png');
+    this._el_185 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_186 = this.renderer.createText(this._el_185,'\n        Our last two callbacks. OnGetLobbiesList returns a list of available lobbies which we cycle thorough, checking for lobbies that contain the "ServerIP" data we set earlier. If we find a lobby that has the data we join it. \n        When we join the lobby we OnLobbyEntered is called and we retrieve the ServerIP, set it as the UNet NetworkManager NetworkAddress, and then start the client application.\n    ',(null as any));
+    this._text_187 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_188 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_189 = this.renderer.createText(this._el_188,'\n        Congratulations! We are finished writing code. Now we just need to finish assembling the scene and we\'re good to go.\n    ',(null as any));
+    this._text_190 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_191 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_192 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_193 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_194 = this.renderer.createText(this._el_193,'\n        On both Button Components, set the CreateMatch and FindMatch OnClick listeners to the CreateMatch and FindMatch functions on the SteamNetworkManager via the SteamManager gameobject.\n    ',(null as any));
+    this._el_193 = this.renderer.createElement(this._el_0,'h2',(null as any));
+    this._text_194 = this.renderer.createText(this._el_193,' Finishing touches ',(null as any));
     this._text_195 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_196 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_197 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_198 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_199 = this.renderer.createElement(this._el_198,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_199,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_199,'src','/imgs/fillmanager.png');
-    this._text_200 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_201 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_202 = this.renderer.createText(this._el_201,'\n        Since we had to create our own version of the NetworkManager, we must replace the necessary UNet variables for starting our game. Drag the Player prefab and Text gameObjects into their appropriate slots.\n        In addition, add the Bullet and Enemy prefabs as registered spawnable prefabs, also set the Spawn Method to "Round Robin".\n    ',(null as any));
+    this._el_196 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_197 = this.renderer.createElement(this._el_196,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_197,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_197,'src','/imgs/insp3.png');
+    this._text_198 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_199 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_200 = this.renderer.createText(this._el_199,'\n        On both Button Components, set the CreateMatch and FindMatch OnClick listeners to the CreateMatch and FindMatch functions on the SteamNetworkManager via the SteamManager gameobject.\n    ',(null as any));
+    this._text_201 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_202 = this.renderer.createElement(this._el_0,'hr',(null as any));
     this._text_203 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_204 = this.renderer.createElement(this._el_0,'hr',(null as any));
-    this._text_205 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_206 = this.renderer.createElement(this._el_0,'div',(null as any));
-    this._el_207 = this.renderer.createElement(this._el_206,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_207,'class','blog-img');
-    this.renderer.setElementAttribute(this._el_207,'src','/imgs/insp4.png');
-    this._text_208 = this.renderer.createText(this._el_0,'\n    ',(null as any));
-    this._el_209 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_210 = this.renderer.createText(this._el_209,'\n        You\'re ready to play! ',(null as any));
-    this._el_211 = this.renderer.createElement(this._el_209,'strong',(null as any));
-    this._text_212 = this.renderer.createText(this._el_211,'Make sure',(null as any));
-    this._text_213 = this.renderer.createText(this._el_209,' that you have Steam running in the background otherwise Steamworks will not initialize. I also highly reccomend going into the project folder and setting your AppID to that of your own Steamworks App.\n        The default Steamworks appID is set to SpaceWars but many people use it for development which inherently creates problems for individual testing. \n    ',(null as any));
+    this._el_204 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_205 = this.renderer.createElement(this._el_204,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_205,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_205,'src','/imgs/fillmanager.png');
+    this._text_206 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_207 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_208 = this.renderer.createText(this._el_207,'\n        Since we had to create our own version of the NetworkManager, we must replace the necessary UNet variables for starting our game. Drag the Player prefab and Text gameObjects into their appropriate slots.\n        In addition, add the Bullet and Enemy prefabs as registered spawnable prefabs, also set the Spawn Method to "Round Robin".\n    ',(null as any));
+    this._text_209 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_210 = this.renderer.createElement(this._el_0,'hr',(null as any));
+    this._text_211 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_212 = this.renderer.createElement(this._el_0,'div',(null as any));
+    this._el_213 = this.renderer.createElement(this._el_212,'img',(null as any));
+    this.renderer.setElementAttribute(this._el_213,'class','img-responsive');
+    this.renderer.setElementAttribute(this._el_213,'src','/imgs/insp4.png');
     this._text_214 = this.renderer.createText(this._el_0,'\n    ',(null as any));
     this._el_215 = this.renderer.createElement(this._el_0,'p',(null as any));
-    this._text_216 = this.renderer.createText(this._el_215,'\n        ',(null as any));
+    this._text_216 = this.renderer.createText(this._el_215,'\n        You\'re ready to play! ',(null as any));
     this._el_217 = this.renderer.createElement(this._el_215,'strong',(null as any));
-    this._text_218 = this.renderer.createText(this._el_217,'Thanks for reading my guide, best of luck!',(null as any));
-    this._text_219 = this.renderer.createText(this._el_215,'\n    ',(null as any));
-    this._text_220 = this.renderer.createText(this._el_0,'\n',(null as any));
-    this._text_221 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._text_218 = this.renderer.createText(this._el_217,'Make sure',(null as any));
+    this._text_219 = this.renderer.createText(this._el_215,' that you have Steam running in the background otherwise Steamworks will not initialize. I also highly reccomend going into the project folder and setting your AppID to that of your own Steamworks App.\n        The default Steamworks appID is set to SpaceWars but many people use it for development which inherently creates problems for individual testing. \n    ',(null as any));
+    this._text_220 = this.renderer.createText(this._el_0,'\n    ',(null as any));
+    this._el_221 = this.renderer.createElement(this._el_0,'p',(null as any));
+    this._text_222 = this.renderer.createText(this._el_221,'\n        ',(null as any));
+    this._el_223 = this.renderer.createElement(this._el_221,'strong',(null as any));
+    this._text_224 = this.renderer.createText(this._el_223,'Thanks for reading my guide, best of luck!',(null as any));
+    this._text_225 = this.renderer.createText(this._el_221,'\n    ',(null as any));
+    this._text_226 = this.renderer.createText(this._el_0,'\n',(null as any));
+    this._text_227 = this.renderer.createText(parentRenderNode,'\n',(null as any));
     this.init([],[
       this._el_0,
       this._text_1,
@@ -543,34 +558,34 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
       this._text_6,
       this._text_7,
       this._el_8,
-      this._text_9,
-      this._el_10,
+      this._el_9,
+      this._text_10,
       this._el_11,
       this._text_12,
-      this._el_13,
-      this._text_14,
-      this._el_15,
-      this._text_16,
-      this._text_17,
+      this._text_13,
+      this._el_14,
+      this._text_15,
+      this._el_16,
+      this._el_17,
       this._text_18,
       this._el_19,
       this._text_20,
       this._el_21,
       this._text_22,
       this._text_23,
-      this._el_24,
-      this._text_25,
+      this._text_24,
+      this._el_25,
       this._text_26,
-      this._text_27,
-      this._el_28,
+      this._el_27,
+      this._text_28,
       this._text_29,
       this._el_30,
       this._text_31,
       this._text_32,
-      this._el_33,
-      this._text_34,
-      this._el_35,
-      this._text_36,
+      this._text_33,
+      this._el_34,
+      this._text_35,
+      this._el_36,
       this._text_37,
       this._text_38,
       this._el_39,
@@ -578,11 +593,11 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
       this._el_41,
       this._text_42,
       this._text_43,
-      this._el_44,
-      this._text_45,
+      this._text_44,
+      this._el_45,
       this._text_46,
-      this._text_47,
-      this._el_48,
+      this._el_47,
+      this._text_48,
       this._text_49,
       this._el_50,
       this._text_51,
@@ -599,155 +614,155 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
       this._el_62,
       this._text_63,
       this._text_64,
-      this._el_65,
-      this._text_66,
-      this._el_67,
-      this._text_68,
+      this._text_65,
+      this._el_66,
+      this._text_67,
+      this._el_68,
       this._text_69,
       this._text_70,
       this._el_71,
       this._text_72,
-      this._text_73,
-      this._el_74,
-      this._el_75,
+      this._el_73,
+      this._text_74,
+      this._text_75,
       this._text_76,
       this._el_77,
       this._text_78,
-      this._el_79,
-      this._text_80,
-      this._text_81,
-      this._el_82,
-      this._text_83,
-      this._el_84,
-      this._text_85,
+      this._text_79,
+      this._el_80,
+      this._el_81,
+      this._text_82,
+      this._el_83,
+      this._text_84,
+      this._el_85,
       this._text_86,
-      this._el_87,
+      this._text_87,
       this._el_88,
       this._text_89,
       this._el_90,
       this._text_91,
       this._text_92,
       this._el_93,
-      this._text_94,
-      this._el_95,
+      this._el_94,
+      this._text_95,
       this._el_96,
       this._text_97,
-      this._el_98,
-      this._text_99,
+      this._text_98,
+      this._el_99,
       this._text_100,
       this._el_101,
-      this._text_102,
-      this._el_103,
-      this._text_104,
+      this._el_102,
+      this._text_103,
+      this._el_104,
       this._text_105,
-      this._el_106,
-      this._text_107,
+      this._text_106,
+      this._el_107,
       this._text_108,
-      this._text_109,
-      this._el_110,
+      this._el_109,
+      this._text_110,
       this._text_111,
       this._el_112,
-      this._el_113,
+      this._text_113,
       this._text_114,
-      this._el_115,
-      this._text_116,
+      this._text_115,
+      this._el_116,
       this._text_117,
       this._el_118,
-      this._text_119,
-      this._el_120,
+      this._el_119,
+      this._text_120,
       this._el_121,
       this._text_122,
-      this._el_123,
-      this._text_124,
+      this._text_123,
+      this._el_124,
       this._text_125,
       this._el_126,
-      this._text_127,
-      this._el_128,
-      this._text_129,
+      this._el_127,
+      this._text_128,
+      this._el_129,
       this._text_130,
-      this._el_131,
-      this._text_132,
-      this._el_133,
-      this._text_134,
+      this._text_131,
+      this._el_132,
+      this._text_133,
+      this._el_134,
       this._text_135,
-      this._el_136,
+      this._text_136,
       this._el_137,
       this._text_138,
       this._el_139,
       this._text_140,
       this._text_141,
       this._el_142,
-      this._text_143,
-      this._el_144,
+      this._el_143,
+      this._text_144,
       this._el_145,
       this._text_146,
-      this._el_147,
-      this._text_148,
+      this._text_147,
+      this._el_148,
       this._text_149,
       this._el_150,
-      this._text_151,
-      this._el_152,
+      this._el_151,
+      this._text_152,
       this._el_153,
       this._text_154,
-      this._el_155,
-      this._text_156,
+      this._text_155,
+      this._el_156,
       this._text_157,
       this._el_158,
-      this._text_159,
-      this._el_160,
+      this._el_159,
+      this._text_160,
       this._el_161,
       this._text_162,
-      this._el_163,
-      this._text_164,
+      this._text_163,
+      this._el_164,
       this._text_165,
       this._el_166,
-      this._text_167,
-      this._el_168,
+      this._el_167,
+      this._text_168,
       this._el_169,
       this._text_170,
-      this._el_171,
-      this._text_172,
+      this._text_171,
+      this._el_172,
       this._text_173,
       this._el_174,
-      this._text_175,
-      this._el_176,
+      this._el_175,
+      this._text_176,
       this._el_177,
       this._text_178,
-      this._el_179,
-      this._text_180,
+      this._text_179,
+      this._el_180,
       this._text_181,
       this._el_182,
-      this._text_183,
+      this._el_183,
       this._text_184,
       this._el_185,
       this._text_186,
-      this._el_187,
-      this._text_188,
+      this._text_187,
+      this._el_188,
       this._text_189,
-      this._el_190,
+      this._text_190,
       this._el_191,
       this._text_192,
       this._el_193,
       this._text_194,
       this._text_195,
       this._el_196,
-      this._text_197,
-      this._el_198,
+      this._el_197,
+      this._text_198,
       this._el_199,
       this._text_200,
-      this._el_201,
-      this._text_202,
+      this._text_201,
+      this._el_202,
       this._text_203,
       this._el_204,
-      this._text_205,
-      this._el_206,
+      this._el_205,
+      this._text_206,
       this._el_207,
       this._text_208,
-      this._el_209,
-      this._text_210,
-      this._el_211,
-      this._text_212,
-      this._text_213,
+      this._text_209,
+      this._el_210,
+      this._text_211,
+      this._el_212,
+      this._el_213,
       this._text_214,
       this._el_215,
       this._text_216,
@@ -755,7 +770,13 @@ class _View_UnetSteamBlogComponent0 extends import1.AppView<import3.UnetSteamBlo
       this._text_218,
       this._text_219,
       this._text_220,
-      this._text_221
+      this._el_221,
+      this._text_222,
+      this._el_223,
+      this._text_224,
+      this._text_225,
+      this._text_226,
+      this._text_227
     ]
     ,[],[]);
     return (null as any);

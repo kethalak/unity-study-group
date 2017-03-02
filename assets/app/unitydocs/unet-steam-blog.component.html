@@ -57,11 +57,11 @@
     <div><img src = "/imgs/serverinit.png" class = "img-responsive"></div>
     <p>
          In Start we initialize the _instance variable with this instance and attach the callback to the function "OnSteamServerConnected" which we will create shortly.
-         We then create a public function named CreateServer which sets the appropriate ports and parameters for intializing our simple implementation on Steam's servers. Once we initialize we check to see if it failed before setting the game directory and initiating an Anonymous Login.
+         We then create a public function named CreateServer which sets the appropriate ports and parameters for intializing a session on Steam's servers. Once we initialize we make sure it didn't fail, set the game directory, and initiating an Anonymous Login.
     </p>
     <p>
          For more information about the exact purpose of these paramaters, please check out the <a href = "https://partner.steamgames.com/documentation/api">official Steamworks SDK documentation.</a>
-         In addition to the official documentation, here is <a href = "https://github.com/rlabrecque/Steamworks.NET-GameServerTest/blob/master/Assets/Scripts/GameServerTest.cs">a Github repository </a>containing a much more broad and detailed implementation of a Steamworks gameserver.
+         In addition to the official documentation, here is <a href = "https://github.com/rlabrecque/Steamworks.NET-GameServerTest/blob/master/Assets/Scripts/GameServerTest.cs">a Github repository </a>containing a much more broad and detailed approach to creating a Steamworks gameserver.
     </p>
     <hr>
     <div><img src = "/imgs/servercb.png" class = "img-responsive"></div>
